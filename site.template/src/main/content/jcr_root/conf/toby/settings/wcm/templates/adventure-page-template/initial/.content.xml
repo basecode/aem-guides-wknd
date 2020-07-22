@@ -37,7 +37,7 @@
                     jcr:lastModified="{Date}2020-07-08T14:26:54.745-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="toby/components/carousel">
+                    sling:resourceType="core/wcm/components/carousel/v1/carousel">
                     <image
                         jcr:created="{Date}2020-07-08T14:27:04.456-07:00"
                         jcr:createdBy="admin"
