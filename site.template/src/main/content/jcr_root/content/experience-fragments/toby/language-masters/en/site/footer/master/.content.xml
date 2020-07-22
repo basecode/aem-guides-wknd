@@ -93,7 +93,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Follow Us"
-                        sling:resourceType="toby/components/title"
+                        sling:resourceType="core/wcm/components/title/v2/title"
                         type="h4">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default

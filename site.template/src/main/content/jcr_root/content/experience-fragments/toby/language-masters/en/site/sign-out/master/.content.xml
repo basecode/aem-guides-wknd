@@ -24,11 +24,11 @@
                     cq:styleIds="[1568996484405]"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Sign Out"
-                    sling:resourceType="toby/components/title"/>
+                    sling:resourceType="core/wcm/components/title/v2/title"/>
                 <title_1943245182
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Sure you want to sign out?"
-                    sling:resourceType="toby/components/title"
+                    sling:resourceType="core/wcm/components/title/v2/title"
                     type="h3"/>
                 <text-1
                     jcr:primaryType="nt:unstructured"

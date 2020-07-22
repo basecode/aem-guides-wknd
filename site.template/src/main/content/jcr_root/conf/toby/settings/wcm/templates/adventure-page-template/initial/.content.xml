@@ -62,7 +62,7 @@
                         jcr:lastModified="{Date}2019-10-12T07:07:58.674-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/title"/>
+                        sling:resourceType="core/wcm/components/title/v2/title"/>
                     <container
                         jcr:created="{Date}2019-10-12T07:08:06.110-07:00"
                         jcr:createdBy="admin"
@@ -115,7 +115,7 @@
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Share this Adventure"
-                            sling:resourceType="toby/components/title"
+                            sling:resourceType="core/wcm/components/title/v2/title"
                             type="h5">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <tablet

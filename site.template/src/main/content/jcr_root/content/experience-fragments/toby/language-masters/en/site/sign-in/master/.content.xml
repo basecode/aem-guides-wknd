@@ -25,11 +25,11 @@
                     cq:styleIds="[1568996484405]"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Sign In"
-                    sling:resourceType="toby/components/title"/>
+                    sling:resourceType="core/wcm/components/title/v2/title"/>
                 <title_1943245182
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Welcome Back"
-                    sling:resourceType="toby/components/title"
+                    sling:resourceType="core/wcm/components/title/v2/title"
                     type="h3"/>
                 <sign_in_form
                     jcr:primaryType="nt:unstructured"
