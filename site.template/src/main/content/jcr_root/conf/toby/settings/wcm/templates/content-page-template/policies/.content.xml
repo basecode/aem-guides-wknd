@@ -58,7 +58,7 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wcm/core/components/policies/mapping"/>
                         <separator
-                            cq:policy="toby/components/separator/policy_1571075710034"
+                            cq:policy="core/wcm/components/separator/v1/separator/policy_1571075710034"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wcm/core/components/policies/mapping"/>
                         <experiencefragment
