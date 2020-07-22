@@ -11,7 +11,7 @@
             <experiencefragment-header
                 cq:styleIds="[1568592491109]"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="toby/components/experiencefragment"
+                sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
                 fragmentVariationPath="/content/experience-fragments/toby/language-masters/en/site/header/master"/>
             <container
                 jcr:primaryType="nt:unstructured"
@@ -20,7 +20,7 @@
             <experiencefragment-footer
                 cq:styleIds="[1568592503946]"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="toby/components/experiencefragment"
+                sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
                 fragmentVariationPath="/content/experience-fragments/toby/language-masters/en/site/footer/master"/>
         </root>
         <cq:responsive jcr:primaryType="nt:unstructured">

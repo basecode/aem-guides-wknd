@@ -24,7 +24,7 @@
                 jcr:lastModified="{Date}2019-09-16T13:47:28.147-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="toby/components/experiencefragment"
+                sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
                 fragmentVariationPath="/content/experience-fragments/toby/language-masters/en/site/header/master"/>
             <container
                 jcr:created="{Date}2019-03-19T13:22:52.385-07:00"
@@ -43,7 +43,7 @@
                 jcr:lastModified="{Date}2019-09-18T14:30:37.537-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="toby/components/experiencefragment"
+                sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
                 fragmentVariationPath="/content/experience-fragments/toby/language-masters/en/site/footer/master"/>
         </root>
         <cq:responsive jcr:primaryType="nt:unstructured">

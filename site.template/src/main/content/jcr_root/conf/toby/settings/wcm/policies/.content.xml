@@ -63,7 +63,7 @@
                                 assetGroup="content"
                                 assetMimetype="text/html"
                                 droptarget="experiencefragment"
-                                resourceType="toby/components/experiencefragment"/>
+                                resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"/>
                             <mapping_1570047042575
                                 jcr:primaryType="nt:unstructured"
                                 assetGroup="media"
@@ -127,7 +127,7 @@
                                 assetGroup="content"
                                 assetMimetype="text/html"
                                 droptarget="experiencefragment"
-                                resourceType="toby/components/experiencefragment"/>
+                                resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"/>
                             <mapping_1570048111074
                                 jcr:primaryType="nt:unstructured"
                                 assetGroup="media"
