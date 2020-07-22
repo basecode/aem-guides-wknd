@@ -82,7 +82,7 @@
                         jcr:lastModified="{Date}2019-09-25T15:04:53.325-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/sharing"/>
+                        sling:resourceType="core/wcm/components/sharing/v1/sharing"/>
                     <separator
                         cq:styleIds="[1571075919520,1571075910473]"
                         jcr:created="{Date}2019-10-14T15:16:06.028-07:00"
