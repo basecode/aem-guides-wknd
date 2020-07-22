@@ -12,7 +12,7 @@
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/core/components/policies/mapping">
             <container
-                cq:policy="core/wcm/components/container/v1/container/policy_70911755464249"
+                cq:policy="toby/components/container/policy_70911755464249"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/core/components/policies/mapping">
                 <toby jcr:primaryType="nt:unstructured">
@@ -62,7 +62,7 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wcm/core/components/policies/mapping"/>
                         <container
-                            cq:policy="core/wcm/components/container/v1/container/policy_70911755464249"
+                            cq:policy="toby/components/container/policy_70911755464249"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wcm/core/components/policies/mapping"/>
                     </components>
