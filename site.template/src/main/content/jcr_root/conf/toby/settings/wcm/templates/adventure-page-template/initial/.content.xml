@@ -91,7 +91,7 @@
                             jcr:lastModified="{Date}2020-07-08T10:03:50.602-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="toby/components/contentfragment"
+                            sling:resourceType="core/wcm/components/contentfragment/v1/contentfragment"
                             displayMode="multi"
                             elementNames="[adventureActivity,adventureType,adventureTripLength,adventureGroupSize,adventureDifficulty,adventurePrice]"
                             fragmentPath="/content/dam/toby/en/adventures/surf-camp-in-costa-rica/surf-camp-costa-rica"
@@ -172,16 +172,16 @@
                         <item_1594238312974
                             cq:panelTitle="Overview"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="toby/components/contentfragment"
+                            sling:resourceType="core/wcm/components/contentfragment/v1/contentfragment"
                             text=""/>
                         <item_1570890140330
                             cq:panelTitle="Itinerary"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="toby/components/contentfragment"/>
+                            sling:resourceType="core/wcm/components/contentfragment/v1/contentfragment"/>
                         <item_1570890147607
                             cq:panelTitle="What to Bring"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="toby/components/contentfragment"/>
+                            sling:resourceType="core/wcm/components/contentfragment/v1/contentfragment"/>
                     </tabs>
                 </container_fixed>
             </container>

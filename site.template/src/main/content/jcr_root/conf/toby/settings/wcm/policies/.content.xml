@@ -69,7 +69,7 @@
                                 assetGroup="media"
                                 assetMimetype="[text/html,application/vnd.adobe.contentfragment]"
                                 droptarget="contentfragment"
-                                resourceType="toby/components/contentfragment"/>
+                                resourceType="core/wcm/components/contentfragment/v1/contentfragment"/>
                         </assetToComponentMapping>
                     </cq:authoring>
                     <cq:styleGroups jcr:primaryType="nt:unstructured">
@@ -133,7 +133,7 @@
                                 assetGroup="media"
                                 assetMimetype="[text/html,application/vnd.adobe.contentfragment]"
                                 droptarget="contentfragment"
-                                resourceType="toby/components/contentfragment"/>
+                                resourceType="core/wcm/components/contentfragment/v1/contentfragment"/>
                             <mapping_1571358557570
                                 jcr:primaryType="nt:unstructured"
                                 assetGroup="block"
