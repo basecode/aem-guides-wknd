@@ -42,7 +42,7 @@
                     jcr:lastModified="{Date}2020-07-07T17:50:56.730-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="toby/components/breadcrumb"/>
+                    sling:resourceType="core/wcm/components/breadcrumb/v2/breadcrumb"/>
                 <container
                     jcr:created="{Date}2019-04-03T18:31:10.416-07:00"
                     jcr:createdBy="admin"
