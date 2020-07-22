@@ -104,7 +104,7 @@
                         jcr:lastModified="{Date}2019-04-03T18:35:24.854-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/list"/>
+                        sling:resourceType="core/wcm/components/list/v2/list"/>
                 </container_223059690>
             </container>
         </root>
