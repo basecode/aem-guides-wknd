@@ -126,7 +126,7 @@
                         jcr:lastModified="{Date}2019-09-18T13:03:47.581-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/navigation"
+                        sling:resourceType="core/wcm/components/navigation/v1/navigation"
                         collectAllPages="false"
                         navigationRoot="/content/toby/language-masters/en"
                         skipNavigationRoot="false"
