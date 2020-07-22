@@ -10,7 +10,7 @@
         sling:resourceType="toby/components/page">
         <root
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="toby/components/container">
+            sling:resourceType="core/wcm/components/container/v1/container">
             <container
                 cq:styleIds="[1570043787082]"
                 jcr:created="{Date}2019-09-13T14:22:51.213-07:00"
@@ -18,7 +18,7 @@
                 jcr:lastModified="{Date}2019-09-13T14:22:51.213-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="toby/components/container"
+                sling:resourceType="core/wcm/components/container/v1/container"
                 editable="{Boolean}true">
                 <cq:responsive jcr:primaryType="nt:unstructured"/>
             </container>

@@ -9,7 +9,7 @@
         sling:resourceType="toby/components/page">
         <root
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="toby/components/container">
+            sling:resourceType="core/wcm/components/container/v1/container">
             <container
                 cq:styleIds="[1554340406437]"
                 jcr:created="{Date}2019-03-19T13:19:35.891-07:00"
@@ -17,7 +17,7 @@
                 jcr:lastModified="{Date}2019-04-03T18:28:52.706-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="toby/components/container">
+                sling:resourceType="core/wcm/components/container/v1/container">
                 <image
                     jcr:created="{Date}2019-04-03T18:29:05.193-07:00"
                     jcr:createdBy="admin"
@@ -31,7 +31,7 @@
                     jcr:lastModified="{Date}2019-04-03T18:31:17.935-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="toby/components/container">
+                    sling:resourceType="core/wcm/components/container/v1/container">
                     <title
                         jcr:created="{Date}2019-10-14T14:58:22.934-07:00"
                         jcr:createdBy="admin"
@@ -64,7 +64,7 @@
                     jcr:lastModified="{Date}2020-07-12T16:13:25.672-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="toby/components/container"
+                    sling:resourceType="core/wcm/components/container/v1/container"
                     layout="responsiveGrid">
                     <title
                         cq:styleIds="[1569449156797,1568996420379,1569448853340]"

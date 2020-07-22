@@ -14,11 +14,11 @@
         jcr:uuid="2e788e65-0923-4b51-85f9-65a8c6c01a4f"
         sling:resourceType="wcm/core/components/policies/mappings">
         <root
-            cq:policy="toby/components/container/content-default"
+            cq:policy="core/wcm/components/container/v1/container/content-default"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/core/components/policies/mapping">
             <container
-                cq:policy="toby/components/container/policy_213106331986985"
+                cq:policy="core/wcm/components/container/v1/container/policy_213106331986985"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/core/components/policies/mapping">
                 <toby jcr:primaryType="nt:unstructured">
@@ -68,7 +68,7 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wcm/core/components/policies/mapping"/>
                         <container
-                            cq:policy="toby/components/container/policy_213106331986985"
+                            cq:policy="core/wcm/components/container/v1/container/policy_213106331986985"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wcm/core/components/policies/mapping"/>
                         <accordion

@@ -13,8 +13,8 @@
                     jcr:primaryType="nt:unstructured"
                     jcr:title="toby Site Default"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="[/libs/toby/components/container,group:toby.Content,/apps/toby/components/form/container,group:toby.Structure]"
-                    policyResourceType="toby/components/container">
+                    components="[/libs/core/wcm/components/container/v1/container,group:toby.Content,/apps/core/wcm/components/form/container/v2/container,group:toby.Structure]"
+                    policyResourceType="core/wcm/components/container/v1/container">
                     <cq:authoring jcr:primaryType="nt:unstructured">
                         <assetToComponentMapping jcr:primaryType="nt:unstructured">
                             <image
@@ -183,7 +183,7 @@
                         jcr:primaryType="nt:unstructured"
                         jcr:title="toby Site Form"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/apps/toby/components/form/button,/apps/toby/components/form/hidden,/apps/toby/components/form/options,/apps/toby/components/form/text]">
+                        components="[/apps/core/wcm/components/form/button/v2/button,/apps/core/wcm/components/form/hidden/v2/hidden,/apps/core/wcm/components/form/options/v2/options,/apps/core/wcm/components/form/text/v2/text]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </form-container>
                 </container>
