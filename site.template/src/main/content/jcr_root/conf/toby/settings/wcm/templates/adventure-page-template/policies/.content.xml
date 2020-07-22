@@ -78,7 +78,7 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wcm/core/components/policies/mapping"/>
                         <embed
-                            cq:policy="toby/components/embed/policy_1594170470008"
+                            cq:policy="core/wcm/components/embed/v1/embed/policy_1594170470008"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wcm/core/components/policies/mapping"/>
                         <accordion
