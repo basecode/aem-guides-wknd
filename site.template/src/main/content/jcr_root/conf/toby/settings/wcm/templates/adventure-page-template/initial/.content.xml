@@ -6,7 +6,7 @@
         cq:lastModifiedBy="admin"
         cq:template="/conf/toby/settings/wcm/templates/adventure-page-template"
         jcr:primaryType="cq:PageContent"
-        sling:resourceType="toby/components/page"
+        sling:resourceType="core/wcm/components/page/v2/page"
         socialMedia="[facebook,pinterest]">
         <root
             jcr:primaryType="nt:unstructured"

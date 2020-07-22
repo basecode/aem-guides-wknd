@@ -7,7 +7,7 @@
         cq:lastModifiedBy="admin"
         cq:template="/conf/toby/settings/wcm/templates/article-page-template"
         jcr:primaryType="cq:PageContent"
-        sling:resourceType="toby/components/page">
+        sling:resourceType="core/wcm/components/page/v2/page">
         <root
             jcr:lastModified="{Date}2020-07-07T17:32:08.299-07:00"
             jcr:lastModifiedBy="admin"

@@ -10,7 +10,7 @@
         jcr:description="toby is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world."
         jcr:primaryType="cq:PageContent"
         jcr:title="toby Adventures and Travel"
-        sling:resourceType="toby/components/page"
+        sling:resourceType="core/wcm/components/page/v2/page"
         pageTitle="Home">
         <root
             jcr:primaryType="nt:unstructured"

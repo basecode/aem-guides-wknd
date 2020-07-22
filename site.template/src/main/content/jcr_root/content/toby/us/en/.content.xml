@@ -13,7 +13,7 @@
         jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync]"
         jcr:primaryType="cq:PageContent"
         jcr:title="toby Adventures and Travel"
-        sling:resourceType="toby/components/page"
+        sling:resourceType="core/wcm/components/page/v2/page"
         pageTitle="Home">
         <root
             cq:lastRolledout="{Date}2020-01-09T12:46:59.404-08:00"
