@@ -125,7 +125,7 @@
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Facebook"
-                            sling:resourceType="toby/components/button"
+                            sling:resourceType="core/wcm/components/button/v1/button"
                             accessibilityLabel="Facebook toby Button"
                             icon="facebook"
                             link="#facebooktoby"/>
@@ -137,7 +137,7 @@
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Twitter"
-                            sling:resourceType="toby/components/button"
+                            sling:resourceType="core/wcm/components/button/v1/button"
                             accessibilityLabel="Twitter toby Button"
                             icon="twitter"
                             link="#twittertoby"/>
@@ -149,7 +149,7 @@
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Instagram"
-                            sling:resourceType="toby/components/button"
+                            sling:resourceType="core/wcm/components/button/v1/button"
                             accessibilityLabel="Instagram toby"
                             icon="instagram"
                             link="#instagramtoby"/>
