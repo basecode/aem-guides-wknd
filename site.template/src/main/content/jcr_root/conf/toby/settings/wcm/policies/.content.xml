@@ -678,7 +678,7 @@
                     sling:resourceType="wcm/core/components/policy/policy"
                     autopauseDisabled="false"
                     autoplay="false"
-                    components="[/apps/core/wcm/components/image/v2/image,/apps/toby/components/teaser]"
+                    components="[/apps/core/wcm/components/image/v2/image,/apps/core/wcm/components/teaser/v1/teaser]"
                     delay="5000">
                     <jcr:content
                         cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"

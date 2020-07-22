@@ -34,7 +34,7 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wcm/core/components/policies/mapping"/>
                         <teaser
-                            cq:policy="toby/components/teaser/policy_1555539430196"
+                            cq:policy="core/wcm/components/teaser/v1/teaser/policy_1555539430196"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wcm/core/components/policies/mapping"/>
                         <tabs
