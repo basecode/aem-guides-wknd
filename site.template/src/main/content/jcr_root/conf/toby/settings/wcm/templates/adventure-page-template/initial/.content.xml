@@ -153,7 +153,7 @@
                         jcr:lastModified="{Date}2020-07-08T12:58:38.644-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/tabs"
+                        sling:resourceType="core/wcm/components/tabs/v1/tabs"
                         accessibilityLabel="adventure trip details">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default

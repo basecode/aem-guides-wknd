@@ -76,7 +76,7 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wcm/core/components/policies/mapping"/>
                         <tabs
-                            cq:policy="toby/components/tabs/policy_1594238204926"
+                            cq:policy="core/wcm/components/tabs/v1/tabs/policy_1594238204926"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wcm/core/components/policies/mapping"/>
                         <contentfragment
