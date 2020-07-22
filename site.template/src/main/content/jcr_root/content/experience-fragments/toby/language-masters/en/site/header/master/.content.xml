@@ -147,7 +147,7 @@
                         jcr:lastModified="{Date}2019-09-15T17:05:56.342-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/search"
+                        sling:resourceType="core/wcm/components/search/v1/search"
                         searchRoot="/content/toby/en">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default

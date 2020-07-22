@@ -58,7 +58,7 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wcm/core/components/policies/mapping"/>
                         <search
-                            cq:policy="toby/components/search/policy_1555431088440"
+                            cq:policy="core/wcm/components/search/v1/search/policy_1555431088440"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wcm/core/components/policies/mapping"/>
                         <container
