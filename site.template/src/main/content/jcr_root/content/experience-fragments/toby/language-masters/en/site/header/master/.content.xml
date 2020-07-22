@@ -98,7 +98,7 @@
                         jcr:lastModified="{Date}2020-07-10T13:22:40.447-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/image"
+                        sling:resourceType="core/wcm/components/image/v2/image"
                         alt="toby Logo"
                         altValueFromDAM="false"
                         displayPopupTitle="false"
