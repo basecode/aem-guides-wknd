@@ -6,5 +6,5 @@
         cq:template="/conf/toby/settings/wcm/templates/empty-experience-fragment"
         cq:xfVariantType="web"
         jcr:primaryType="cq:PageContent"
-        sling:resourceType="toby/components/xfpage"/>
+        sling:resourceType="cq/experience-fragments/components/xfpage"/>
 </jcr:root>

@@ -11,7 +11,7 @@
         jcr:primaryType="cq:PageContent"
         jcr:title="Sign Out (Modal)"
         jcr:uuid="8e96567f-ac03-465a-bc6c-194a0ee39b23"
-        sling:resourceType="toby/components/xfpage">
+        sling:resourceType="cq/experience-fragments/components/xfpage">
         <root
             cq:styleIds="[1569614530122]"
             jcr:primaryType="nt:unstructured"

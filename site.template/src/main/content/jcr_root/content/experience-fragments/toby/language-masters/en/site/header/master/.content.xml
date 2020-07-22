@@ -10,7 +10,7 @@
         cq:xfVariantType="web"
         jcr:primaryType="cq:PageContent"
         jcr:title="Header"
-        sling:resourceType="toby/components/xfpage">
+        sling:resourceType="cq/experience-fragments/components/xfpage">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="core/wcm/components/container/v1/container">
