@@ -60,7 +60,7 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wcm/core/components/policies/mapping"/>
                         <experiencefragment
-                            cq:policy="core/wcm/components/experiencefragment/v1/experiencefragment/policy_34642779885901"
+                            cq:policy="toby/components/experiencefragment/policy_34642779885901"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wcm/core/components/policies/mapping"/>
                         <embed
@@ -87,11 +87,11 @@
                 </toby>
             </container>
             <experiencefragment
-                cq:policy="core/wcm/components/experiencefragment/v1/experiencefragment/policy_1568592468447"
+                cq:policy="toby/components/experiencefragment/policy_1568592468447"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/core/components/policies/mapping"/>
             <experiencefragment_1327121818
-                cq:policy="core/wcm/components/experiencefragment/v1/experiencefragment/policy_1568592468447"
+                cq:policy="toby/components/experiencefragment/policy_1568592468447"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/core/components/policies/mapping"/>
         </root>
