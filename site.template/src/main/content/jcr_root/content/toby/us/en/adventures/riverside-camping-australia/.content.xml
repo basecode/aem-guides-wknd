@@ -14,7 +14,7 @@
         jcr:primaryType="cq:PageContent"
         jcr:title="Riverside Camping"
         jcr:uuid="cb45b201-8839-4610-bfda-5fa47b4c872d"
-        sling:resourceType="toby/components/page"
+        sling:resourceType="core/wcm/components/page/v2/page"
         shortDescription="Siegel River Australia"
         socialMedia="[facebook,pinterest]">
         <root
@@ -22,7 +22,7 @@
             cq:lastRolledoutBy="admin"
             jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="toby/components/container">
+            sling:resourceType="core/wcm/components/container/v1/container">
             <container
                 cq:lastRolledout="{Date}2020-07-09T08:54:52.634-07:00"
                 cq:lastRolledoutBy="admin"
@@ -32,7 +32,7 @@
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="toby/components/container">
+                sling:resourceType="core/wcm/components/container/v1/container">
                 <breadcrumb
                     cq:lastRolledout="{Date}2020-07-09T08:54:52.640-07:00"
                     cq:lastRolledoutBy="admin"
@@ -43,7 +43,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="toby/components/breadcrumb"
+                    sling:resourceType="core/wcm/components/breadcrumb/v2/breadcrumb"
                     disableShadowing="false"
                     hideCurrent="false"
                     showHidden="false"
@@ -58,7 +58,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="toby/components/carousel"
+                    sling:resourceType="core/wcm/components/carousel/v1/carousel"
                     autopauseDisabled="false"
                     autoplay="false">
                     <image
@@ -70,7 +70,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/image"
+                        sling:resourceType="core/wcm/components/image/v2/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
                         fileReference="/content/dam/toby/en/adventures/riverside-camping-australia/adobe_waadobe_wa_mg_2466.jpg"
@@ -83,7 +83,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/image"
+                        sling:resourceType="core/wcm/components/image/v2/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
                         fileReference="/content/dam/toby/en/adventures/riverside-camping-australia/AdobeStock_216674449.jpeg"
@@ -96,7 +96,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/image"
+                        sling:resourceType="core/wcm/components/image/v2/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
                         fileReference="/content/dam/toby/en/adventures/whistler-mountain-biking/AdobeStock_257501643.jpeg"
@@ -113,7 +113,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="toby/components/container"
+                    sling:resourceType="core/wcm/components/container/v1/container"
                     layout="responsiveGrid">
                     <title
                         cq:lastRolledout="{Date}2020-07-09T08:54:52.705-07:00"
@@ -125,7 +125,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/title"/>
+                        sling:resourceType="core/wcm/components/title/v2/title"/>
                     <container
                         cq:lastRolledout="{Date}2020-07-09T08:54:52.717-07:00"
                         cq:lastRolledoutBy="admin"
@@ -135,7 +135,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/container">
+                        sling:resourceType="core/wcm/components/container/v1/container">
                         <cq:responsive
                             cq:lastRolledout="{Date}2020-07-09T08:54:52.725-07:00"
                             cq:lastRolledoutBy="admin"
@@ -173,7 +173,7 @@
                             jcr:lastModifiedBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="toby/components/contentfragment"
+                            sling:resourceType="core/wcm/components/contentfragment/v1/contentfragment"
                             displayMode="multi"
                             elementNames="[adventureActivity,adventureType,adventureTripLength,adventureGroupSize,adventureDifficulty,adventurePrice]"
                             fragmentPath="/content/dam/toby/en/adventures/riverside-camping-australia/riverside-camping-australia"
@@ -210,7 +210,7 @@
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Share this Adventure"
-                            sling:resourceType="toby/components/title"
+                            sling:resourceType="core/wcm/components/title/v2/title"
                             type="h5">
                             <cq:responsive
                                 cq:lastRolledout="{Date}2020-07-09T08:54:52.755-07:00"
@@ -242,7 +242,7 @@
                             jcr:lastModifiedBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="toby/components/sharing">
+                            sling:resourceType="core/wcm/components/sharing/v1/sharing">
                             <cq:responsive
                                 cq:lastRolledout="{Date}2020-07-09T08:54:52.767-07:00"
                                 cq:lastRolledoutBy="admin"
@@ -274,7 +274,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/tabs"
+                        sling:resourceType="core/wcm/components/tabs/v1/tabs"
                         accessibilityLabel="adventure trip details">
                         <cq:responsive
                             cq:lastRolledout="{Date}2020-07-09T08:54:52.789-07:00"
@@ -311,7 +311,7 @@
                             jcr:lastModifiedBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="toby/components/contentfragment"
+                            sling:resourceType="core/wcm/components/contentfragment/v1/contentfragment"
                             displayMode="singleText"
                             elementNames="adventureDescription"
                             fragmentPath="/content/dam/toby/en/adventures/riverside-camping-australia/riverside-camping-australia"
@@ -332,7 +332,7 @@
                                     jcr:lastModifiedBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="toby/components/image"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
                                     fileReference="/content/dam/toby/en/adventures/riverside-camping-australia/AdobeStock_238491803.jpeg"
@@ -354,7 +354,7 @@
                             jcr:lastModifiedBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="toby/components/contentfragment"
+                            sling:resourceType="core/wcm/components/contentfragment/v1/contentfragment"
                             displayMode="singleText"
                             elementNames="adventureItinerary"
                             fragmentPath="/content/dam/toby/en/adventures/riverside-camping-australia/riverside-camping-australia"
@@ -365,7 +365,7 @@
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="toby/components/container"/>
+                                sling:resourceType="core/wcm/components/container/v1/container"/>
                             <par5
                                 cq:lastRolledout="{Date}2020-07-09T08:54:52.834-07:00"
                                 cq:lastRolledoutBy="admin"
@@ -381,7 +381,7 @@
                                     jcr:lastModifiedBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="toby/components/image"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
                                     fileReference="/content/dam/toby/en/adventures/riverside-camping-australia/AdobeStock_178022573.jpeg"
@@ -408,7 +408,7 @@
                                     jcr:lastModifiedBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="toby/components/image"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
                                     fileReference="/content/dam/toby/en/adventures/riverside-camping-australia/AdobeStock_167833331.jpeg"
@@ -430,7 +430,7 @@
                                     jcr:lastModifiedBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="toby/components/image"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
                                     fileReference="/content/dam/toby/en/activities/hiking/hiker-anapurna.jpg"
@@ -452,7 +452,7 @@
                                     jcr:lastModifiedBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="toby/components/image"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
                                     fileReference="/content/dam/toby/en/adventures/riverside-camping-australia/AdobeStock_257541512.jpeg"
@@ -468,7 +468,7 @@
                             jcr:lastModifiedBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="toby/components/contentfragment"
+                            sling:resourceType="core/wcm/components/contentfragment/v1/contentfragment"
                             displayMode="singleText"
                             elementNames="adventureGearList"
                             fragmentPath="/content/dam/toby/en/adventures/riverside-camping-australia/riverside-camping-australia"
@@ -479,7 +479,7 @@
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="toby/components/container"/>
+                                sling:resourceType="core/wcm/components/container/v1/container"/>
                             <par2
                                 cq:lastRolledout="{Date}2020-07-09T08:54:52.875-07:00"
                                 cq:lastRolledoutBy="admin"
@@ -501,7 +501,7 @@
                                     jcr:lastModifiedBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="toby/components/image"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
                                     fileReference="/content/dam/toby/en/activities/hiking/equipment_6.jpg"

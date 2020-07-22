@@ -14,14 +14,14 @@
         jcr:primaryType="cq:PageContent"
         jcr:title="Ultimate Guide to LA Skateparks"
         jcr:uuid="ea1e8290-91c8-4417-956b-14717b0f4127"
-        sling:resourceType="toby/components/page"
+        sling:resourceType="core/wcm/components/page/v2/page"
         socialMedia="[facebook,pinterest]">
         <root
             cq:lastRolledout="{Date}2020-07-09T13:18:13.669-07:00"
             cq:lastRolledoutBy="admin"
             jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="toby/components/container">
+            sling:resourceType="core/wcm/components/container/v1/container">
             <container
                 cq:lastRolledout="{Date}2020-07-09T13:18:13.679-07:00"
                 cq:lastRolledoutBy="admin"
@@ -32,7 +32,7 @@
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="toby/components/container">
+                sling:resourceType="core/wcm/components/container/v1/container">
                 <image
                     cq:lastRolledout="{Date}2020-07-09T13:18:13.686-07:00"
                     cq:lastRolledoutBy="admin"
@@ -42,7 +42,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="toby/components/image"
+                    sling:resourceType="core/wcm/components/image/v2/image"
                     fileReference="/content/dam/toby/en/magazine/la-skateparks/article_01_hero.png"/>
                 <container
                     cq:lastRolledout="{Date}2020-07-09T13:18:13.696-07:00"
@@ -53,7 +53,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="toby/components/container">
+                    sling:resourceType="core/wcm/components/container/v1/container">
                     <title
                         cq:lastRolledout="{Date}2020-07-09T13:18:13.702-07:00"
                         cq:lastRolledoutBy="admin"
@@ -63,7 +63,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/title"
+                        sling:resourceType="core/wcm/components/title/v2/title"
                         type="h1"/>
                     <title_875115054
                         cq:lastRolledout="{Date}2020-07-09T13:18:13.706-07:00"
@@ -75,7 +75,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="By Stacey Roswells"
-                        sling:resourceType="toby/components/title"
+                        sling:resourceType="core/wcm/components/title/v2/title"
                         type="h4"/>
                     <contentfragment
                         cq:lastRolledout="{Date}2020-07-09T13:18:13.718-07:00"
@@ -86,7 +86,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/contentfragment"
+                        sling:resourceType="core/wcm/components/contentfragment/v1/contentfragment"
                         displayMode="singleText"
                         elementNames="main"
                         fragmentPath="/content/dam/toby/en/magazine/la-skateparks/ultimate-guide-to-la-skateparks"
@@ -109,7 +109,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="toby/components/text"
+                                sling:resourceType="core/wcm/components/text/v2/text"
                                 text="&lt;blockquote>&amp;quot;There is no better place to shred then Los Angeles&amp;quot;&lt;/blockquote>&#xd;&#xa;&lt;p>&lt;u>Jacob Wester - Pro Skater&lt;/u>&lt;/p>&#xd;&#xa;"
                                 textIsRich="true"/>
                             <title
@@ -123,7 +123,7 @@
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Vans Off the Wall Skatepark"
-                                sling:resourceType="toby/components/title"
+                                sling:resourceType="core/wcm/components/title/v2/title"
                                 type="h2"/>
                         </par1>
                         <par2
@@ -141,7 +141,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="toby/components/image"
+                                sling:resourceType="core/wcm/components/image/v2/image"
                                 fileReference="/content/dam/toby/en/magazine/la-skateparks/article_01_picture_01.png"/>
                         </par2>
                         <par3
@@ -161,7 +161,7 @@
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Moorpark skate park"
-                                sling:resourceType="toby/components/title"
+                                sling:resourceType="core/wcm/components/title/v2/title"
                                 type="h2"/>
                         </par3>
                         <par5
@@ -181,7 +181,7 @@
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Venice Beach Skatepark"
-                                sling:resourceType="toby/components/title"
+                                sling:resourceType="core/wcm/components/title/v2/title"
                                 type="h2"/>
                             <image
                                 cq:lastRolledout="{Date}2020-07-09T13:18:13.766-07:00"
@@ -192,7 +192,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="toby/components/image"
+                                sling:resourceType="core/wcm/components/image/v2/image"
                                 fileReference="/content/dam/toby/en/magazine/la-skateparks/robson-hatsukami-morgan-280159.jpg"/>
                         </par5>
                     </contentfragment>
@@ -205,7 +205,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/experiencefragment"
+                        sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
                         fragmentVariationPath="/content/experience-fragments/toby/language-masters/en/contributors/stacey-roswells/byline"/>
                 </container>
                 <container_223059690
@@ -217,7 +217,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="toby/components/container"
+                    sling:resourceType="core/wcm/components/container/v1/container"
                     layout="responsiveGrid">
                     <title
                         cq:lastRolledout="{Date}2020-07-09T13:18:13.789-07:00"
@@ -230,7 +230,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="SHARE THIS STORY"
-                        sling:resourceType="toby/components/title"
+                        sling:resourceType="core/wcm/components/title/v2/title"
                         type="h5"/>
                     <sharing
                         cq:lastRolledout="{Date}2020-07-09T13:18:13.792-07:00"
@@ -241,7 +241,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/sharing"/>
+                        sling:resourceType="core/wcm/components/sharing/v1/sharing"/>
                     <separator
                         cq:lastRolledout="{Date}2020-07-09T13:18:13.796-07:00"
                         cq:lastRolledoutBy="admin"
@@ -252,7 +252,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/separator"/>
+                        sling:resourceType="core/wcm/components/separator/v1/separator"/>
                     <download
                         cq:lastRolledout="{Date}2020-07-09T13:18:13.802-07:00"
                         cq:lastRolledoutBy="admin"
@@ -264,7 +264,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Download PDF"
-                        sling:resourceType="toby/components/download"
+                        sling:resourceType="core/wcm/components/download/v1/download"
                         actionText="Download PDF"
                         descriptionFromAsset="false"
                         fileReference="/content/dam/toby/en/magazine/la-skateparks/UltimateGuidetoLASkateParks.pdf"
@@ -281,7 +281,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/list"
+                        sling:resourceType="core/wcm/components/list/v2/list"
                         childDepth="1"
                         linkItems="true"
                         listFrom="children"

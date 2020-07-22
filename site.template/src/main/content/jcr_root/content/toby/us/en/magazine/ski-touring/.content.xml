@@ -14,14 +14,14 @@
         jcr:primaryType="cq:PageContent"
         jcr:title="Ski Touring"
         jcr:uuid="18c13f18-1491-4d0a-b974-afb9f825b83d"
-        sling:resourceType="toby/components/page"
+        sling:resourceType="core/wcm/components/page/v2/page"
         socialMedia="[facebook,pinterest]">
         <root
             cq:lastRolledout="{Date}2020-07-09T13:17:51.972-07:00"
             cq:lastRolledoutBy="admin"
             jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="toby/components/container">
+            sling:resourceType="core/wcm/components/container/v1/container">
             <container
                 cq:lastRolledout="{Date}2020-07-09T13:17:51.981-07:00"
                 cq:lastRolledoutBy="admin"
@@ -32,7 +32,7 @@
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="toby/components/container">
+                sling:resourceType="core/wcm/components/container/v1/container">
                 <image
                     cq:lastRolledout="{Date}2020-07-09T13:17:51.987-07:00"
                     cq:lastRolledoutBy="admin"
@@ -42,7 +42,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="toby/components/image"
+                    sling:resourceType="core/wcm/components/image/v2/image"
                     fileReference="/content/dam/toby/en/magazine/skitouring/Skitouring1Sjoeberg.JPG"/>
                 <container
                     cq:lastRolledout="{Date}2020-07-09T13:17:51.998-07:00"
@@ -53,7 +53,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="toby/components/container">
+                    sling:resourceType="core/wcm/components/container/v1/container">
                     <title
                         cq:lastRolledout="{Date}2020-07-09T13:17:52.005-07:00"
                         cq:lastRolledoutBy="admin"
@@ -63,7 +63,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/title"
+                        sling:resourceType="core/wcm/components/title/v2/title"
                         type="h1"/>
                     <title_1878931237
                         cq:lastRolledout="{Date}2020-07-09T13:17:52.009-07:00"
@@ -75,7 +75,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="By Sofia Sjöberg"
-                        sling:resourceType="toby/components/title"
+                        sling:resourceType="core/wcm/components/title/v2/title"
                         type="h4"/>
                     <contentfragment
                         cq:lastRolledout="{Date}2020-07-09T13:17:52.022-07:00"
@@ -86,7 +86,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/contentfragment"
+                        sling:resourceType="core/wcm/components/contentfragment/v1/contentfragment"
                         displayMode="singleText"
                         elementNames="main"
                         fragmentPath="/content/dam/toby/en/magazine/skitouring/skitouring"
@@ -107,7 +107,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="toby/components/image"
+                                sling:resourceType="core/wcm/components/image/v2/image"
                                 fileReference="/content/dam/toby/en/magazine/skitouring/Skitouring5Sjoeberg.JPG"/>
                             <text
                                 cq:lastRolledout="{Date}2020-07-09T13:17:52.042-07:00"
@@ -119,7 +119,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="toby/components/text"
+                                sling:resourceType="core/wcm/components/text/v2/text"
                                 text="&lt;blockquote>&amp;quot;...a mountain face stretching out for a thousand meters covered by a smooth blanket of powder, with the evening sun replicated thousand-fold in the uncountable snow crystals&amp;quot;&lt;/blockquote>&#xd;&#xa;&lt;p>&lt;u>- Sofia Sjöberg&lt;/u>&lt;/p>&#xd;&#xa;"
                                 textIsRich="true"/>
                         </par1>
@@ -138,7 +138,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="toby/components/image"
+                                sling:resourceType="core/wcm/components/image/v2/image"
                                 fileReference="/content/dam/toby/en/magazine/skitouring/Skitouring3Sjoeberg.JPG"/>
                         </par2>
                         <par3
@@ -156,7 +156,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="toby/components/image"
+                                sling:resourceType="core/wcm/components/image/v2/image"
                                 fileReference="/content/dam/toby/en/magazine/skitouring/Skitouring6Sjoeberg.JPG"/>
                         </par3>
                         <par4
@@ -174,7 +174,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="toby/components/image"
+                                sling:resourceType="core/wcm/components/image/v2/image"
                                 fileReference="/content/dam/toby/en/magazine/skitouring/Skitouring8Sjoeberg.JPG"/>
                         </par4>
                     </contentfragment>
@@ -187,7 +187,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/experiencefragment"
+                        sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
                         fragmentVariationPath="/content/experience-fragments/toby/language-masters/en/contributors/sofia-sjoeberg/byline"/>
                 </container>
                 <container_223059690
@@ -199,7 +199,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="toby/components/container"
+                    sling:resourceType="core/wcm/components/container/v1/container"
                     layout="responsiveGrid">
                     <title
                         cq:lastRolledout="{Date}2020-07-09T13:17:52.080-07:00"
@@ -211,7 +211,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="SHARE THIS STORY"
-                        sling:resourceType="toby/components/title"
+                        sling:resourceType="core/wcm/components/title/v2/title"
                         type="h5"/>
                     <sharing
                         cq:lastRolledout="{Date}2020-07-09T13:17:52.083-07:00"
@@ -222,7 +222,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/sharing"/>
+                        sling:resourceType="core/wcm/components/sharing/v1/sharing"/>
                     <list
                         cq:lastRolledout="{Date}2020-07-09T13:17:52.089-07:00"
                         cq:lastRolledoutBy="admin"
@@ -233,7 +233,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/list"
+                        sling:resourceType="core/wcm/components/list/v2/list"
                         childDepth="1"
                         linkItems="true"
                         listFrom="children"

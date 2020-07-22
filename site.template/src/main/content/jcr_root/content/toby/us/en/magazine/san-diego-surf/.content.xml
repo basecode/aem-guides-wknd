@@ -12,7 +12,7 @@
         jcr:mixinTypes="[cq:LiveRelationship]"
         jcr:primaryType="cq:PageContent"
         jcr:title="San Diego Surf Spots"
-        sling:resourceType="toby/components/page"
+        sling:resourceType="core/wcm/components/page/v2/page"
         shortDescription="Best beach breaks"
         socialMedia="[facebook,pinterest]">
         <root
@@ -20,7 +20,7 @@
             cq:lastRolledoutBy="admin"
             jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="toby/components/container">
+            sling:resourceType="core/wcm/components/container/v1/container">
             <container
                 cq:lastRolledout="{Date}2020-07-09T08:54:52.061-07:00"
                 cq:lastRolledoutBy="admin"
@@ -31,7 +31,7 @@
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="toby/components/container">
+                sling:resourceType="core/wcm/components/container/v1/container">
                 <image
                     cq:lastRolledout="{Date}2020-07-09T08:54:52.065-07:00"
                     cq:lastRolledoutBy="admin"
@@ -41,7 +41,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="toby/components/image"
+                    sling:resourceType="core/wcm/components/image/v2/image"
                     fileReference="/content/dam/toby/en/magazine/san-diego-surf-spots/beach-walking.jpg"
                     imageCrop="0,86,1152,798"/>
                 <container
@@ -53,7 +53,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="toby/components/container">
+                    sling:resourceType="core/wcm/components/container/v1/container">
                     <title
                         cq:lastRolledout="{Date}2020-07-09T08:54:52.077-07:00"
                         cq:lastRolledoutBy="admin"
@@ -63,7 +63,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/title"
+                        sling:resourceType="core/wcm/components/title/v2/title"
                         type="h1"/>
                     <title_875115054
                         cq:lastRolledout="{Date}2020-07-09T08:54:52.080-07:00"
@@ -75,7 +75,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="By Justin Barr"
-                        sling:resourceType="toby/components/title"
+                        sling:resourceType="core/wcm/components/title/v2/title"
                         type="h4"/>
                     <contentfragment
                         cq:lastRolledout="{Date}2020-07-09T08:54:52.089-07:00"
@@ -86,7 +86,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/contentfragment"
+                        sling:resourceType="core/wcm/components/contentfragment/v1/contentfragment"
                         displayMode="singleText"
                         elementNames="main"
                         fragmentPath="/content/dam/toby/en/magazine/san-diego-surf-spots/san-diego-surfspots"
@@ -108,7 +108,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="toby/components/image"
+                                sling:resourceType="core/wcm/components/image/v2/image"
                                 fileReference="/content/dam/toby/en/magazine/san-diego-surf-spots/AdobeStock_166388792.jpeg"/>
                         </par2>
                         <par1
@@ -127,7 +127,7 @@
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Gorgeous beach point breaks"
-                                sling:resourceType="toby/components/image"
+                                sling:resourceType="core/wcm/components/image/v2/image"
                                 altValueFromDAM="true"
                                 displayPopupTitle="false"
                                 fileReference="/content/dam/toby/en/magazine/san-diego-surf-spots/AdobeStock_164735399.jpeg"
@@ -149,7 +149,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="toby/components/image"
+                                sling:resourceType="core/wcm/components/image/v2/image"
                                 fileReference="/content/dam/toby/en/magazine/san-diego-surf-spots/AdobeStock_266406767.jpeg"/>
                         </par4>
                         <par5
@@ -167,7 +167,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="toby/components/image"
+                                sling:resourceType="core/wcm/components/image/v2/image"
                                 fileReference="/content/dam/toby/en/magazine/san-diego-surf-spots/AdobeStock_272184938.jpeg"/>
                         </par5>
                     </contentfragment>
@@ -180,7 +180,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/experiencefragment"
+                        sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
                         fragmentVariationPath="/content/experience-fragments/toby/language-masters/en/contributors/justin-barr/byline"/>
                 </container>
                 <container_223059690
@@ -192,7 +192,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="toby/components/container"
+                    sling:resourceType="core/wcm/components/container/v1/container"
                     layout="responsiveGrid">
                     <title
                         cq:lastRolledout="{Date}2020-07-09T08:54:52.122-07:00"
@@ -205,7 +205,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="SHARE THIS STORY"
-                        sling:resourceType="toby/components/title"
+                        sling:resourceType="core/wcm/components/title/v2/title"
                         type="h5"/>
                     <sharing
                         cq:lastRolledout="{Date}2020-07-09T08:54:52.124-07:00"
@@ -216,7 +216,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/sharing"/>
+                        sling:resourceType="core/wcm/components/sharing/v1/sharing"/>
                     <separator
                         cq:lastRolledout="{Date}2020-07-09T08:54:52.127-07:00"
                         cq:lastRolledoutBy="admin"
@@ -227,7 +227,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/separator"/>
+                        sling:resourceType="core/wcm/components/separator/v1/separator"/>
                     <list
                         cq:lastRolledout="{Date}2020-07-09T08:54:52.132-07:00"
                         cq:lastRolledoutBy="admin"
@@ -238,7 +238,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/list"
+                        sling:resourceType="core/wcm/components/list/v2/list"
                         childDepth="1"
                         linkItems="true"
                         listFrom="children"

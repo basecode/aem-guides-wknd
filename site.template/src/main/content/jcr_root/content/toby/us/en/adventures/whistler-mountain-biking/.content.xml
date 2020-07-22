@@ -14,14 +14,14 @@
         jcr:primaryType="cq:PageContent"
         jcr:title="Whistler Mountain Biking"
         jcr:uuid="bf89f8cb-05ab-42b3-8e1b-81db868ca5bd"
-        sling:resourceType="toby/components/page"
+        sling:resourceType="core/wcm/components/page/v2/page"
         socialMedia="[facebook,pinterest]">
         <root
             cq:lastRolledout="{Date}2020-07-09T08:54:53.505-07:00"
             cq:lastRolledoutBy="admin"
             jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="toby/components/container">
+            sling:resourceType="core/wcm/components/container/v1/container">
             <container
                 cq:lastRolledout="{Date}2020-07-09T08:54:53.518-07:00"
                 cq:lastRolledoutBy="admin"
@@ -31,7 +31,7 @@
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="toby/components/container">
+                sling:resourceType="core/wcm/components/container/v1/container">
                 <breadcrumb
                     cq:lastRolledout="{Date}2020-07-09T08:54:53.523-07:00"
                     cq:lastRolledoutBy="admin"
@@ -42,7 +42,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="toby/components/breadcrumb"
+                    sling:resourceType="core/wcm/components/breadcrumb/v2/breadcrumb"
                     disableShadowing="false"
                     hideCurrent="false"
                     showHidden="false"
@@ -57,7 +57,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="toby/components/carousel"
+                    sling:resourceType="core/wcm/components/carousel/v1/carousel"
                     autopauseDisabled="false"
                     autoplay="false">
                     <item_1572023290053
@@ -67,7 +67,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/image"
+                        sling:resourceType="core/wcm/components/image/v2/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
                         fileReference="/content/dam/toby/en/adventures/whistler-mountain-biking/AdobeStock_122578479.jpeg"
@@ -80,7 +80,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/image"
+                        sling:resourceType="core/wcm/components/image/v2/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
                         fileReference="/content/dam/toby/en/activities/cycling/mountain-biking.jpg"
@@ -95,7 +95,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/image"
+                        sling:resourceType="core/wcm/components/image/v2/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
                         fileReference="/content/dam/toby/en/adventures/whistler-mountain-biking/AdobeStock_122615840.jpeg"
@@ -112,7 +112,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="toby/components/container"
+                    sling:resourceType="core/wcm/components/container/v1/container"
                     layout="responsiveGrid">
                     <title
                         cq:lastRolledout="{Date}2020-07-09T08:54:53.555-07:00"
@@ -124,7 +124,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/title"/>
+                        sling:resourceType="core/wcm/components/title/v2/title"/>
                     <container
                         cq:lastRolledout="{Date}2020-07-09T08:54:53.563-07:00"
                         cq:lastRolledoutBy="admin"
@@ -134,7 +134,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/container">
+                        sling:resourceType="core/wcm/components/container/v1/container">
                         <cq:responsive
                             cq:lastRolledout="{Date}2020-07-09T08:54:53.569-07:00"
                             cq:lastRolledoutBy="admin"
@@ -172,7 +172,7 @@
                             jcr:lastModifiedBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="toby/components/contentfragment"
+                            sling:resourceType="core/wcm/components/contentfragment/v1/contentfragment"
                             displayMode="multi"
                             elementNames="[adventureActivity,adventureType,adventureTripLength,adventureGroupSize,adventureDifficulty,adventurePrice]"
                             fragmentPath="/content/dam/toby/en/adventures/whistler-mountain-biking/whistler-mountain-biking"
@@ -209,7 +209,7 @@
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Share this Adventure"
-                            sling:resourceType="toby/components/title"
+                            sling:resourceType="core/wcm/components/title/v2/title"
                             type="h5">
                             <cq:responsive
                                 cq:lastRolledout="{Date}2020-07-09T08:54:53.593-07:00"
@@ -241,7 +241,7 @@
                             jcr:lastModifiedBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="toby/components/sharing">
+                            sling:resourceType="core/wcm/components/sharing/v1/sharing">
                             <cq:responsive
                                 cq:lastRolledout="{Date}2020-07-09T08:54:53.602-07:00"
                                 cq:lastRolledoutBy="admin"
@@ -273,7 +273,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/tabs"
+                        sling:resourceType="core/wcm/components/tabs/v1/tabs"
                         accessibilityLabel="adventure trip details">
                         <cq:responsive
                             cq:lastRolledout="{Date}2020-07-09T08:54:53.623-07:00"
@@ -311,7 +311,7 @@
                             jcr:lastModifiedBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="toby/components/contentfragment"
+                            sling:resourceType="core/wcm/components/contentfragment/v1/contentfragment"
                             displayMode="singleText"
                             elementNames="adventureDescription"
                             fragmentPath="/content/dam/toby/en/adventures/whistler-mountain-biking/whistler-mountain-biking"
@@ -323,7 +323,7 @@
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="toby/components/container">
+                                sling:resourceType="core/wcm/components/container/v1/container">
                                 <image
                                     cq:lastRolledout="{Date}2020-07-09T08:54:53.643-07:00"
                                     cq:lastRolledoutBy="admin"
@@ -333,7 +333,7 @@
                                     jcr:lastModifiedBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="toby/components/image"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
                                     fileReference="/content/dam/toby/en/activities/cycling/forest-trail.jpg"
@@ -355,7 +355,7 @@
                                     jcr:lastModifiedBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="toby/components/image"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
                                     fileReference="/content/dam/toby/en/adventures/whistler-mountain-biking/AdobeStock_122618183.jpeg"
@@ -371,7 +371,7 @@
                             jcr:lastModifiedBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="toby/components/contentfragment"
+                            sling:resourceType="core/wcm/components/contentfragment/v1/contentfragment"
                             displayMode="singleText"
                             elementNames="adventureItinerary"
                             fragmentPath="/content/dam/toby/en/adventures/whistler-mountain-biking/whistler-mountain-biking"
@@ -383,7 +383,7 @@
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="toby/components/container"/>
+                                sling:resourceType="core/wcm/components/container/v1/container"/>
                             <par1
                                 cq:lastRolledout="{Date}2020-07-09T08:54:53.664-07:00"
                                 cq:lastRolledoutBy="admin"
@@ -399,7 +399,7 @@
                                     jcr:lastModifiedBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="toby/components/image"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
                                     fileReference="/content/dam/toby/en/adventures/whistler-mountain-biking/AdobeStock_257501643.jpeg"
@@ -427,7 +427,7 @@
                                     jcr:lastModifiedBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="toby/components/image"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
                                     fileReference="/content/dam/toby/en/adventures/whistler-mountain-biking/AdobeStock_277761435.jpeg"
@@ -443,7 +443,7 @@
                             jcr:lastModifiedBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="toby/components/contentfragment"
+                            sling:resourceType="core/wcm/components/contentfragment/v1/contentfragment"
                             displayMode="singleText"
                             elementNames="adventureGearList"
                             fragmentPath="/content/dam/toby/en/adventures/whistler-mountain-biking/whistler-mountain-biking"
@@ -454,7 +454,7 @@
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="toby/components/container"/>
+                                sling:resourceType="core/wcm/components/container/v1/container"/>
                             <par2
                                 cq:lastRolledout="{Date}2020-07-09T08:54:53.690-07:00"
                                 cq:lastRolledoutBy="admin"
@@ -476,7 +476,7 @@
                                     jcr:lastModifiedBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="toby/components/image"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
                                     fileReference="/content/dam/toby/en/activities/cycling/sequoiaside.jpg"
@@ -505,7 +505,7 @@
                                     jcr:lastModifiedBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="toby/components/image"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
                                     fileReference="/content/dam/toby/en/activities/cycling/blast.jpg"
@@ -534,7 +534,7 @@
                                     jcr:lastModifiedBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="toby/components/image"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
                                     fileReference="/content/dam/toby/en/activities/cycling/mx121.jpg"

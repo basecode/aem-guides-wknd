@@ -14,14 +14,14 @@
         jcr:primaryType="cq:PageContent"
         jcr:title="Alaskan Adventure"
         jcr:uuid="ddf0c421-54d3-4356-b0e8-6e15ce6317ec"
-        sling:resourceType="toby/components/page"
+        sling:resourceType="core/wcm/components/page/v2/page"
         socialMedia="[facebook,pinterest]">
         <root
             cq:lastRolledout="{Date}2020-07-09T13:18:46.007-07:00"
             cq:lastRolledoutBy="admin"
             jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="toby/components/container">
+            sling:resourceType="core/wcm/components/container/v1/container">
             <container
                 cq:lastRolledout="{Date}2020-07-09T13:18:46.016-07:00"
                 cq:lastRolledoutBy="admin"
@@ -32,7 +32,7 @@
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="toby/components/container">
+                sling:resourceType="core/wcm/components/container/v1/container">
                 <image
                     cq:lastRolledout="{Date}2020-07-09T13:18:46.024-07:00"
                     cq:lastRolledoutBy="admin"
@@ -42,7 +42,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="toby/components/image"
+                    sling:resourceType="core/wcm/components/image/v2/image"
                     fileReference="/content/dam/toby/en/magazine/alaska-adventure/camp-alaska.JPG"
                     imageCrop="0,62,1279,852"/>
                 <container
@@ -54,7 +54,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="toby/components/container">
+                    sling:resourceType="core/wcm/components/container/v1/container">
                     <title
                         cq:lastRolledout="{Date}2020-07-09T13:18:46.040-07:00"
                         cq:lastRolledoutBy="admin"
@@ -64,7 +64,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/title"
+                        sling:resourceType="core/wcm/components/title/v2/title"
                         type="h1"/>
                     <title_1878931237
                         cq:lastRolledout="{Date}2020-07-09T13:18:46.045-07:00"
@@ -76,7 +76,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="By Ian Provo"
-                        sling:resourceType="toby/components/title"
+                        sling:resourceType="core/wcm/components/title/v2/title"
                         type="h4"/>
                     <contentfragment
                         cq:lastRolledout="{Date}2020-07-09T13:18:46.060-07:00"
@@ -87,7 +87,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/contentfragment"
+                        sling:resourceType="core/wcm/components/contentfragment/v1/contentfragment"
                         displayMode="singleText"
                         elementNames="main"
                         fragmentPath="/content/dam/toby/en/magazine/alaska-adventure/alaskan-adventures"
@@ -108,7 +108,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="toby/components/image"
+                                sling:resourceType="core/wcm/components/image/v2/image"
                                 fileReference="/content/dam/toby/en/magazine/alaska-adventure/alaskan-landscape-01.JPG"/>
                         </par1>
                         <par2
@@ -128,7 +128,7 @@
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Some places are only accessible by plane"
-                                sling:resourceType="toby/components/title"
+                                sling:resourceType="core/wcm/components/title/v2/title"
                                 type="h2"/>
                             <image
                                 cq:lastRolledout="{Date}2020-07-09T13:18:46.087-07:00"
@@ -139,7 +139,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="toby/components/image"
+                                sling:resourceType="core/wcm/components/image/v2/image"
                                 fileReference="/content/dam/toby/en/magazine/alaska-adventure/plane.JPG"/>
                         </par2>
                         <par3
@@ -158,7 +158,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="toby/components/text"
+                                sling:resourceType="core/wcm/components/text/v2/text"
                                 text="&lt;blockquote>For 18 days we lived on a glacier, 50 miles by plane from the nearest anything...&lt;/blockquote>&#xd;&#xa;&lt;p>&lt;u>Neil Provo&lt;/u>&lt;/p>&#xd;&#xa;"
                                 textIsRich="true"/>
                         </par3>
@@ -179,7 +179,7 @@
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Fishing in the village of Yakutat"
-                                sling:resourceType="toby/components/title"
+                                sling:resourceType="core/wcm/components/title/v2/title"
                                 type="h2"/>
                             <image
                                 cq:lastRolledout="{Date}2020-07-09T13:18:46.112-07:00"
@@ -190,7 +190,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="toby/components/image"
+                                sling:resourceType="core/wcm/components/image/v2/image"
                                 fileReference="/content/dam/toby/en/magazine/alaska-adventure/alaskan-grizzly.jpg"/>
                         </par4>
                         <par5
@@ -208,7 +208,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="toby/components/image"
+                                sling:resourceType="core/wcm/components/image/v2/image"
                                 fileReference="/content/dam/toby/en/magazine/alaska-adventure/fish.JPG"/>
                         </par5>
                     </contentfragment>
@@ -221,7 +221,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/experiencefragment"
+                        sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
                         fragmentVariationPath="/content/experience-fragments/toby/language-masters/en/contributors/ian-provo/byline"/>
                 </container>
                 <container_223059690
@@ -233,7 +233,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="toby/components/container"
+                    sling:resourceType="core/wcm/components/container/v1/container"
                     layout="responsiveGrid">
                     <title
                         cq:lastRolledout="{Date}2020-07-09T13:18:46.140-07:00"
@@ -245,7 +245,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="SHARE THIS STORY"
-                        sling:resourceType="toby/components/title"
+                        sling:resourceType="core/wcm/components/title/v2/title"
                         type="h5"/>
                     <sharing
                         cq:lastRolledout="{Date}2020-07-09T13:18:46.143-07:00"
@@ -256,7 +256,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/sharing"/>
+                        sling:resourceType="core/wcm/components/sharing/v1/sharing"/>
                     <list
                         cq:lastRolledout="{Date}2020-07-09T13:18:46.150-07:00"
                         cq:lastRolledoutBy="admin"
@@ -267,7 +267,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/list"
+                        sling:resourceType="core/wcm/components/list/v2/list"
                         childDepth="1"
                         linkItems="true"
                         listFrom="children"

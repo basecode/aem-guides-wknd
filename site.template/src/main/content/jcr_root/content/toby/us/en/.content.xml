@@ -13,14 +13,14 @@
         jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync]"
         jcr:primaryType="cq:PageContent"
         jcr:title="toby Adventures and Travel"
-        sling:resourceType="toby/components/page"
+        sling:resourceType="core/wcm/components/page/v2/page"
         pageTitle="Home">
         <root
             cq:lastRolledout="{Date}2020-07-11T15:17:55.821-07:00"
             cq:lastRolledoutBy="admin"
             jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="toby/components/container">
+            sling:resourceType="core/wcm/components/container/v1/container">
             <container
                 cq:lastRolledout="{Date}2020-07-11T15:17:55.832-07:00"
                 cq:lastRolledoutBy="admin"
@@ -30,7 +30,7 @@
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="toby/components/container">
+                sling:resourceType="core/wcm/components/container/v1/container">
                 <carousel
                     cq:lastRolledout="{Date}2020-07-11T15:17:55.844-07:00"
                     cq:lastRolledoutBy="admin"
@@ -41,7 +41,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="toby/components/carousel"
+                    sling:resourceType="core/wcm/components/carousel/v1/carousel"
                     autopauseDisabled="false"
                     autoplay="false"
                     delay="5000">
@@ -56,7 +56,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="toby Adventures"
-                        sling:resourceType="toby/components/teaser"
+                        sling:resourceType="core/wcm/components/teaser/v1/teaser"
                         actionsEnabled="true"
                         descriptionFromPage="true"
                         fileReference="/content/dam/toby/en/adventures/riverside-camping-australia/AdobeStock_216674449.jpeg"
@@ -85,7 +85,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/teaser"
+                        sling:resourceType="core/wcm/components/teaser/v1/teaser"
                         actionsEnabled="true"
                         descriptionFromPage="true"
                         fileReference="/content/dam/toby/en/magazine/san-diego-surf-spots/beach-walking.jpg"
@@ -117,7 +117,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/teaser"
+                        sling:resourceType="core/wcm/components/teaser/v1/teaser"
                         actionsEnabled="true"
                         descriptionFromPage="false"
                         fileReference="/content/dam/toby/en/adventures/downhill-skiing-wyoming/AdobeStock_185234795.jpeg"
@@ -148,7 +148,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="toby/components/container"
+                    sling:resourceType="core/wcm/components/container/v1/container"
                     layout="simple">
                     <cq:responsive
                         cq:lastRolledout="{Date}2020-07-11T15:17:55.898-07:00"
@@ -167,7 +167,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Camping in Western Australia"
-                        sling:resourceType="toby/components/teaser"
+                        sling:resourceType="core/wcm/components/teaser/v1/teaser"
                         actionsEnabled="true"
                         descriptionFromPage="false"
                         fileReference="/content/dam/toby/en/magazine/western-australia/adobestock_156407519.jpeg"
@@ -198,7 +198,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Recent Articles"
-                        sling:resourceType="toby/components/title"
+                        sling:resourceType="core/wcm/components/title/v2/title"
                         type="h2"/>
                     <image_list
                         cq:lastRolledout="{Date}2020-07-11T15:17:55.918-07:00"
@@ -209,7 +209,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/image-list"
+                        sling:resourceType="core/wcm/components/list/v2/list"
                         childDepth="1"
                         listFrom="static"
                         pages="[/content/toby/us/en/magazine/guide-la-skateparks,/content/toby/us/en/magazine/ski-touring,/content/toby/us/en/magazine/arctic-surfing,/content/toby/us/en/magazine/san-diego-surf]"
@@ -227,7 +227,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="View All"
-                        sling:resourceType="toby/components/button"
+                        sling:resourceType="core/wcm/components/button/v1/button"
                         accessibilityLabel="read our articles"
                         link="/content/toby/us/en/magazine"/>
                     <separator
@@ -239,7 +239,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/separator"/>
+                        sling:resourceType="core/wcm/components/separator/v1/separator"/>
                     <title_15771435
                         cq:lastRolledout="{Date}2020-07-11T15:17:55.930-07:00"
                         cq:lastRolledoutBy="admin"
@@ -251,7 +251,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Next Adventures"
-                        sling:resourceType="toby/components/title"
+                        sling:resourceType="core/wcm/components/title/v2/title"
                         type="h2"/>
                 </container>
                 <teaser
@@ -266,7 +266,7 @@
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Experience the world with us"
-                    sling:resourceType="toby/components/teaser"
+                    sling:resourceType="core/wcm/components/teaser/v1/teaser"
                     actionsEnabled="true"
                     descriptionFromPage="true"
                     fileReference="/content/dam/toby/en/adventures/climbing-new-zealand/AdobeStock_140634652.jpeg"
@@ -296,7 +296,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="toby/components/container">
+                    sling:resourceType="core/wcm/components/container/v1/container">
                     <cq:responsive
                         cq:lastRolledout="{Date}2020-07-11T15:17:55.958-07:00"
                         cq:lastRolledoutBy="admin"
@@ -312,7 +312,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Where do you want to go?"
-                        sling:resourceType="toby/components/title"
+                        sling:resourceType="core/wcm/components/title/v2/title"
                         type="h3"/>
                     <image_list
                         cq:lastRolledout="{Date}2020-07-11T15:17:55.973-07:00"
@@ -323,7 +323,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/image-list"
+                        sling:resourceType="core/wcm/components/list/v2/list"
                         childDepth="1"
                         listFrom="children"
                         maxItems="4"
@@ -342,7 +342,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Explore All"
-                        sling:resourceType="toby/components/button"
+                        sling:resourceType="core/wcm/components/button/v1/button"
                         accessibilityLabel="explore our adventures"
                         link="/content/toby/us/en/adventures"/>
                     <separator
@@ -354,7 +354,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/separator"/>
+                        sling:resourceType="core/wcm/components/separator/v1/separator"/>
                 </container_1679842506>
             </container>
         </root>

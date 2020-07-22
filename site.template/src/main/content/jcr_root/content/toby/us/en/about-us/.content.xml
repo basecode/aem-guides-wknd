@@ -12,13 +12,13 @@
         jcr:mixinTypes="[cq:LiveRelationship]"
         jcr:primaryType="cq:PageContent"
         jcr:title="About Us"
-        sling:resourceType="toby/components/page">
+        sling:resourceType="core/wcm/components/page/v2/page">
         <root
             cq:lastRolledout="{Date}2020-07-09T08:54:54.716-07:00"
             cq:lastRolledoutBy="admin"
             jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="toby/components/container">
+            sling:resourceType="core/wcm/components/container/v1/container">
             <container
                 cq:lastRolledout="{Date}2020-07-09T08:54:54.735-07:00"
                 cq:lastRolledoutBy="admin"
@@ -27,7 +27,7 @@
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="toby/components/container"
+                sling:resourceType="core/wcm/components/container/v1/container"
                 layout="responsiveGrid">
                 <title
                     cq:lastRolledout="{Date}2020-07-09T08:54:54.741-07:00"
@@ -38,7 +38,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="toby/components/title"/>
+                    sling:resourceType="core/wcm/components/title/v2/title"/>
                 <title_393953656
                     cq:lastRolledout="{Date}2020-07-09T08:54:54.744-07:00"
                     cq:lastRolledoutBy="admin"
@@ -50,7 +50,7 @@
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Our Contributors"
-                    sling:resourceType="toby/components/title"
+                    sling:resourceType="core/wcm/components/title/v2/title"
                     type="h2"/>
                 <text_310704238
                     cq:lastRolledout="{Date}2020-07-09T08:54:54.746-07:00"
@@ -62,7 +62,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="toby/components/text"
+                    sling:resourceType="core/wcm/components/text/v2/text"
                     text="&lt;p>&lt;i>Meet the outstanding individuals responsible for bringing you the most compelling stories across the globe.&lt;/i>&lt;/p>&#xa;"
                     textIsRich="true"/>
                 <experiencefragment_c
@@ -75,7 +75,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="toby/components/experiencefragment"
+                    sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
                     fragmentVariationPath="/content/experience-fragments/toby/language-masters/en/contributors/stacey-roswells/master">
                     <cq:responsive
                         cq:lastRolledout="{Date}2020-07-09T08:54:54.756-07:00"
@@ -115,7 +115,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="toby/components/experiencefragment"
+                    sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
                     fragmentVariationPath="/content/experience-fragments/toby/language-masters/en/contributors/jake-hammer/master">
                     <cq:responsive
                         cq:lastRolledout="{Date}2020-07-09T08:54:54.770-07:00"
@@ -155,7 +155,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="toby/components/experiencefragment"
+                    sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
                     fragmentVariationPath="/content/experience-fragments/toby/language-masters/en/contributors/ian-provo/master">
                     <cq:responsive
                         cq:lastRolledout="{Date}2020-07-09T08:54:54.785-07:00"
@@ -195,7 +195,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="toby/components/experiencefragment"
+                    sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
                     fragmentVariationPath="/content/experience-fragments/toby/language-masters/en/contributors/jacob-wester/master">
                     <cq:responsive
                         cq:lastRolledout="{Date}2020-07-09T08:54:54.799-07:00"
@@ -236,7 +236,7 @@
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="toby Guides"
-                    sling:resourceType="toby/components/title"
+                    sling:resourceType="core/wcm/components/title/v2/title"
                     type="h2"/>
                 <text_359993709
                     cq:lastRolledout="{Date}2020-07-09T08:54:54.810-07:00"
@@ -248,7 +248,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="toby/components/text"
+                    sling:resourceType="core/wcm/components/text/v2/text"
                     text="&lt;p>&lt;i>Meet our extraordinary travel guides. When you travel with a certified toby guide you gain access to attractions and perspectives not found on the pages of a guide book.&lt;/i>&lt;/p>&#xa;"
                     textIsRich="true"/>
                 <experiencefragment_c_1459013251
@@ -261,7 +261,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="toby/components/experiencefragment"
+                    sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
                     fragmentVariationPath="/content/experience-fragments/toby/language-masters/en/contributors/sofia-sjoeberg/master">
                     <cq:responsive
                         cq:lastRolledout="{Date}2020-07-09T08:54:54.818-07:00"
@@ -301,7 +301,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="toby/components/experiencefragment"
+                    sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
                     fragmentVariationPath="/content/experience-fragments/toby/language-masters/en/contributors/justin-barr/master">
                     <cq:responsive
                         cq:lastRolledout="{Date}2020-07-09T08:54:54.830-07:00"
@@ -341,7 +341,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="toby/components/experiencefragment"
+                    sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
                     fragmentVariationPath="/content/experience-fragments/toby/language-masters/en/contributors/kumar-selveraj/master">
                     <cq:responsive
                         cq:lastRolledout="{Date}2020-07-09T08:54:54.843-07:00"

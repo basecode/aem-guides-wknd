@@ -14,14 +14,14 @@
         jcr:primaryType="cq:PageContent"
         jcr:title="Downhill Skiing Wyoming"
         jcr:uuid="ce5bc26b-875d-43e5-85ed-537ca17e7da0"
-        sling:resourceType="toby/components/page"
+        sling:resourceType="core/wcm/components/page/v2/page"
         socialMedia="[facebook,pinterest]">
         <root
             cq:lastRolledout="{Date}2020-07-09T08:54:54.264-07:00"
             cq:lastRolledoutBy="admin"
             jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="toby/components/container">
+            sling:resourceType="core/wcm/components/container/v1/container">
             <container
                 cq:lastRolledout="{Date}2020-07-09T08:54:54.302-07:00"
                 cq:lastRolledoutBy="admin"
@@ -31,7 +31,7 @@
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="toby/components/container">
+                sling:resourceType="core/wcm/components/container/v1/container">
                 <breadcrumb
                     cq:lastRolledout="{Date}2020-07-09T08:54:54.307-07:00"
                     cq:lastRolledoutBy="admin"
@@ -42,7 +42,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="toby/components/breadcrumb"
+                    sling:resourceType="core/wcm/components/breadcrumb/v2/breadcrumb"
                     disableShadowing="false"
                     hideCurrent="false"
                     showHidden="false"
@@ -57,7 +57,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="toby/components/carousel"
+                    sling:resourceType="core/wcm/components/carousel/v1/carousel"
                     autopauseDisabled="false"
                     autoplay="false">
                     <image
@@ -69,7 +69,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/image"
+                        sling:resourceType="core/wcm/components/image/v2/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
                         fileReference="/content/dam/toby/en/adventures/downhill-skiing-wyoming/AdobeStock_185234795.jpeg"
@@ -82,7 +82,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/image"
+                        sling:resourceType="core/wcm/components/image/v2/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
                         fileReference="/content/dam/toby/en/activities/skiing/freeride-steep.jpg"
@@ -96,7 +96,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/image"
+                        sling:resourceType="core/wcm/components/image/v2/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
                         fileReference="/content/dam/toby/en/adventures/downhill-skiing-wyoming/AdobeStock_170334891.jpeg"
@@ -113,7 +113,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="toby/components/container"
+                    sling:resourceType="core/wcm/components/container/v1/container"
                     layout="responsiveGrid">
                     <title
                         cq:lastRolledout="{Date}2020-07-09T08:54:54.345-07:00"
@@ -125,7 +125,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/title"/>
+                        sling:resourceType="core/wcm/components/title/v2/title"/>
                     <container
                         cq:lastRolledout="{Date}2020-07-09T08:54:54.357-07:00"
                         cq:lastRolledoutBy="admin"
@@ -135,7 +135,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/container">
+                        sling:resourceType="core/wcm/components/container/v1/container">
                         <cq:responsive
                             cq:lastRolledout="{Date}2020-07-09T08:54:54.364-07:00"
                             cq:lastRolledoutBy="admin"
@@ -173,7 +173,7 @@
                             jcr:lastModifiedBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="toby/components/contentfragment"
+                            sling:resourceType="core/wcm/components/contentfragment/v1/contentfragment"
                             displayMode="multi"
                             elementNames="[adventureActivity,adventureType,adventureTripLength,adventureGroupSize,adventureDifficulty,adventurePrice]"
                             fragmentPath="/content/dam/toby/en/adventures/downhill-skiing-wyoming/downhill-skiing-wyoming"
@@ -210,7 +210,7 @@
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Share this Adventure"
-                            sling:resourceType="toby/components/title"
+                            sling:resourceType="core/wcm/components/title/v2/title"
                             type="h5">
                             <cq:responsive
                                 cq:lastRolledout="{Date}2020-07-09T08:54:54.393-07:00"
@@ -242,7 +242,7 @@
                             jcr:lastModifiedBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="toby/components/sharing">
+                            sling:resourceType="core/wcm/components/sharing/v1/sharing">
                             <cq:responsive
                                 cq:lastRolledout="{Date}2020-07-09T08:54:54.406-07:00"
                                 cq:lastRolledoutBy="admin"
@@ -274,7 +274,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="toby/components/tabs"
+                        sling:resourceType="core/wcm/components/tabs/v1/tabs"
                         accessibilityLabel="adventure trip details">
                         <cq:responsive
                             cq:lastRolledout="{Date}2020-07-09T08:54:54.428-07:00"
@@ -312,7 +312,7 @@
                             jcr:lastModifiedBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="toby/components/contentfragment"
+                            sling:resourceType="core/wcm/components/contentfragment/v1/contentfragment"
                             displayMode="singleText"
                             elementNames="adventureDescription"
                             fragmentPath="/content/dam/toby/en/adventures/downhill-skiing-wyoming/downhill-skiing-wyoming"
@@ -324,7 +324,7 @@
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="toby/components/container"/>
+                                sling:resourceType="core/wcm/components/container/v1/container"/>
                             <par1
                                 cq:lastRolledout="{Date}2020-07-09T08:54:54.444-07:00"
                                 cq:lastRolledoutBy="admin"
@@ -340,7 +340,7 @@
                                     jcr:lastModifiedBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="toby/components/image"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
                                     fileReference="/content/dam/toby/en/adventures/downhill-skiing-wyoming/AdobeStock_93049279.jpeg"
@@ -356,7 +356,7 @@
                             jcr:lastModifiedBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="toby/components/contentfragment"
+                            sling:resourceType="core/wcm/components/contentfragment/v1/contentfragment"
                             displayMode="singleText"
                             elementNames="adventureItinerary"
                             fragmentPath="/content/dam/toby/en/adventures/downhill-skiing-wyoming/downhill-skiing-wyoming"
@@ -367,7 +367,7 @@
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="toby/components/container"/>
+                                sling:resourceType="core/wcm/components/container/v1/container"/>
                             <par1
                                 cq:lastRolledout="{Date}2020-07-09T08:54:54.461-07:00"
                                 cq:lastRolledoutBy="admin"
@@ -383,7 +383,7 @@
                                     jcr:lastModifiedBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="toby/components/image"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
                                     fileReference="/content/dam/toby/en/activities/skiing/freeride.jpg"
@@ -412,7 +412,7 @@
                                     jcr:lastModifiedBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="toby/components/image"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
                                     fileReference="/content/dam/toby/en/adventures/downhill-skiing-wyoming/AdobeStock_166718157.jpeg"
@@ -428,7 +428,7 @@
                             jcr:lastModifiedBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="toby/components/contentfragment"
+                            sling:resourceType="core/wcm/components/contentfragment/v1/contentfragment"
                             displayMode="singleText"
                             elementNames="adventureGearList"
                             fragmentPath="/content/dam/toby/en/adventures/downhill-skiing-wyoming/downhill-skiing-wyoming"
@@ -439,7 +439,7 @@
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="toby/components/container"/>
+                                sling:resourceType="core/wcm/components/container/v1/container"/>
                             <par2
                                 cq:lastRolledout="{Date}2020-07-09T08:54:54.485-07:00"
                                 cq:lastRolledoutBy="admin"
