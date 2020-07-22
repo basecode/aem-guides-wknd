@@ -13,7 +13,7 @@
                     jcr:primaryType="nt:unstructured"
                     jcr:title="toby Site Default"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="[/apps/core/wcm/components/container/v1/container,group:toby.Content,/apps/core/wcm/components/form/container/v2/container,group:toby.Structure]"
+                    components="[/apps/core/wcm/components/container/v1/container,/apps/core/wcm/components/form/container/v2/container]"
                     policyResourceType="core/wcm/components/container/v1/container">
                     <cq:authoring jcr:primaryType="nt:unstructured">
                         <assetToComponentMapping jcr:primaryType="nt:unstructured">
@@ -43,7 +43,7 @@
                     sling:resourceType="wcm/core/components/policy/policy"
                     backgroundColorEnabled="true"
                     backgroundImageEnabled="true"
-                    components="[group:toby.Content]">
+                    components="[group:.core-wcm]">
                     <jcr:content
                         cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
                         cq:lastReplicatedBy="admin"
@@ -112,7 +112,7 @@
                     jcr:primaryType="nt:unstructured"
                     jcr:title="toby Experience Fragment"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="[/libs/cq/experience-fragments/editor/components/buildingblock,group:toby.Content,group:toby.Form,group:toby.Structure]">
+                    components="[/libs/cq/experience-fragments/editor/components/buildingblock]">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                     <cq:authoring jcr:primaryType="nt:unstructured">
                         <assetToComponentMapping jcr:primaryType="nt:unstructured">
@@ -1132,7 +1132,7 @@
                     jcr:primaryType="nt:unstructured"
                     jcr:title="toby Tabs"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="group:toby.Content">
+                    components="group:.core-wcm">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy_1594238204926>
             </tabs>
