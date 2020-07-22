@@ -36,7 +36,7 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wcm/core/components/policies/mapping"/>
                         <text
-                            cq:policy="toby/components/text/policy_1570746487640"
+                            cq:policy="core/wcm/components/text/v2/text/policy_1570746487640"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wcm/core/components/policies/mapping"/>
                         <list

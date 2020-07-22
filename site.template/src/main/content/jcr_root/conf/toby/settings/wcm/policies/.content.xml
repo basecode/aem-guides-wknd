@@ -98,7 +98,7 @@
                     jcr:primaryType="nt:unstructured"
                     jcr:title="toby Article Sidebar"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="[/apps/core/wcm/components/button/v1/button,/apps/core/wcm/components/download/v1/download,/apps/core/wcm/components/image/v2/image,/apps/core/wcm/components/list/v2/list,/apps/core/wcm/components/separator/v1/separator,/apps/core/wcm/components/sharing/v1/sharing,/apps/toby/components/text,/apps/toby/components/title]">
+                    components="[/apps/core/wcm/components/button/v1/button,/apps/core/wcm/components/download/v1/download,/apps/core/wcm/components/image/v2/image,/apps/core/wcm/components/list/v2/list,/apps/core/wcm/components/separator/v1/separator,/apps/core/wcm/components/sharing/v1/sharing,/apps/core/wcm/components/text/v2/text,/apps/toby/components/title]">
                     <jcr:content
                         cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
                         cq:lastReplicatedBy="admin"
@@ -847,7 +847,7 @@
                     jcr:title="toby Accordion"
                     sling:resourceType="wcm/core/components/policy/policy"
                     allowedHeadingElements="h3"
-                    components="[/apps/core/wcm/components/button/v1/button,/apps/core/wcm/components/image/v2/image,/apps/toby/components/text,/apps/toby/components/title]"
+                    components="[/apps/core/wcm/components/button/v1/button,/apps/core/wcm/components/image/v2/image,/apps/core/wcm/components/text/v2/text,/apps/toby/components/title]"
                     headingElement="h3">
                     <jcr:content
                         cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"

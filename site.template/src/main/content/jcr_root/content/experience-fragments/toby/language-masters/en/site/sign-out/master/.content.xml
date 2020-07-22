@@ -32,7 +32,7 @@
                     type="h3"/>
                 <text-1
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="toby/components/text"
+                    sling:resourceType="core/wcm/components/text/v2/text"
                     text="&lt;p>There's a bunch of great content only available to signed in users you'll miss out on!&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
                     textIsRich="true"/>
                 <separator
