@@ -13,8 +13,8 @@
                     jcr:primaryType="nt:unstructured"
                     jcr:title="toby Site Default"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="[/apps/core/wcm/components/container/v1/container,/apps/core/wcm/components/form/container/v2/container]"
-                    policyResourceType="core/wcm/components/container/v1/container">
+                    components="[/apps/core/wcm/components/container/v1/container,group:.core-wcm,/apps/core/wcm/components/form/container/v2/container]"
+                    policyResourceType="toby/components/container">
                     <cq:authoring jcr:primaryType="nt:unstructured">
                         <assetToComponentMapping jcr:primaryType="nt:unstructured">
                             <image
@@ -112,7 +112,7 @@
                     jcr:primaryType="nt:unstructured"
                     jcr:title="toby Experience Fragment"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="[/libs/cq/experience-fragments/editor/components/buildingblock]">
+                    components="[/libs/cq/experience-fragments/editor/components/buildingblock,group:.core-wcm]">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                     <cq:authoring jcr:primaryType="nt:unstructured">
                         <assetToComponentMapping jcr:primaryType="nt:unstructured">
@@ -1052,8 +1052,8 @@
                     jcr:primaryType="nt:unstructured"
                     jcr:title="toby Landing Page"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    clientlibs="toby.site"
-                    clientlibsJsHead="toby.dependencies">
+                    clientlibs=""
+                    clientlibsJsHead="">
                     <jcr:content
                         cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
                         cq:lastReplicatedBy="admin"
@@ -1067,7 +1067,7 @@
                     jcr:primaryType="nt:unstructured"
                     jcr:title="toby Article"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    clientlibs="toby.site">
+                    clientlibs="">
                     <jcr:content
                         cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
                         cq:lastReplicatedBy="admin"
@@ -1081,7 +1081,7 @@
                     jcr:primaryType="nt:unstructured"
                     jcr:title="toby Experience Fragment"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    clientlibs="toby.site">
+                    clientlibs="">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy_654239029509196>
                 <policy_1570140199406
@@ -1090,8 +1090,8 @@
                     jcr:primaryType="nt:unstructured"
                     jcr:title="toby Site Theme"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    clientlibs="toby.site"
-                    clientlibsJsHead="toby.dependencies">
+                    clientlibs=""
+                    clientlibsJsHead="">
                     <jcr:content
                         cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
                         cq:lastReplicatedBy="admin"
@@ -1107,7 +1107,7 @@
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Experience Fragment Web"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    clientlibs="toby.site">
+                    clientlibs="">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy_1572461714642>
             </xfpage>
