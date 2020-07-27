@@ -21,81 +21,57 @@
                 cq:policy="core/wcm/components/container/v1/container/policy_213106331986985"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/core/components/policies/mapping">
-                <toby jcr:primaryType="nt:unstructured">
-                    <components jcr:primaryType="nt:unstructured">
-                        <teaser
-                            cq:policy="wcm/core/components/teaser/v1/teaser/policy_1555539430196"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wcm/core/components/policies/mapping"/>
-                        <carousel
-                            cq:policy="core/wcm/components/carousel/v1/carousel/policy_1555540352044"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wcm/core/components/policies/mapping"/>
-                        <image
-                            cq:policy="core/wcm/components/image/v2/image/policy_1568423036289"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wcm/core/components/policies/mapping"/>
-                        <text
-                            cq:policy="core/wcm/components/text/v2/text/policy_1570746487640"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wcm/core/components/policies/mapping"/>
-                        <list
-                            cq:policy="core/wcm/components/list/v2/list/policy_1554340319446"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wcm/core/components/policies/mapping"/>
-                        <breadcrumb
-                            cq:policy="core/wcm/components/breadcrumb/v2/breadcrumb/policy_1554341419430"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wcm/core/components/policies/mapping"/>
-                        <title
-                            cq:policy="core/wcm/components/title/v2/title/policy_349626543823562"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wcm/core/components/policies/mapping"/>
-                        <separator
-                            cq:policy="core/wcm/components/separator/v1/separator/policy_1571075710034"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wcm/core/components/policies/mapping"/>
-                        <button
-                            cq:policy="core/wcm/components/button/v1/button/policy_1568591661081"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wcm/core/components/policies/mapping"/>
-                        <experiencefragment
-                            cq:policy="core/wcm/components/experiencefragment/v1/experiencefragment/policy_34642779885901"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wcm/core/components/policies/mapping"/>
-                        <embed
-                            cq:policy="core/wcm/components/embed/v1/embed/policy_1594170470008"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wcm/core/components/policies/mapping"/>
-                        <container
-                            cq:policy="core/wcm/components/container/v1/container/policy_213106331986985"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wcm/core/components/policies/mapping"/>
-                        <accordion
-                            cq:policy="core/wcm/components/accordion/v1/accordion/policy_1571070092603"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wcm/core/components/policies/mapping"/>
-                        <tabs
-                            cq:policy="core/wcm/components/tabs/v1/tabs/policy_1594238204926"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wcm/core/components/policies/mapping"/>
-                        <contentfragment
-                            cq:policy="core/wcm/components/contentfragment/v1/contentfragment/policy_1571166588834"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wcm/core/components/policies/mapping"/>
-                    </components>
-                </toby>
                 <core jcr:primaryType="nt:unstructured">
                     <wcm jcr:primaryType="nt:unstructured">
                         <components jcr:primaryType="nt:unstructured">
-                            <embed jcr:primaryType="nt:unstructured">
+                            <teaser jcr:primaryType="nt:unstructured">
                                 <v1 jcr:primaryType="nt:unstructured">
-                                    <embed
-                                        cq:policy="core/wcm/components/embed/v1/embed/policy_1558686151045"
+                                    <teaser
+                                        cq:policy="wcm/core/components/teaser/v1/teaser/policy_1555539430196"
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="wcm/core/components/policies/mapping"/>
                                 </v1>
-                            </embed>
+                            </teaser>
+                            <carousel jcr:primaryType="nt:unstructured">
+                                <v1 jcr:primaryType="nt:unstructured">
+                                    <carousel
+                                        cq:policy="core/wcm/components/carousel/v1/carousel/policy_1555540352044"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                                </v1>
+                            </carousel>
+                            <image jcr:primaryType="nt:unstructured">
+                                <v2 jcr:primaryType="nt:unstructured">
+                                    <image
+                                        cq:policy="core/wcm/components/image/v2/image/policy_1568423036289"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                                </v2>
+                            </image>
+                            <text jcr:primaryType="nt:unstructured">
+                                <v2 jcr:primaryType="nt:unstructured">
+                                    <text
+                                        cq:policy="core/wcm/components/text/v2/text/policy_1570746487640"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                                </v2>
+                            </text>
+                            <list jcr:primaryType="nt:unstructured">
+                                <v2 jcr:primaryType="nt:unstructured">
+                                    <list
+                                        cq:policy="core/wcm/components/list/v2/list/policy_1554340319446"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                                </v2>
+                            </list>
+                            <breadcrumb jcr:primaryType="nt:unstructured">
+                                <v2 jcr:primaryType="nt:unstructured">
+                                    <breadcrumb
+                                        cq:policy="core/wcm/components/breadcrumb/v2/breadcrumb/policy_1554341419430"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                                </v2>
+                            </breadcrumb>
                             <title jcr:primaryType="nt:unstructured">
                                 <v2 jcr:primaryType="nt:unstructured">
                                     <title
@@ -104,24 +80,6 @@
                                         sling:resourceType="wcm/core/components/policies/mapping"/>
                                 </v2>
                             </title>
-                            <text jcr:primaryType="nt:unstructured">
-                                <v2 jcr:primaryType="nt:unstructured">
-                                    <text
-                                        cq:policy="core/wcm/components/text/v2/text/policy_1544762709128"
-                                        jcr:primaryType="nt:unstructured"
-                                        sling:resourceType="wcm/core/components/policies/mapping"/>
-                                </v2>
-                            </text>
-                            <form jcr:primaryType="nt:unstructured">
-                                <text jcr:primaryType="nt:unstructured">
-                                    <v2 jcr:primaryType="nt:unstructured">
-                                        <text
-                                            cq:policy="core/wcm/components/form/text/v2/text/policy_1550289110975"
-                                            jcr:primaryType="nt:unstructured"
-                                            sling:resourceType="wcm/core/components/policies/mapping"/>
-                                    </v2>
-                                </text>
-                            </form>
                             <separator jcr:primaryType="nt:unstructured">
                                 <v1 jcr:primaryType="nt:unstructured">
                                     <separator
@@ -130,14 +88,62 @@
                                         sling:resourceType="wcm/core/components/policies/mapping"/>
                                 </v1>
                             </separator>
+                            <button jcr:primaryType="nt:unstructured">
+                                <v1 jcr:primaryType="nt:unstructured">
+                                    <button
+                                        cq:policy="core/wcm/components/button/v1/button/policy_1568591661081"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                                </v1>
+                            </button>
+                            <experiencefragment jcr:primaryType="nt:unstructured">
+                                <v1 jcr:primaryType="nt:unstructured">
+                                    <experiencefragment
+                                        cq:policy="core/wcm/components/experiencefragment/v1/experiencefragment/policy_34642779885901"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                                </v1>
+                            </experiencefragment>
+                            <embed jcr:primaryType="nt:unstructured">
+                                <v1 jcr:primaryType="nt:unstructured">
+                                    <embed
+                                        cq:policy="core/wcm/components/embed/v1/embed/policy_1594170470008"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                                </v1>
+                            </embed>
                             <container jcr:primaryType="nt:unstructured">
                                 <v1 jcr:primaryType="nt:unstructured">
-                                    <container
+                                    <search
                                         cq:policy="core/wcm/components/container/v1/container/policy_213106331986985"
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="wcm/core/components/policies/mapping"/>
                                 </v1>
                             </container>
+                            <accordion jcr:primaryType="nt:unstructured">
+                                <v1 jcr:primaryType="nt:unstructured">
+                                    <accordion
+                                        cq:policy="core/wcm/components/accordion/v1/accordion/policy_1571070092603"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                                </v1>
+                            </accordion>
+                            <tabs jcr:primaryType="nt:unstructured">
+                                <v1 jcr:primaryType="nt:unstructured">
+                                    <tabs
+                                        cq:policy="core/wcm/components/tabs/v1/tabs/policy_1594238204926"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                                </v1>
+                            </tabs>
+                            <contentfragment jcr:primaryType="nt:unstructured">
+                                <v1 jcr:primaryType="nt:unstructured">
+                                    <contentfragment
+                                        cq:policy="core/wcm/components/contentfragment/v1/contentfragment/policy_1571166588834"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                                </v1>
+                            </contentfragment>
                         </components>
                     </wcm>
                 </core>
