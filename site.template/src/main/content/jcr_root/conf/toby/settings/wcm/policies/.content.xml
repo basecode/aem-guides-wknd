@@ -69,40 +69,67 @@
                 <title jcr:primaryType="nt:unstructured">
                     <v2 jcr:primaryType="nt:unstructured">
                         <title jcr:primaryType="nt:unstructured">
-                            <policy_1544759499870
-                                jcr:lastModified="{Date}2018-12-20T19:58:20.742Z"
+                            <policy_349626543823562
+                                jcr:lastModified="{Date}2020-07-09T08:09:35.738-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="Core Components Examples - Title"
+                                jcr:title="toby Title - Global Styles"
                                 sling:resourceType="wcm/core/components/policy/policy"
                                 allowedTypes="[h1,h2,h3,h4,h5,h6]"
                                 linkDisabled="false"
                                 type="h1">
-                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
+                                    cq:lastReplicatedBy="admin"
+                                    cq:lastReplicationAction="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
                                 <cq:styleGroups jcr:primaryType="nt:unstructured">
                                     <item0
-                                        cq:styleGroupLabel="Heading"
+                                        cq:styleGroupLabel="Styles"
+                                        cq:styleGroupMultiple="true"
                                         jcr:primaryType="nt:unstructured">
                                         <cq:styles jcr:primaryType="nt:unstructured">
                                             <item0
-                                                cq:styleClasses="cmp-examples-title--heading1"
-                                                cq:styleId="1544759629303"
-                                                cq:styleLabel="Heading 1"
+                                                cq:styleClasses="cmp-title--underline"
+                                                cq:styleId="1568996484405"
+                                                cq:styleLabel="Underline"
                                                 jcr:primaryType="nt:unstructured"/>
                                             <item1
-                                                cq:styleClasses="cmp-examples-title--heading2"
-                                                cq:styleId="1544759664489"
-                                                cq:styleLabel="Heading 2"
+                                                cq:styleClasses="cmp-title--right"
+                                                cq:styleId="1568996465682"
+                                                cq:styleLabel="Align Right"
                                                 jcr:primaryType="nt:unstructured"/>
                                             <item2
-                                                cq:styleClasses="cmp-examples-title--heading3"
-                                                cq:styleId="1544759676459"
-                                                cq:styleLabel="Heading 3"
+                                                cq:styleClasses="cmp-title--minispacing"
+                                                cq:styleId="1570766394721"
+                                                cq:styleLabel="Mini Spacing"
                                                 jcr:primaryType="nt:unstructured"/>
                                         </cq:styles>
                                     </item0>
+                                    <item1
+                                        cq:styleGroupLabel="Colors"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="cmp-title--black"
+                                                cq:styleId="1568996420379"
+                                                cq:styleLabel="Black"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item1
+                                                cq:styleClasses="cmp-title--white"
+                                                cq:styleId="1568996427017"
+                                                cq:styleLabel="White"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item2
+                                                cq:styleClasses="cmp-title--gray"
+                                                cq:styleId="1569448732502"
+                                                cq:styleLabel="Gray"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item1>
                                 </cq:styleGroups>
-                            </policy_1544759499870>
+                            </policy_349626543823562>
                         </title>
                     </v2>
                     <v1 jcr:primaryType="nt:unstructured">

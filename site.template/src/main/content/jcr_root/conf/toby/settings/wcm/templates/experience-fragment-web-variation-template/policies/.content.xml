@@ -29,7 +29,7 @@
                             <title jcr:primaryType="nt:unstructured">
                                 <v2 jcr:primaryType="nt:unstructured">
                                     <title
-                                        cq:policy="core/wcm/components/title/v2/title/policy_1544759499870"
+                                        cq:policy="core/wcm/components/title/v2/title/policy_349626543823562"
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="wcm/core/components/policies/mapping"/>
                                 </v2>
@@ -166,7 +166,7 @@
                             <title jcr:primaryType="nt:unstructured">
                                 <v2 jcr:primaryType="nt:unstructured">
                                     <title jcr:primaryType="nt:unstructured">
-                                        <policy_1544759499870
+                                        <policy_349626543823562
                                             jcr:lastModified="{Date}2018-12-20T19:58:20.742Z"
                                             jcr:lastModifiedBy="admin"
                                             jcr:primaryType="nt:unstructured"
@@ -199,7 +199,7 @@
                                                     </cq:styles>
                                                 </item0>
                                             </cq:styleGroups>
-                                        </policy_1544759499870>
+                                        </policy_349626543823562>
                                     </title>
                                 </v2>
                                 <v1 jcr:primaryType="nt:unstructured">
