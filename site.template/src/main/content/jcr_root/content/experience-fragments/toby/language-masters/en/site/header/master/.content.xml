@@ -31,31 +31,6 @@
                     sling:resourceType="core/wcm/components/container/v1/container"
                     layout="responsiveGrid">
                     <cq:responsive jcr:primaryType="nt:unstructured"/>
-                    <sign-in-buttons
-                        jcr:lastModified="{Date}2019-10-21T20:28:42.774-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="core/wcm/components/form/button/v2/button"
-                        greetingLabel="Welcome"
-                        signInLabel="Sign In"
-                        signInXfPath="/content/experience-fragments/toby/language-masters/en/site/sign-in/master"
-                        signOutLabel="Sign Out"
-                        signOutXfPath="/content/experience-fragments/toby/language-masters/en/site/sign-out/master">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="10"/>
-                            <phone
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="8"/>
-                            <tablet
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="8"/>
-                        </cq:responsive>
-                    </sign-in-buttons>
                     <languagenavigation
                         cq:styleIds="[1568591864735]"
                         jcr:created="{Date}2019-09-15T16:50:57.944-07:00"
