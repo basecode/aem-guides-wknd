@@ -28,7 +28,8 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/separator/v1/separator"/>
-                <byline_copy
+                <byline
+                    cq:styleIds="[1568592012877]"
                     jcr:created="{Date}2019-09-25T14:32:57.008-07:00"
                     jcr:createdBy="admin"
                     jcr:lastModified="{Date}2019-10-27T21:19:28.270-07:00"
@@ -52,7 +53,7 @@
                             offset="0"
                             width="12"/>
                     </cq:responsive>
-                </byline_copy>
+                </byline>
                 <button
                     cq:masterBuildingBlock="{Boolean}true"
                     cq:styleIds="[1571358661842]"

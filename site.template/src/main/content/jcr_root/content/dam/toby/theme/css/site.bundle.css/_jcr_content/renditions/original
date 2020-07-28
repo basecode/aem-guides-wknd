@@ -5815,34 +5815,6 @@ p {
     margin-top:0
 }
 
-.cmp-byline .cmp-byline__image {
-    float:left
-}
-
-.cmp-byline .cmp-byline__image .cmp-image__image {
-    width: 60px;
-    height: 60px;
-    border-radius: 30px;
-    -o-object-fit: cover;
-    object-fit:cover
-}
-
-.cmp-byline .cmp-byline__name {
-    font-size: 24px;
-    font-family: Asar, Georgia, Times New Roman, Times, serif;
-    padding-top: .5rem;
-    margin-left: 85px;
-    margin-bottom: .25rem;
-    margin-top:0
-}
-
-.cmp-byline .cmp-byline__occupations {
-    margin-left: 85px;
-    color: #696969;
-    font-size: 9pt;
-    text-transform:uppercase
-}
-
 .button {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -6244,6 +6216,34 @@ p {
         margin-left: 2rem;
         margin-top:.75rem
     }
+}
+
+.cmp-image--byline {
+    float:left
+}
+
+.cmp-image--byline .cmp-image__image {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    -o-object-fit: cover;
+    object-fit:cover
+}
+
+.cmp-image--byline .cmp-byline__name {
+    font-size: 24px;
+    font-family: Asar, Georgia, Times New Roman, Times, serif;
+    padding-top: .5rem;
+    margin-left: 85px;
+    margin-bottom: .25rem;
+    margin-top:0
+}
+
+.cmp-image--byline .cmp-byline__occupations {
+    margin-left: 85px;
+    color: #696969;
+    font-size: 9pt;
+    text-transform:uppercase
 }
 
 .cmp-image-list {

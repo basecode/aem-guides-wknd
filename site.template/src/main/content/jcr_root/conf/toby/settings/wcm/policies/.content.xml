@@ -773,6 +773,11 @@
                                                 cq:styleId="1568592012684"
                                                 cq:styleLabel="Logo"
                                                 jcr:primaryType="nt:unstructured"/>
+                                            <item2
+                                                cq:styleClasses="cmp-image--byline"
+                                                cq:styleId="1568592012877"
+                                                cq:styleLabel="Byline"
+                                                jcr:primaryType="nt:unstructured"/>
                                         </cq:styles>
                                     </item0>
                                 </cq:styleGroups>
