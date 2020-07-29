@@ -7,7 +7,7 @@
         cq:lastRolledout="{Date}2020-07-09T08:54:52.025-07:00"
         cq:lastRolledoutBy="admin"
         cq:tags="[]"
-        cq:template="/conf/toby/settings/wcm/templates/article-page-template"
+        cq:template="/conf/wkndsk/settings/wcm/templates/article-page-template"
         jcr:description="Deep within the heart of the Amazon we had an unforgettable cultural experience with spectacular wildlife, all in a remote, beautiful setting with strange fish of all shapes and sizes."
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[cq:LiveRelationship,mix:versionable]"
@@ -43,7 +43,7 @@
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/image/v2/image"
-                    fileReference="/content/dam/toby/en/magazine/fly-fishing-amazon/amazon-river-02.JPG"
+                    fileReference="/content/dam/wkndsk/en/magazine/fly-fishing-amazon/amazon-river-02.JPG"
                     imageCrop="0,0,1279,791"/>
                 <container
                     cq:lastRolledout="{Date}2020-07-09T08:54:51.976-07:00"
@@ -90,7 +90,7 @@
                         sling:resourceType="core/wcm/components/contentfragment/v1/contentfragment"
                         displayMode="singleText"
                         elementNames="main"
-                        fragmentPath="/content/dam/toby/en/magazine/fly-fishing-amazon/fly-fishing"
+                        fragmentPath="/content/dam/wkndsk/en/magazine/fly-fishing-amazon/fly-fishing"
                         text=""
                         variationName="master">
                         <par1
@@ -109,7 +109,7 @@
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/image/v2/image"
-                                fileReference="/content/dam/toby/en/magazine/fly-fishing-amazon/amazon-river-01.JPG"/>
+                                fileReference="/content/dam/wkndsk/en/magazine/fly-fishing-amazon/amazon-river-01.JPG"/>
                         </par1>
                         <par4
                             cq:lastRolledout="{Date}2020-07-09T08:54:51.997-07:00"
@@ -127,7 +127,7 @@
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/image/v2/image"
-                                fileReference="/content/dam/toby/en/magazine/fly-fishing-amazon/dorado-fish-03.JPG"/>
+                                fileReference="/content/dam/wkndsk/en/magazine/fly-fishing-amazon/dorado-fish-03.JPG"/>
                         </par4>
                         <par8
                             cq:lastRolledout="{Date}2020-07-09T08:54:52.002-07:00"
@@ -145,7 +145,7 @@
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/image/v2/image"
-                                fileReference="/content/dam/toby/en/magazine/fly-fishing-amazon/milkyway-amazon.JPG"/>
+                                fileReference="/content/dam/wkndsk/en/magazine/fly-fishing-amazon/milkyway-amazon.JPG"/>
                         </par8>
                     </contentfragment>
                     <experiencefragment
@@ -158,7 +158,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
-                        fragmentVariationPath="/content/experience-fragments/toby/language-masters/en/contributors/jake-hammer/byline"/>
+                        fragmentVariationPath="/content/experience-fragments/wkndsk/language-masters/en/contributors/jake-hammer/byline"/>
                 </container>
                 <container_223059690
                     cq:lastRolledout="{Date}2020-07-09T08:54:52.013-07:00"
@@ -209,7 +209,7 @@
                         listFrom="children"
                         maxItems="4"
                         orderBy="modified"
-                        parentPage="/content/toby/us/en/magazine"
+                        parentPage="/content/wkndsk/us/en/magazine"
                         showDescription="false"
                         showModificationDate="true"
                         sortOrder="desc"

@@ -6,7 +6,7 @@
     jcr:uuid="b6ae783f-ecf7-49a5-b4f0-1f7fabd30c96">
     <jcr:content
         cq:name="Skitouring1Sjoeberg.JPG"
-        cq:parentPath="/content/dam/toby/en/magazine/skitouring"
+        cq:parentPath="/content/dam/wkndsk/en/magazine/skitouring"
         dam:assetState="processed"
         jcr:lastModified="{Date}2019-10-25T16:49:58.925-07:00"
         jcr:lastModifiedBy="admin"

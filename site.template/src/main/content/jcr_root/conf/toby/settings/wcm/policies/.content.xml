@@ -1042,7 +1042,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="WKND Language Navigation"
                                 sling:resourceType="wcm/core/components/policy/policy"
-                                navigationRoot="/content/toby"
+                                navigationRoot="/content/wkndsk"
                                 structureDepth="1">
                                 <jcr:content jcr:primaryType="nt:unstructured"/>
                                 <cq:styleGroups jcr:primaryType="nt:unstructured">
@@ -1075,7 +1075,7 @@
                                 jcr:title="WKND Navigation - Header "
                                 sling:resourceType="wcm/core/components/policy/policy"
                                 collectAllPages="false"
-                                navigationRoot="/content/toby/en"
+                                navigationRoot="/content/wkndsk/en"
                                 skipNavigationRoot="true"
                                 structureDepth="1">
                                 <jcr:content
@@ -1093,7 +1093,7 @@
                                 jcr:title="WKND Navigation - Footer"
                                 sling:resourceType="wcm/core/components/policy/policy"
                                 collectAllPages="false"
-                                navigationRoot="/content/toby/en"
+                                navigationRoot="/content/wkndsk/en"
                                 skipNavigationRoot="true"
                                 structureDepth="1">
                                 <jcr:content
@@ -1110,7 +1110,7 @@
                                 jcr:title="WKND Navigation"
                                 sling:resourceType="wcm/core/components/policy/policy"
                                 collectAllPages="true"
-                                navigationRoot="/content/toby"
+                                navigationRoot="/content/wkndsk"
                                 skipNavigationRoot="true"
                                 structureDepth="1">
                                 <jcr:content jcr:primaryType="nt:unstructured"/>
@@ -1146,7 +1146,7 @@
                                 jcr:title="WKND Search - Header"
                                 sling:resourceType="wcm/core/components/policy/policy"
                                 resultsSize="5"
-                                searchRoot="/content/toby"
+                                searchRoot="/content/wkndsk"
                                 searchTermMinimumLength="3">
                                 <jcr:content
                                     cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"

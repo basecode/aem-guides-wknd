@@ -4,7 +4,7 @@
     <jcr:content
         cq:lastModified="{Date}2019-10-22T16:16:32.661-07:00"
         cq:lastModifiedBy="admin"
-        cq:template="/conf/toby/settings/wcm/templates/experience-fragment-web-variation-template"
+        cq:template="/conf/wkndsk/settings/wcm/templates/experience-fragment-web-variation-template"
         cq:xfMasterVariation="{Boolean}true"
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"

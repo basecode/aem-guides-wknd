@@ -6,7 +6,7 @@
     jcr:uuid="a87b3619-faf1-439e-991d-63b6a54cc0b3">
     <jcr:content
         cq:name="camp-alaska.JPG"
-        cq:parentPath="/content/dam/toby/en/magazine/alaska-adventure"
+        cq:parentPath="/content/dam/wkndsk/en/magazine/alaska-adventure"
         dam:assetState="processed"
         jcr:lastModified="{Date}2019-10-25T16:50:46.260-07:00"
         jcr:lastModifiedBy="admin"

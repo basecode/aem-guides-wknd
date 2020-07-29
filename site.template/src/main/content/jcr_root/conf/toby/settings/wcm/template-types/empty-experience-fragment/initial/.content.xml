@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:tags="[experience-fragments:variation/web]"
-        cq:template="/conf/toby/settings/wcm/templates/empty-experience-fragment"
+        cq:template="/conf/wkndsk/settings/wcm/templates/empty-experience-fragment"
         cq:xfVariantType="web"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="cq/experience-fragments/components/xfpage"/>

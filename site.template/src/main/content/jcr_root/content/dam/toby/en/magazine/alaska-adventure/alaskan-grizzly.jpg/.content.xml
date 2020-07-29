@@ -6,7 +6,7 @@
     jcr:uuid="fdcc664d-f0f7-4061-a877-b8de624b295d">
     <jcr:content
         cq:name="alaskan-grizzly.jpg"
-        cq:parentPath="/content/dam/toby/en/magazine/alaska-adventure"
+        cq:parentPath="/content/dam/wkndsk/en/magazine/alaska-adventure"
         dam:assetState="processed"
         jcr:lastModified="{Date}2019-10-25T16:49:43.099-07:00"
         jcr:lastModifiedBy="admin"

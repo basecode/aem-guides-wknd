@@ -4,7 +4,7 @@
     <jcr:content
         cq:lastModified="{Date}2020-07-08T14:54:45.057-07:00"
         cq:lastModifiedBy="admin"
-        cq:templateType="/conf/toby/settings/wcm/template-types/content-page"
+        cq:templateType="/conf/wkndsk/settings/wcm/template-types/content-page"
         jcr:primaryType="cq:PageContent"
         jcr:title="Adventure Page Template"
         status="enabled"/>

@@ -6,7 +6,7 @@
     jcr:uuid="21269b12-57ed-487c-ae0d-fe316a2f8ada">
     <jcr:content
         cq:name="skitouring"
-        cq:parentPath="/content/dam/toby/en/magazine/skitouring"
+        cq:parentPath="/content/dam/wkndsk/en/magazine/skitouring"
         jcr:description=""
         jcr:lastModified="{Date}2019-10-01T15:54:21.913-07:00"
         jcr:lastModifiedBy="admin"
@@ -15,7 +15,7 @@
         contentFragment="{Boolean}true"
         lastFragmentSave="{Date}2019-10-01T15:54:21.913-07:00">
         <data
-            cq:model="/conf/toby/settings/dam/cfm/models/article"
+            cq:model="/conf/wkndsk/settings/dam/cfm/models/article"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:mixinTypes="[cq:Taggable]"

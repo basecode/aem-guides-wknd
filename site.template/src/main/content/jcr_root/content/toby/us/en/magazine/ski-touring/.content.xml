@@ -7,7 +7,7 @@
         cq:lastRolledout="{Date}2020-07-09T13:17:52.089-07:00"
         cq:lastRolledoutBy="admin"
         cq:tags="[]"
-        cq:template="/conf/toby/settings/wcm/templates/article-page-template"
+        cq:template="/conf/wkndsk/settings/wcm/templates/article-page-template"
         jcr:description="Learn about our ski touring experience and how it differs from traditional downhill skiing and even backcountry skiing."
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[cq:LiveRelationship,mix:versionable]"
@@ -43,7 +43,7 @@
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/image/v2/image"
-                    fileReference="/content/dam/toby/en/magazine/skitouring/Skitouring1Sjoeberg.JPG"/>
+                    fileReference="/content/dam/wkndsk/en/magazine/skitouring/Skitouring1Sjoeberg.JPG"/>
                 <container
                     cq:lastRolledout="{Date}2020-07-09T13:17:51.998-07:00"
                     cq:lastRolledoutBy="admin"
@@ -89,7 +89,7 @@
                         sling:resourceType="core/wcm/components/contentfragment/v1/contentfragment"
                         displayMode="singleText"
                         elementNames="main"
-                        fragmentPath="/content/dam/toby/en/magazine/skitouring/skitouring"
+                        fragmentPath="/content/dam/wkndsk/en/magazine/skitouring/skitouring"
                         text=""
                         variationName="master">
                         <par1
@@ -108,7 +108,7 @@
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/image/v2/image"
-                                fileReference="/content/dam/toby/en/magazine/skitouring/Skitouring5Sjoeberg.JPG"/>
+                                fileReference="/content/dam/wkndsk/en/magazine/skitouring/Skitouring5Sjoeberg.JPG"/>
                             <text
                                 cq:lastRolledout="{Date}2020-07-09T13:17:52.042-07:00"
                                 cq:lastRolledoutBy="admin"
@@ -139,7 +139,7 @@
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/image/v2/image"
-                                fileReference="/content/dam/toby/en/magazine/skitouring/Skitouring3Sjoeberg.JPG"/>
+                                fileReference="/content/dam/wkndsk/en/magazine/skitouring/Skitouring3Sjoeberg.JPG"/>
                         </par2>
                         <par3
                             cq:lastRolledout="{Date}2020-07-09T13:17:52.051-07:00"
@@ -157,7 +157,7 @@
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/image/v2/image"
-                                fileReference="/content/dam/toby/en/magazine/skitouring/Skitouring6Sjoeberg.JPG"/>
+                                fileReference="/content/dam/wkndsk/en/magazine/skitouring/Skitouring6Sjoeberg.JPG"/>
                         </par3>
                         <par4
                             cq:lastRolledout="{Date}2020-07-09T13:17:52.057-07:00"
@@ -175,7 +175,7 @@
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/image/v2/image"
-                                fileReference="/content/dam/toby/en/magazine/skitouring/Skitouring8Sjoeberg.JPG"/>
+                                fileReference="/content/dam/wkndsk/en/magazine/skitouring/Skitouring8Sjoeberg.JPG"/>
                         </par4>
                     </contentfragment>
                     <experiencefragment
@@ -188,7 +188,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
-                        fragmentVariationPath="/content/experience-fragments/toby/language-masters/en/contributors/sofia-sjoeberg/byline"/>
+                        fragmentVariationPath="/content/experience-fragments/wkndsk/language-masters/en/contributors/sofia-sjoeberg/byline"/>
                 </container>
                 <container_223059690
                     cq:lastRolledout="{Date}2020-07-09T13:17:52.073-07:00"
@@ -239,7 +239,7 @@
                         listFrom="children"
                         maxItems="4"
                         orderBy="modified"
-                        parentPage="/content/toby/us/en/magazine"
+                        parentPage="/content/wkndsk/us/en/magazine"
                         showDescription="false"
                         showModificationDate="true"
                         sortOrder="desc"

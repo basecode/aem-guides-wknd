@@ -6,7 +6,7 @@
     jcr:uuid="63749d4f-e340-407e-af89-e35685f01091">
     <jcr:content
         cq:name="adam-wilson-642203-unsplash.jpg"
-        cq:parentPath="/content/dam/toby/en/adventures/beervana-portland"
+        cq:parentPath="/content/dam/wkndsk/en/adventures/beervana-portland"
         dam:assetState="processed"
         jcr:lastModified="{Date}2019-10-25T16:48:35.080-07:00"
         jcr:lastModifiedBy="admin"

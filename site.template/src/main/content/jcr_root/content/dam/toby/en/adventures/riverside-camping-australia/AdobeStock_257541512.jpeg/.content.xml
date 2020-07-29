@@ -6,7 +6,7 @@
     jcr:uuid="c1b0a800-a2ff-4f93-a5e5-aaad3646d5aa">
     <jcr:content
         cq:name="AdobeStock_257541512.jpeg"
-        cq:parentPath="/content/dam/toby/en/adventures/riverside-camping-australia"
+        cq:parentPath="/content/dam/wkndsk/en/adventures/riverside-camping-australia"
         dam:assetState="processed"
         jcr:lastModified="{Date}2019-10-25T16:48:12.604-07:00"
         jcr:lastModifiedBy="admin"

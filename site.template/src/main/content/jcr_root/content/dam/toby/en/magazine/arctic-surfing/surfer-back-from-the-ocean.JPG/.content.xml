@@ -6,7 +6,7 @@
     jcr:uuid="dd42d814-88ec-4c4d-b5ef-e3dc4bc0cb42">
     <jcr:content
         cq:name="surfer-back-from-the-ocean.JPG"
-        cq:parentPath="/content/dam/toby/en/magazine/arctic-surfing"
+        cq:parentPath="/content/dam/wkndsk/en/magazine/arctic-surfing"
         dam:assetState="processed"
         jcr:lastModified="{Date}2019-10-25T16:50:26.301-07:00"
         jcr:lastModifiedBy="admin"

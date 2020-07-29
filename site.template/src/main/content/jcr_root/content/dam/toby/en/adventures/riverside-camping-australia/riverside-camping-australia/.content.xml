@@ -6,7 +6,7 @@
     jcr:uuid="39678c95-d5e0-4162-ab49-51b38b5e8389">
     <jcr:content
         cq:name="riverside-camping-australia"
-        cq:parentPath="/content/dam/toby/en/adventures/riverside-camping-australia"
+        cq:parentPath="/content/dam/wkndsk/en/adventures/riverside-camping-australia"
         jcr:description=""
         jcr:lastModified="{Date}2019-10-16T16:09:21.613-07:00"
         jcr:lastModifiedBy="admin"
@@ -15,7 +15,7 @@
         contentFragment="{Boolean}true"
         lastFragmentSave="{Date}2019-10-16T16:09:21.613-07:00">
         <data
-            cq:model="/conf/toby/settings/dam/cfm/models/adventure"
+            cq:model="/conf/wkndsk/settings/dam/cfm/models/adventure"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:mixinTypes="[cq:Taggable]"

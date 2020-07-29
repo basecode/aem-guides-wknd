@@ -5,8 +5,8 @@
     <jcr:content
         cq:lastModified="{Date}2020-07-09T08:15:27.859-07:00"
         cq:lastModifiedBy="admin"
-        cq:tags="[toby:customer-journey/attract]"
-        cq:template="/conf/toby/settings/wcm/templates/landing-page-template"
+        cq:tags="[wkndsk:customer-journey/attract]"
+        cq:template="/conf/wkndsk/settings/wcm/templates/landing-page-template"
         jcr:description="WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world."
         jcr:primaryType="cq:PageContent"
         jcr:title="WKND Adventures and Travel"
@@ -44,13 +44,13 @@
                         sling:resourceType="core/wcm/components/teaser/v1/teaser"
                         actionsEnabled="true"
                         descriptionFromPage="true"
-                        fileReference="/content/dam/toby/en/adventures/riverside-camping-australia/AdobeStock_216674449.jpeg"
+                        fileReference="/content/dam/wkndsk/en/adventures/riverside-camping-australia/AdobeStock_216674449.jpeg"
                         textIsRich="true"
                         titleFromPage="false">
                         <actions jcr:primaryType="nt:unstructured">
                             <item0
                                 jcr:primaryType="nt:unstructured"
-                                link="/content/toby/language-masters/en/adventures"
+                                link="/content/wkndsk/language-masters/en/adventures"
                                 text="View Trips"/>
                         </actions>
                     </item_1571954853062>
@@ -63,13 +63,13 @@
                         sling:resourceType="core/wcm/components/teaser/v1/teaser"
                         actionsEnabled="true"
                         descriptionFromPage="true"
-                        fileReference="/content/dam/toby/en/magazine/san-diego-surf-spots/beach-walking.jpg"
+                        fileReference="/content/dam/wkndsk/en/magazine/san-diego-surf-spots/beach-walking.jpg"
                         textIsRich="true"
                         titleFromPage="true">
                         <actions jcr:primaryType="nt:unstructured">
                             <item0
                                 jcr:primaryType="nt:unstructured"
-                                link="/content/toby/language-masters/en/magazine/san-diego-surf"
+                                link="/content/wkndsk/language-masters/en/magazine/san-diego-surf"
                                 text="Read More"/>
                         </actions>
                     </item_1572035298405>
@@ -85,13 +85,13 @@
                         sling:resourceType="core/wcm/components/teaser/v1/teaser"
                         actionsEnabled="true"
                         descriptionFromPage="false"
-                        fileReference="/content/dam/toby/en/adventures/downhill-skiing-wyoming/AdobeStock_185234795.jpeg"
+                        fileReference="/content/dam/wkndsk/en/adventures/downhill-skiing-wyoming/AdobeStock_185234795.jpeg"
                         textIsRich="true"
                         titleFromPage="true">
                         <actions jcr:primaryType="nt:unstructured">
                             <item0
                                 jcr:primaryType="nt:unstructured"
-                                link="/content/toby/language-masters/en/adventures/downhill-skiing-wyoming"
+                                link="/content/wkndsk/language-masters/en/adventures/downhill-skiing-wyoming"
                                 text="Read More"/>
                         </actions>
                     </teaser>
@@ -118,13 +118,13 @@
                         sling:resourceType="core/wcm/components/teaser/v1/teaser"
                         actionsEnabled="true"
                         descriptionFromPage="false"
-                        fileReference="/content/dam/toby/en/magazine/western-australia/adobestock_156407519.jpeg"
+                        fileReference="/content/dam/wkndsk/en/magazine/western-australia/adobestock_156407519.jpeg"
                         textIsRich="true"
                         titleFromPage="false">
                         <actions jcr:primaryType="nt:unstructured">
                             <item0
                                 jcr:primaryType="nt:unstructured"
-                                link="/content/toby/language-masters/en/magazine/western-australia"
+                                link="/content/wkndsk/language-masters/en/magazine/western-australia"
                                 text="Read More"/>
                         </actions>
                     </teaser>
@@ -147,8 +147,8 @@
                         sling:resourceType="core/wcm/components/image/v2/image-list"
                         childDepth="1"
                         listFrom="static"
-                        pages="[/content/toby/language-masters/en/magazine/guide-la-skateparks,/content/toby/language-masters/en/magazine/ski-touring,/content/toby/language-masters/en/magazine/arctic-surfing,/content/toby/language-masters/en/magazine/san-diego-surf]"
-                        parentPage="/content/toby/language-masters/en/magazine"
+                        pages="[/content/wkndsk/language-masters/en/magazine/guide-la-skateparks,/content/wkndsk/language-masters/en/magazine/ski-touring,/content/wkndsk/language-masters/en/magazine/arctic-surfing,/content/wkndsk/language-masters/en/magazine/san-diego-surf]"
+                        parentPage="/content/wkndsk/language-masters/en/magazine"
                         sortOrder="desc"
                         tagsMatch="any"/>
                     <button_copy
@@ -161,7 +161,7 @@
                         jcr:title="View All"
                         sling:resourceType="core/wcm/components/button/v1/button"
                         accessibilityLabel="read our articles"
-                        link="/content/toby/language-masters/en/magazine"/>
+                        link="/content/wkndsk/language-masters/en/magazine"/>
                     <separator
                         jcr:created="{Date}2019-10-27T16:13:09.680-07:00"
                         jcr:createdBy="admin"
@@ -192,13 +192,13 @@
                     sling:resourceType="core/wcm/components/teaser/v1/teaser"
                     actionsEnabled="true"
                     descriptionFromPage="true"
-                    fileReference="/content/dam/toby/en/adventures/climbing-new-zealand/AdobeStock_140634652.jpeg"
+                    fileReference="/content/dam/wkndsk/en/adventures/climbing-new-zealand/AdobeStock_140634652.jpeg"
                     textIsRich="true"
                     titleFromPage="true">
                     <actions jcr:primaryType="nt:unstructured">
                         <item0
                             jcr:primaryType="nt:unstructured"
-                            link="/content/toby/language-masters/en/adventures/climbing-new-zealand"
+                            link="/content/wkndsk/language-masters/en/adventures/climbing-new-zealand"
                             text="See Trip"/>
                     </actions>
                 </teaser>
@@ -231,7 +231,7 @@
                         listFrom="children"
                         maxItems="4"
                         orderBy="title"
-                        parentPage="/content/toby/language-masters/en/adventures"
+                        parentPage="/content/wkndsk/language-masters/en/adventures"
                         sortOrder="desc"
                         tagsMatch="any"/>
                     <button
@@ -244,7 +244,7 @@
                         jcr:title="Explore All"
                         sling:resourceType="core/wcm/components/button/v1/button"
                         accessibilityLabel="explore our adventures"
-                        link="/content/toby/language-masters/en/adventures"/>
+                        link="/content/wkndsk/language-masters/en/adventures"/>
                     <separator
                         jcr:created="{Date}2019-10-21T11:37:59.604-07:00"
                         jcr:createdBy="admin"

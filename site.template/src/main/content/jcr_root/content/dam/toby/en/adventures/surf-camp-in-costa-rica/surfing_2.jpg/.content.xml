@@ -6,7 +6,7 @@
     jcr:uuid="77ed958c-9433-471d-9b37-f770de400bf2">
     <jcr:content
         cq:name="surfing_2.jpg"
-        cq:parentPath="/content/dam/toby/en/adventures/surf-camp-in-costa-rica"
+        cq:parentPath="/content/dam/wkndsk/en/adventures/surf-camp-in-costa-rica"
         dam:assetState="processed"
         jcr:lastModified="{Date}2019-10-25T16:48:20.202-07:00"
         jcr:lastModifiedBy="admin"

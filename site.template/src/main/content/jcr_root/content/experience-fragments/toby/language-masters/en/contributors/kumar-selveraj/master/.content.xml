@@ -5,7 +5,7 @@
         cq:lastModified="{Date}2019-10-28T10:43:57.663-07:00"
         cq:lastModifiedBy="admin"
         cq:tags="[]"
-        cq:template="/conf/toby/settings/wcm/templates/experience-fragment-web-variation-template"
+        cq:template="/conf/wkndsk/settings/wcm/templates/experience-fragment-web-variation-template"
         cq:xfVariantType="web"
         jcr:primaryType="cq:PageContent"
         jcr:title="Master"
@@ -28,7 +28,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/image/v2/image"
-                    fileReference="/content/dam/toby/en/contributors/Kumar_Selvaraj.JPG"/>
+                    fileReference="/content/dam/wkndsk/en/contributors/Kumar_Selvaraj.JPG"/>
                 <title
                     jcr:created="{Date}2019-10-02T12:35:47.243-07:00"
                     jcr:createdBy="admin"

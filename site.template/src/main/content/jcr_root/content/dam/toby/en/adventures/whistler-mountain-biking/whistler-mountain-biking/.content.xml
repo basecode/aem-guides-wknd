@@ -6,7 +6,7 @@
     jcr:uuid="576374bc-e25b-428f-a249-1b615e5c0cf0">
     <jcr:content
         cq:name="whistler-mountain-biking"
-        cq:parentPath="/content/dam/toby/en/adventures/whistler-mountain-biking"
+        cq:parentPath="/content/dam/wkndsk/en/adventures/whistler-mountain-biking"
         jcr:description=""
         jcr:lastModified="{Date}2019-10-16T15:56:35.802-07:00"
         jcr:lastModifiedBy="admin"
@@ -15,7 +15,7 @@
         contentFragment="{Boolean}true"
         lastFragmentSave="{Date}2019-10-16T15:56:35.802-07:00">
         <data
-            cq:model="/conf/toby/settings/dam/cfm/models/adventure"
+            cq:model="/conf/wkndsk/settings/dam/cfm/models/adventure"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:mixinTypes="[cq:Taggable]"

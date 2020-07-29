@@ -6,7 +6,7 @@
     jcr:uuid="3027752d-0682-43bd-80d5-6eb7ebda6d02">
     <jcr:content
         cq:name="AdobeStock_122618183.jpeg"
-        cq:parentPath="/content/dam/toby/en/adventures/whistler-mountain-biking"
+        cq:parentPath="/content/dam/wkndsk/en/adventures/whistler-mountain-biking"
         dam:assetState="processed"
         jcr:lastModified="{Date}2019-10-25T16:48:20.863-07:00"
         jcr:lastModifiedBy="admin"

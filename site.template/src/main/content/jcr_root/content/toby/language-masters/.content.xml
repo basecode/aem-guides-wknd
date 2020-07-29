@@ -4,7 +4,7 @@
     <jcr:content
         cq:lastModified="{Date}2019-09-26T09:40:48.959-07:00"
         cq:lastModifiedBy="admin"
-        cq:template="/conf/toby/settings/wcm/templates/landing-page-template"
+        cq:template="/conf/wkndsk/settings/wcm/templates/landing-page-template"
         jcr:primaryType="cq:PageContent"
         jcr:title="Language Masters"
         sling:resourceType="core/wcm/components/page/v2/page"

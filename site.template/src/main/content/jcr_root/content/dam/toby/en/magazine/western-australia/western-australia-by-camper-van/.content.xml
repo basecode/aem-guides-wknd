@@ -6,7 +6,7 @@
     jcr:uuid="b46dd28c-6862-4f8b-bc34-868000f04ca9">
     <jcr:content
         cq:name="western-australia-by-camper-van"
-        cq:parentPath="/content/dam/toby/en/magazine/western-australia"
+        cq:parentPath="/content/dam/wkndsk/en/magazine/western-australia"
         cq:versionCreator="admin"
         jcr:description=""
         jcr:lastModified="{Date}2019-10-01T15:41:38.045-07:00"
@@ -16,7 +16,7 @@
         contentFragment="{Boolean}true"
         lastFragmentSave="{Date}2019-10-01T15:41:38.045-07:00">
         <data
-            cq:model="/conf/toby/settings/dam/cfm/models/article"
+            cq:model="/conf/wkndsk/settings/dam/cfm/models/article"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:mixinTypes="[cq:Taggable]"

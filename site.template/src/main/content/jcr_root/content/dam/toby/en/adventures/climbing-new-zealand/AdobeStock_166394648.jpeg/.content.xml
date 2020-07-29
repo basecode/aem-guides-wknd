@@ -6,7 +6,7 @@
     jcr:uuid="5e2f417a-185c-4515-a9a4-40ba11fb7d8a">
     <jcr:content
         cq:name="AdobeStock_166394648.jpeg"
-        cq:parentPath="/content/dam/toby/en/adventures/climbing-new-zealand"
+        cq:parentPath="/content/dam/wkndsk/en/adventures/climbing-new-zealand"
         dam:assetState="processed"
         jcr:lastModified="{Date}2019-10-25T16:47:34.068-07:00"
         jcr:lastModifiedBy="admin"

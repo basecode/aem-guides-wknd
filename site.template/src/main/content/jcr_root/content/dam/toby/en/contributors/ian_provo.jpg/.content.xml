@@ -6,7 +6,7 @@
     jcr:uuid="1fb05fe4-c12b-4f85-b1ca-aa92cdbd6a62">
     <jcr:content
         cq:name="ian_provo.jpg"
-        cq:parentPath="/content/dam/toby/en/contributors"
+        cq:parentPath="/content/dam/wkndsk/en/contributors"
         dam:assetState="processed"
         jcr:lastModified="{Date}2019-10-25T16:50:53.507-07:00"
         jcr:lastModifiedBy="admin"

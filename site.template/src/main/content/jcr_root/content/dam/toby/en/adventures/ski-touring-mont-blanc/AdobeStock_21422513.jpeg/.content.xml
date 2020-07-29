@@ -6,7 +6,7 @@
     jcr:uuid="4a3eed65-5039-41dc-bc9f-5de0ef93b2a0">
     <jcr:content
         cq:name="AdobeStock_21422513.jpeg"
-        cq:parentPath="/content/dam/toby/en/adventures/ski-touring-mont-blanc"
+        cq:parentPath="/content/dam/wkndsk/en/adventures/ski-touring-mont-blanc"
         dam:assetState="processed"
         jcr:lastModified="{Date}2019-10-25T16:48:38.899-07:00"
         jcr:lastModifiedBy="admin"

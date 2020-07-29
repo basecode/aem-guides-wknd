@@ -6,7 +6,7 @@
     jcr:uuid="da306d08-52ad-4421-8de9-62c4a14e30eb">
     <jcr:content
         cq:name="aloha-spirits-in-northern-norway"
-        cq:parentPath="/content/dam/toby/en/magazine/arctic-surfing"
+        cq:parentPath="/content/dam/wkndsk/en/magazine/arctic-surfing"
         jcr:description=""
         jcr:lastModified="{Date}2019-10-01T15:45:15.108-07:00"
         jcr:lastModifiedBy="admin"
@@ -15,7 +15,7 @@
         contentFragment="{Boolean}true"
         lastFragmentSave="{Date}2019-10-01T15:45:15.108-07:00">
         <data
-            cq:model="/conf/toby/settings/dam/cfm/models/article"
+            cq:model="/conf/wkndsk/settings/dam/cfm/models/article"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:mixinTypes="[cq:Taggable]"

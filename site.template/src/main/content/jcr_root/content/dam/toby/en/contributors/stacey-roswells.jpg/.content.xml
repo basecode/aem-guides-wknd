@@ -6,7 +6,7 @@
     jcr:uuid="142658f8-4029-4299-9cd6-51afd52345c0">
     <jcr:content
         cq:name="stacey-roswells.jpg"
-        cq:parentPath="/content/dam/toby/en/contributors"
+        cq:parentPath="/content/dam/wkndsk/en/contributors"
         dam:assetState="processed"
         jcr:lastModified="{Date}2019-10-25T16:49:51.650-07:00"
         jcr:lastModifiedBy="admin"

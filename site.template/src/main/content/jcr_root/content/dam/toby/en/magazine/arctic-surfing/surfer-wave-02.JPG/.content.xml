@@ -6,7 +6,7 @@
     jcr:uuid="82b254c9-b8ab-497a-b6e4-f37c4cd19148">
     <jcr:content
         cq:name="surfer-wave-02.JPG"
-        cq:parentPath="/content/dam/toby/en/magazine/arctic-surfing"
+        cq:parentPath="/content/dam/wkndsk/en/magazine/arctic-surfing"
         dam:assetState="processed"
         jcr:lastModified="{Date}2019-10-25T16:50:57.407-07:00"
         jcr:lastModifiedBy="admin"

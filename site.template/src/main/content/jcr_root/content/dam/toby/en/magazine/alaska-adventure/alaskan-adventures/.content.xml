@@ -6,7 +6,7 @@
     jcr:uuid="3ce2bf53-7436-4d3e-b19a-2793bc2ca63e">
     <jcr:content
         cq:name="alaskan-adventures"
-        cq:parentPath="/content/dam/toby/en/magazine/alaska-adventure"
+        cq:parentPath="/content/dam/wkndsk/en/magazine/alaska-adventure"
         jcr:description=""
         jcr:lastModified="{Date}2019-10-02T13:17:53.120-07:00"
         jcr:lastModifiedBy="admin"
@@ -15,7 +15,7 @@
         contentFragment="{Boolean}true"
         lastFragmentSave="{Date}2019-10-02T13:17:53.120-07:00">
         <data
-            cq:model="/conf/toby/settings/dam/cfm/models/article"
+            cq:model="/conf/wkndsk/settings/dam/cfm/models/article"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:mixinTypes="[cq:Taggable]"

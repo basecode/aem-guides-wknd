@@ -6,7 +6,7 @@
     jcr:uuid="17684934-32df-48d1-acae-f9aabf0f0ef2">
     <jcr:content
         cq:name="northern-lights.JPG"
-        cq:parentPath="/content/dam/toby/en/magazine/arctic-surfing"
+        cq:parentPath="/content/dam/wkndsk/en/magazine/arctic-surfing"
         dam:assetState="processed"
         jcr:lastModified="{Date}2019-10-25T16:50:53.501-07:00"
         jcr:lastModifiedBy="admin"

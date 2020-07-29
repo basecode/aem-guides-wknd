@@ -6,7 +6,7 @@
     jcr:uuid="1f576d62-a6b7-4f96-a1e2-3e328e63b585">
     <jcr:content
         cq:name="WA_camping_Adobe.pdf"
-        cq:parentPath="/content/dam/toby/en/magazine/western-australia"
+        cq:parentPath="/content/dam/wkndsk/en/magazine/western-australia"
         dam:assetState="processed"
         jcr:lastModified="{Date}2019-10-25T16:50:03.297-07:00"
         jcr:lastModifiedBy="admin"

@@ -6,7 +6,7 @@
     jcr:uuid="ec21e2d1-c8b6-430c-bd2a-24e52c879456">
     <jcr:content
         cq:name="downhill-skiing-wyoming"
-        cq:parentPath="/content/dam/toby/en/adventures/downhill-skiing-wyoming"
+        cq:parentPath="/content/dam/wkndsk/en/adventures/downhill-skiing-wyoming"
         jcr:description=""
         jcr:lastModified="{Date}2019-10-17T07:16:01.243-07:00"
         jcr:lastModifiedBy="admin"
@@ -15,7 +15,7 @@
         contentFragment="{Boolean}true"
         lastFragmentSave="{Date}2019-10-17T07:16:01.243-07:00">
         <data
-            cq:model="/conf/toby/settings/dam/cfm/models/adventure"
+            cq:model="/conf/wkndsk/settings/dam/cfm/models/adventure"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:mixinTypes="[cq:Taggable]"

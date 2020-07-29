@@ -5,7 +5,7 @@
         cq:lastModified="{Date}2020-07-10T13:22:40.468-07:00"
         cq:lastModifiedBy="admin"
         cq:tags="[]"
-        cq:template="/conf/toby/settings/wcm/templates/experience-fragment-web-variation-template"
+        cq:template="/conf/wkndsk/settings/wcm/templates/experience-fragment-web-variation-template"
         cq:xfMasterVariation="{Boolean}true"
         cq:xfVariantType="web"
         jcr:primaryType="cq:PageContent"
@@ -39,7 +39,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/languagenavigation/v1/languagenavigation"
-                        navigationRoot="/content/toby"
+                        navigationRoot="/content/wkndsk"
                         structureDepth="2">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
@@ -77,7 +77,7 @@
                         alt="WKND Logo"
                         altValueFromDAM="false"
                         displayPopupTitle="false"
-                        fileReference="/content/dam/toby/en/site/toby-logo-dk.svg"
+                        fileReference="/content/dam/wkndsk/en/site/wkndsk-logo-dk.svg"
                         isDecorative="false"
                         linkURL="#"
                         titleValueFromDAM="false">
@@ -103,7 +103,7 @@
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/navigation/v1/navigation"
                         collectAllPages="false"
-                        navigationRoot="/content/toby/language-masters/en"
+                        navigationRoot="/content/wkndsk/language-masters/en"
                         skipNavigationRoot="false"
                         structureDepth="1">
                         <cq:responsive jcr:primaryType="nt:unstructured">
@@ -123,7 +123,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/search/v1/search"
-                        searchRoot="/content/toby/en">
+                        searchRoot="/content/wkndsk/en">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
                                 jcr:primaryType="nt:unstructured"

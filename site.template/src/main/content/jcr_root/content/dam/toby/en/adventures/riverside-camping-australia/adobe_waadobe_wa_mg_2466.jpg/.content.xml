@@ -6,7 +6,7 @@
     jcr:uuid="2577e6d0-3eb7-4dbe-ab57-b01a80dbd7e8">
     <jcr:content
         cq:name="adobe_waadobe_wa_mg_2466.jpg"
-        cq:parentPath="/content/dam/toby/en/magazine/western-australia"
+        cq:parentPath="/content/dam/wkndsk/en/magazine/western-australia"
         dam:assetState="processed"
         jcr:lastModified="{Date}2019-10-25T16:49:41.009-07:00"
         jcr:lastModifiedBy="admin"

@@ -4,7 +4,7 @@
     <jcr:content
         cq:lastModified="{Date}2020-07-08T14:52:11.535-07:00"
         cq:lastModifiedBy="admin"
-        cq:template="/conf/toby/settings/wcm/templates/adventure-page-template"
+        cq:template="/conf/wkndsk/settings/wcm/templates/adventure-page-template"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="core/wcm/components/page/v2/page"
         socialMedia="[facebook,pinterest]">
@@ -94,7 +94,7 @@
                             sling:resourceType="core/wcm/components/contentfragment/v1/contentfragment"
                             displayMode="multi"
                             elementNames="[adventureActivity,adventureType,adventureTripLength,adventureGroupSize,adventureDifficulty,adventurePrice]"
-                            fragmentPath="/content/dam/toby/en/adventures/surf-camp-in-costa-rica/surf-camp-costa-rica"
+                            fragmentPath="/content/dam/wkndsk/en/adventures/surf-camp-in-costa-rica/surf-camp-costa-rica"
                             text="Surf Camp Costa Rica Activity Surfing Adventure Type Overnight Trip Trip Length 5 Days Group Size 3-6 Difficulty Beginner Price $3400 USD"
                             variationName="master">
                             <cq:responsive jcr:primaryType="nt:unstructured">

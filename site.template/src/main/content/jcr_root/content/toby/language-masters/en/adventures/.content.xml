@@ -4,8 +4,8 @@
     <jcr:content
         cq:lastModified="{Date}2020-07-07T18:14:40.481-07:00"
         cq:lastModifiedBy="admin"
-        cq:tags="[toby:customer-journey/attract,toby:customer-journey/engage,toby:activity/surfing]"
-        cq:template="/conf/toby/settings/wcm/templates/landing-page-template"
+        cq:tags="[wkndsk:customer-journey/attract,wkndsk:customer-journey/engage,wkndsk:activity/surfing]"
+        cq:template="/conf/wkndsk/settings/wcm/templates/landing-page-template"
         jcr:description="Join us on one of our next adventures.  Browse our list of curated experiences and sign up for one when you're ready to explore with us."
         jcr:primaryType="cq:PageContent"
         jcr:title="Adventures"
@@ -49,7 +49,7 @@
                     sling:resourceType="core/wcm/components/teaser/v1/teaser"
                     actionsEnabled="false"
                     descriptionFromPage="false"
-                    fileReference="/content/dam/toby/en/adventures/riverside-camping-australia/AdobeStock_216674449.jpeg"
+                    fileReference="/content/dam/wkndsk/en/adventures/riverside-camping-australia/AdobeStock_216674449.jpeg"
                     textIsRich="true"
                     titleFromPage="false">
                     <actions jcr:primaryType="nt:unstructured">
@@ -105,7 +105,7 @@
                             listFrom="tags"
                             orderBy="title"
                             sortOrder="asc"
-                            tags="[toby:activity/climbing]"
+                            tags="[wkndsk:activity/climbing]"
                             tagsMatch="any"/>
                         <item_1572038183552
                             cq:panelTitle="Cycling"
@@ -116,7 +116,7 @@
                             childDepth="1"
                             listFrom="tags"
                             sortOrder="asc"
-                            tags="[toby:activity/cycling]"
+                            tags="[wkndsk:activity/cycling]"
                             tagsMatch="any"/>
                         <item_1572038188340
                             cq:panelTitle="Skiing"
@@ -128,7 +128,7 @@
                             listFrom="tags"
                             orderBy="title"
                             sortOrder="asc"
-                            tags="[toby:activity/skiing]"
+                            tags="[wkndsk:activity/skiing]"
                             tagsMatch="any"/>
                         <item_1572038193228
                             cq:panelTitle="Surfing"
@@ -140,7 +140,7 @@
                             listFrom="tags"
                             orderBy="title"
                             sortOrder="asc"
-                            tags="[toby:activity/surfing]"
+                            tags="[wkndsk:activity/surfing]"
                             tagsMatch="any"/>
                         <item_1572038199423
                             cq:panelTitle="Travel"
@@ -152,7 +152,7 @@
                             listFrom="tags"
                             orderBy="title"
                             sortOrder="asc"
-                            tags="[toby:activity/hiking,toby:activity/camping,toby:activity/social,toby:activity/hunting-fishing]"
+                            tags="[wkndsk:activity/hiking,wkndsk:activity/camping,wkndsk:activity/social,wkndsk:activity/hunting-fishing]"
                             tagsMatch="any"/>
                     </tabs>
                     <separator

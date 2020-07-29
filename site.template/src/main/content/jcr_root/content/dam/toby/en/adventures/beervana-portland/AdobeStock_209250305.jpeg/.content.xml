@@ -6,7 +6,7 @@
     jcr:uuid="ca41fef0-2c83-4bf8-bbea-358218eb8957">
     <jcr:content
         cq:name="AdobeStock_209250305.jpeg"
-        cq:parentPath="/content/dam/toby/en/adventures/beervana-portland"
+        cq:parentPath="/content/dam/wkndsk/en/adventures/beervana-portland"
         dam:assetState="processed"
         jcr:lastModified="{Date}2019-10-25T16:48:41.021-07:00"
         jcr:lastModifiedBy="admin"

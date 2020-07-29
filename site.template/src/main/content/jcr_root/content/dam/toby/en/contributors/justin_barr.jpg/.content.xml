@@ -6,7 +6,7 @@
     jcr:uuid="a1cc33d4-8029-40c8-9027-e2e356dc8caf">
     <jcr:content
         cq:name="justin_barr.jpg"
-        cq:parentPath="/content/dam/toby/en/contributors"
+        cq:parentPath="/content/dam/wkndsk/en/contributors"
         dam:assetState="processed"
         jcr:lastModified="{Date}2019-10-25T16:50:34.385-07:00"
         jcr:lastModifiedBy="admin"

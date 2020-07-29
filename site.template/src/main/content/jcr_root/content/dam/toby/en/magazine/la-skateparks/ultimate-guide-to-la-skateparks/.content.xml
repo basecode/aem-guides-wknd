@@ -6,7 +6,7 @@
     jcr:uuid="10c9be75-5a99-4ac8-9d06-c35a0bda1274">
     <jcr:content
         cq:name="ultimate-guide-to-la-skateparks"
-        cq:parentPath="/content/dam/toby/en/magazine/la-skateparks"
+        cq:parentPath="/content/dam/wkndsk/en/magazine/la-skateparks"
         jcr:description=""
         jcr:lastModified="{Date}2019-10-01T16:58:13.942-07:00"
         jcr:lastModifiedBy="admin"
@@ -15,7 +15,7 @@
         contentFragment="{Boolean}true"
         lastFragmentSave="{Date}2019-10-01T16:58:13.942-07:00">
         <data
-            cq:model="/conf/toby/settings/dam/cfm/models/article"
+            cq:model="/conf/wkndsk/settings/dam/cfm/models/article"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:mixinTypes="[cq:Taggable]"

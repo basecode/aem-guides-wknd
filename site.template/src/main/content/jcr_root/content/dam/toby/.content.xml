@@ -4,7 +4,7 @@
     jcr:lastModifiedBy="admin"
     jcr:primaryType="sling:OrderedFolder">
     <jcr:content
-        cq:conf="/conf/toby"
+        cq:conf="/conf/wkndsk"
         jcr:primaryType="nt:unstructured"
         jcr:title="WKND Site">
         <folderThumbnail/>

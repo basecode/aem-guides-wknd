@@ -6,7 +6,7 @@
     jcr:uuid="ed58ad67-1709-44cb-b08c-d2ecda7135d6">
     <jcr:content
         cq:name="milkyway-amazon.JPG"
-        cq:parentPath="/content/dam/toby/en/magazine/fly-fishing-amazon"
+        cq:parentPath="/content/dam/wkndsk/en/magazine/fly-fishing-amazon"
         dam:assetState="processed"
         jcr:lastModified="{Date}2019-10-25T16:49:44.495-07:00"
         jcr:lastModifiedBy="admin"

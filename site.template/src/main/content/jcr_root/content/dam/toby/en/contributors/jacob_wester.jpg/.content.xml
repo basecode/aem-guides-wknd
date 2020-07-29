@@ -6,7 +6,7 @@
     jcr:uuid="ac6994f8-dcdf-453b-bb7c-c3abe1ab06e9">
     <jcr:content
         cq:name="jacob_wester.jpg"
-        cq:parentPath="/content/dam/toby/en/contributors"
+        cq:parentPath="/content/dam/wkndsk/en/contributors"
         dam:assetState="processed"
         jcr:lastModified="{Date}2019-10-25T16:50:41.750-07:00"
         jcr:lastModifiedBy="admin"

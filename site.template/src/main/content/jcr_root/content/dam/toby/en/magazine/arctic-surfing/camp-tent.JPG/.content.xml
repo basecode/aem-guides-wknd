@@ -6,7 +6,7 @@
     jcr:uuid="f4a3f296-8c53-439a-860b-93da8808b989">
     <jcr:content
         cq:name="camp-tent.JPG"
-        cq:parentPath="/content/dam/toby/en/magazine/arctic-surfing"
+        cq:parentPath="/content/dam/wkndsk/en/magazine/arctic-surfing"
         dam:assetState="processed"
         jcr:lastModified="{Date}2019-10-25T16:50:59.161-07:00"
         jcr:lastModifiedBy="admin"

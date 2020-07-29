@@ -6,7 +6,7 @@
     jcr:uuid="4511a934-6001-4a5d-baf6-dd46281e654f">
     <jcr:content
         cq:name="AdobeStock_141786166.jpeg"
-        cq:parentPath="/content/dam/toby/en/adventures/cycling-tuscany"
+        cq:parentPath="/content/dam/wkndsk/en/adventures/cycling-tuscany"
         dam:assetState="processed"
         jcr:lastModified="{Date}2019-10-25T16:48:26.282-07:00"
         jcr:lastModifiedBy="admin"

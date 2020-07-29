@@ -7,8 +7,8 @@
         cq:lastModifiedBy="admin"
         cq:lastRolledout="{Date}2020-07-11T15:17:55.981-07:00"
         cq:lastRolledoutBy="admin"
-        cq:tags="[toby:customer-journey/attract]"
-        cq:template="/conf/toby/settings/wcm/templates/landing-page-template"
+        cq:tags="[wkndsk:customer-journey/attract]"
+        cq:template="/conf/wkndsk/settings/wcm/templates/landing-page-template"
         jcr:description="WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world."
         jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync]"
         jcr:primaryType="cq:PageContent"
@@ -59,7 +59,7 @@
                         sling:resourceType="core/wcm/components/teaser/v1/teaser"
                         actionsEnabled="true"
                         descriptionFromPage="true"
-                        fileReference="/content/dam/toby/en/adventures/riverside-camping-australia/AdobeStock_216674449.jpeg"
+                        fileReference="/content/dam/wkndsk/en/adventures/riverside-camping-australia/AdobeStock_216674449.jpeg"
                         textIsRich="true"
                         titleFromPage="false">
                         <actions
@@ -72,7 +72,7 @@
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                link="/content/toby/us/en/adventures"
+                                link="/content/wkndsk/us/en/adventures"
                                 text="View Trips"/>
                         </actions>
                     </item_1571954853062>
@@ -88,7 +88,7 @@
                         sling:resourceType="core/wcm/components/teaser/v1/teaser"
                         actionsEnabled="true"
                         descriptionFromPage="true"
-                        fileReference="/content/dam/toby/en/magazine/san-diego-surf-spots/beach-walking.jpg"
+                        fileReference="/content/dam/wkndsk/en/magazine/san-diego-surf-spots/beach-walking.jpg"
                         textIsRich="true"
                         titleFromPage="true">
                         <actions
@@ -101,7 +101,7 @@
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                link="/content/toby/us/en/magazine/san-diego-surf"
+                                link="/content/wkndsk/us/en/magazine/san-diego-surf"
                                 text="Surf's Up"/>
                         </actions>
                     </item_1572035298405>
@@ -120,7 +120,7 @@
                         sling:resourceType="core/wcm/components/teaser/v1/teaser"
                         actionsEnabled="true"
                         descriptionFromPage="false"
-                        fileReference="/content/dam/toby/en/adventures/downhill-skiing-wyoming/AdobeStock_185234795.jpeg"
+                        fileReference="/content/dam/wkndsk/en/adventures/downhill-skiing-wyoming/AdobeStock_185234795.jpeg"
                         textIsRich="true"
                         titleFromPage="true">
                         <actions
@@ -133,7 +133,7 @@
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                link="/content/toby/us/en/adventures/downhill-skiing-wyoming"
+                                link="/content/wkndsk/us/en/adventures/downhill-skiing-wyoming"
                                 text="Ski Now"/>
                         </actions>
                     </teaser>
@@ -170,7 +170,7 @@
                         sling:resourceType="core/wcm/components/teaser/v1/teaser"
                         actionsEnabled="true"
                         descriptionFromPage="false"
-                        fileReference="/content/dam/toby/en/magazine/western-australia/adobestock_156407519.jpeg"
+                        fileReference="/content/dam/wkndsk/en/magazine/western-australia/adobestock_156407519.jpeg"
                         textIsRich="true"
                         titleFromPage="false">
                         <actions
@@ -183,7 +183,7 @@
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                link="/content/toby/us/en/magazine/western-australia"
+                                link="/content/wkndsk/us/en/magazine/western-australia"
                                 text="Read More"/>
                         </actions>
                     </teaser>
@@ -212,8 +212,8 @@
                         sling:resourceType="core/wcm/components/list/v2/list"
                         childDepth="1"
                         listFrom="static"
-                        pages="[/content/toby/us/en/magazine/guide-la-skateparks,/content/toby/us/en/magazine/ski-touring,/content/toby/us/en/magazine/arctic-surfing,/content/toby/us/en/magazine/san-diego-surf]"
-                        parentPage="/content/toby/us/en/magazine"
+                        pages="[/content/wkndsk/us/en/magazine/guide-la-skateparks,/content/wkndsk/us/en/magazine/ski-touring,/content/wkndsk/us/en/magazine/arctic-surfing,/content/wkndsk/us/en/magazine/san-diego-surf]"
+                        parentPage="/content/wkndsk/us/en/magazine"
                         sortOrder="desc"
                         tagsMatch="any"/>
                     <button_copy
@@ -229,7 +229,7 @@
                         jcr:title="View All"
                         sling:resourceType="core/wcm/components/button/v1/button"
                         accessibilityLabel="read our articles"
-                        link="/content/toby/us/en/magazine"/>
+                        link="/content/wkndsk/us/en/magazine"/>
                     <separator
                         cq:lastRolledout="{Date}2020-07-11T15:17:55.925-07:00"
                         cq:lastRolledoutBy="admin"
@@ -269,7 +269,7 @@
                     sling:resourceType="core/wcm/components/teaser/v1/teaser"
                     actionsEnabled="true"
                     descriptionFromPage="true"
-                    fileReference="/content/dam/toby/en/adventures/climbing-new-zealand/AdobeStock_140634652.jpeg"
+                    fileReference="/content/dam/wkndsk/en/adventures/climbing-new-zealand/AdobeStock_140634652.jpeg"
                     textIsRich="true"
                     titleFromPage="true">
                     <actions
@@ -282,7 +282,7 @@
                             cq:lastRolledoutBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
-                            link="/content/toby/us/en/adventures/climbing-new-zealand"
+                            link="/content/wkndsk/us/en/adventures/climbing-new-zealand"
                             text="See Trip"/>
                     </actions>
                 </teaser>
@@ -328,7 +328,7 @@
                         listFrom="children"
                         maxItems="4"
                         orderBy="title"
-                        parentPage="/content/toby/us/en/adventures"
+                        parentPage="/content/wkndsk/us/en/adventures"
                         sortOrder="desc"
                         tagsMatch="any"/>
                     <button
@@ -344,7 +344,7 @@
                         jcr:title="Explore All"
                         sling:resourceType="core/wcm/components/button/v1/button"
                         accessibilityLabel="explore our adventures"
-                        link="/content/toby/us/en/adventures"/>
+                        link="/content/wkndsk/us/en/adventures"/>
                     <separator
                         cq:lastRolledout="{Date}2020-07-11T15:17:55.981-07:00"
                         cq:lastRolledoutBy="admin"
@@ -360,7 +360,7 @@
         </root>
         <cq:LiveSyncConfig
             cq:isDeep="{Boolean}true"
-            cq:master="/content/toby/language-masters/en"
+            cq:master="/content/wkndsk/language-masters/en"
             cq:rolloutConfigs="[/libs/msm/wcm/rolloutconfigs/default]"
             jcr:primaryType="cq:LiveCopy"/>
     </jcr:content>

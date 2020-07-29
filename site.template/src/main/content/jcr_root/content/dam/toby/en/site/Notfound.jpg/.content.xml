@@ -6,7 +6,7 @@
     jcr:uuid="ffdc67de-a543-4eaa-b975-1e56d8d971cb">
     <jcr:content
         cq:name="Notfound.jpg"
-        cq:parentPath="/content/dam/toby/en/site"
+        cq:parentPath="/content/dam/wkndsk/en/site"
         dam:assetState="processed"
         jcr:lastModified="{Date}2019-12-02T15:26:15.142-08:00"
         jcr:lastModifiedBy="admin"

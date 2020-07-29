@@ -8,6 +8,6 @@
         enabled="{Boolean}true"/>
     <com.adobe.cq.wcm.SiteConfig
         jcr:primaryType="nt:unstructured"
-        themeScriptPath="/content/dam/toby/theme/js/site.bundle.js"
-        themeStylePath="/content/dam/toby/theme/css/site.bundle.css"/>
+        themeScriptPath="/content/dam/wkndsk/theme/js/site.bundle.js"
+        themeStylePath="/content/dam/wkndsk/theme/css/site.bundle.css"/>
 </jcr:root>

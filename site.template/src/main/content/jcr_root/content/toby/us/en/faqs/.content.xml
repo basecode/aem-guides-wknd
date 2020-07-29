@@ -7,7 +7,7 @@
         cq:lastRolledout="{Date}2020-07-09T08:54:54.678-07:00"
         cq:lastRolledoutBy="admin"
         cq:tags="[]"
-        cq:template="/conf/toby/settings/wcm/templates/content-page-template"
+        cq:template="/conf/wkndsk/settings/wcm/templates/content-page-template"
         jcr:description="Here we answer some of the questions that we hear most often from the community."
         jcr:mixinTypes="[cq:LiveRelationship]"
         jcr:primaryType="cq:PageContent"
@@ -102,7 +102,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/image/v2/image"
-                        fileReference="/content/dam/toby/en/adventures/climbing-new-zealand/AdobeStock_277768563.jpeg">
+                        fileReference="/content/dam/wkndsk/en/adventures/climbing-new-zealand/AdobeStock_277768563.jpeg">
                         <cq:responsive
                             cq:lastRolledout="{Date}2020-07-09T08:54:54.569-07:00"
                             cq:lastRolledoutBy="admin"

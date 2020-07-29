@@ -6,7 +6,7 @@
     jcr:uuid="83b63802-ffb0-47d6-94b0-ee821e887538">
     <jcr:content
         cq:name="ski-touring-mont-blanc"
-        cq:parentPath="/content/dam/toby/en/adventures/ski-touring-mont-blanc"
+        cq:parentPath="/content/dam/wkndsk/en/adventures/ski-touring-mont-blanc"
         jcr:description=""
         jcr:lastModified="{Date}2019-10-16T07:17:15.205-07:00"
         jcr:lastModifiedBy="admin"
@@ -15,7 +15,7 @@
         contentFragment="{Boolean}true"
         lastFragmentSave="{Date}2019-10-16T07:17:15.206-07:00">
         <data
-            cq:model="/conf/toby/settings/dam/cfm/models/adventure"
+            cq:model="/conf/wkndsk/settings/dam/cfm/models/adventure"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:mixinTypes="[cq:Taggable]"

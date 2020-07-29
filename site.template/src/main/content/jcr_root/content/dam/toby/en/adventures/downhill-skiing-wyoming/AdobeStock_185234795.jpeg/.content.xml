@@ -6,7 +6,7 @@
     jcr:uuid="70afb5ab-c32b-4574-be75-4cc001101e39">
     <jcr:content
         cq:name="AdobeStock_185234795.jpeg"
-        cq:parentPath="/content/dam/toby/en/adventures/downhill-skiing-wyoming"
+        cq:parentPath="/content/dam/wkndsk/en/adventures/downhill-skiing-wyoming"
         dam:assetState="processed"
         jcr:lastModified="{Date}2019-10-25T16:48:33.248-07:00"
         jcr:lastModifiedBy="admin"

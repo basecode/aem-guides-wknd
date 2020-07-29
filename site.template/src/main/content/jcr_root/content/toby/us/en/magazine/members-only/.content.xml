@@ -8,7 +8,7 @@
         cq:lastModifiedBy="admin"
         cq:lastRolledout="{Date}2020-07-09T08:54:51.773-07:00"
         cq:lastRolledoutBy="admin"
-        cq:template="/conf/toby/settings/wcm/templates/content-page-template"
+        cq:template="/conf/wkndsk/settings/wcm/templates/content-page-template"
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[cq:LiveRelationship,mix:versionable]"
         jcr:primaryType="cq:PageContent"

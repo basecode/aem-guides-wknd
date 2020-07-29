@@ -5,7 +5,7 @@
         cq:lastModified="{Date}2019-10-02T13:48:57.538-07:00"
         cq:lastModifiedBy="admin"
         cq:tags="[experience-fragments:variation/web]"
-        cq:template="/conf/toby/settings/wcm/templates/experience-fragment-web-variation-template"
+        cq:template="/conf/wkndsk/settings/wcm/templates/experience-fragment-web-variation-template"
         cq:xfVariantType="web"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="cq/experience-fragments/components/xfpage">

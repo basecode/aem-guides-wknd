@@ -9,7 +9,7 @@
         cq:lastReplicatedBy="admin"
         cq:lastReplicationAction="Activate"
         cq:tags="[]"
-        cq:template="/conf/toby/settings/wcm/templates/landing-page-template"
+        cq:template="/conf/wkndsk/settings/wcm/templates/landing-page-template"
         jcr:description="Read articles about adventures and activities that we've recently experienced and would love to share with our community."
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
@@ -47,13 +47,13 @@
                     sling:resourceType="core/wcm/components/teaser/v1/teaser"
                     actionsEnabled="true"
                     descriptionFromPage="true"
-                    fileReference="/content/dam/toby/en/magazine/western-australia/adobestock_156407519.jpeg"
+                    fileReference="/content/dam/wkndsk/en/magazine/western-australia/adobestock_156407519.jpeg"
                     textIsRich="true"
                     titleFromPage="true">
                     <actions jcr:primaryType="nt:unstructured">
                         <item0
                             jcr:primaryType="nt:unstructured"
-                            link="/content/toby/language-masters/en/magazine/western-australia"
+                            link="/content/wkndsk/language-masters/en/magazine/western-australia"
                             text="Read More"/>
                     </actions>
                 </teaser_main>
@@ -118,7 +118,7 @@
                     sling:resourceType="core/wcm/components/teaser/v1/teaser"
                     actionsEnabled="true"
                     descriptionFromPage="false"
-                    fileReference="/content/dam/toby/en/magazine/alaska-adventure/alaskan-grizzly.jpg"
+                    fileReference="/content/dam/wkndsk/en/magazine/alaska-adventure/alaskan-grizzly.jpg"
                     textIsRich="true"
                     titleFromPage="false">
                     <cq:responsive jcr:primaryType="nt:unstructured">
@@ -138,7 +138,7 @@
                     <actions jcr:primaryType="nt:unstructured">
                         <item0
                             jcr:primaryType="nt:unstructured"
-                            link="/content/toby/language-masters/en/magazine/members-only/alaskan-adventure"
+                            link="/content/wkndsk/language-masters/en/magazine/members-only/alaskan-adventure"
                             text="Read More"/>
                     </actions>
                 </teaser>
@@ -154,7 +154,7 @@
                     sling:resourceType="core/wcm/components/teaser/v1/teaser"
                     actionsEnabled="true"
                     descriptionFromPage="false"
-                    fileReference="/content/dam/toby/en/magazine/fly-fishing-amazon/amazon-river-02.JPG"
+                    fileReference="/content/dam/wkndsk/en/magazine/fly-fishing-amazon/amazon-river-02.JPG"
                     textIsRich="true"
                     titleFromPage="false">
                     <cq:responsive jcr:primaryType="nt:unstructured">
@@ -174,7 +174,7 @@
                     <actions jcr:primaryType="nt:unstructured">
                         <item0
                             jcr:primaryType="nt:unstructured"
-                            link="/content/toby/language-masters/en/magazine/members-only/fly-fishing-the-amazon"
+                            link="/content/wkndsk/language-masters/en/magazine/members-only/fly-fishing-the-amazon"
                             text="Read More"/>
                     </actions>
                 </teaser_copy>

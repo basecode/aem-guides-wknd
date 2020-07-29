@@ -6,7 +6,7 @@
     jcr:uuid="caaa4a8c-1612-461e-a949-0fad1ee44adf">
     <jcr:content
         cq:name="skateboard-hero.jpg"
-        cq:parentPath="/content/dam/toby/en/magazine/la-skateparks"
+        cq:parentPath="/content/dam/wkndsk/en/magazine/la-skateparks"
         dam:assetState="processed"
         jcr:lastModified="{Date}2019-10-25T16:50:54.889-07:00"
         jcr:lastModifiedBy="admin"

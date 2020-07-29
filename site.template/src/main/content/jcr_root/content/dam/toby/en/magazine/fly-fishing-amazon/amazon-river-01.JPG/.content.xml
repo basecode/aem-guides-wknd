@@ -6,7 +6,7 @@
     jcr:uuid="13b5ebb6-314e-43ec-8b3f-1c22a174741b">
     <jcr:content
         cq:name="amazon-river-01.JPG"
-        cq:parentPath="/content/dam/toby/en/magazine/fly-fishing-amazon"
+        cq:parentPath="/content/dam/wkndsk/en/magazine/fly-fishing-amazon"
         dam:assetState="processed"
         jcr:lastModified="{Date}2019-10-25T16:50:50.338-07:00"
         jcr:lastModifiedBy="admin"

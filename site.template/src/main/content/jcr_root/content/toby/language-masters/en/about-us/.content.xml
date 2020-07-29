@@ -4,8 +4,8 @@
     <jcr:content
         cq:lastModified="{Date}2020-07-07T18:01:11.573-07:00"
         cq:lastModifiedBy="admin"
-        cq:tags="[toby:customer-journey/engage,toby:customer-journey/support]"
-        cq:template="/conf/toby/settings/wcm/templates/content-page-template"
+        cq:tags="[wkndsk:customer-journey/engage,wkndsk:customer-journey/support]"
+        cq:template="/conf/wkndsk/settings/wcm/templates/content-page-template"
         jcr:description="WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world. "
         jcr:primaryType="cq:PageContent"
         jcr:title="About Us"
@@ -55,7 +55,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
-                    fragmentVariationPath="/content/experience-fragments/toby/language-masters/en/contributors/stacey-roswells/master">
+                    fragmentVariationPath="/content/experience-fragments/wkndsk/language-masters/en/contributors/stacey-roswells/master">
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"
@@ -79,7 +79,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
-                    fragmentVariationPath="/content/experience-fragments/toby/language-masters/en/contributors/jake-hammer/master">
+                    fragmentVariationPath="/content/experience-fragments/wkndsk/language-masters/en/contributors/jake-hammer/master">
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"
@@ -103,7 +103,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
-                    fragmentVariationPath="/content/experience-fragments/toby/language-masters/en/contributors/ian-provo/master">
+                    fragmentVariationPath="/content/experience-fragments/wkndsk/language-masters/en/contributors/ian-provo/master">
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"
@@ -127,7 +127,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
-                    fragmentVariationPath="/content/experience-fragments/toby/language-masters/en/contributors/jacob-wester/master">
+                    fragmentVariationPath="/content/experience-fragments/wkndsk/language-masters/en/contributors/jacob-wester/master">
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"
@@ -171,7 +171,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
-                    fragmentVariationPath="/content/experience-fragments/toby/language-masters/en/contributors/sofia-sjoeberg/master">
+                    fragmentVariationPath="/content/experience-fragments/wkndsk/language-masters/en/contributors/sofia-sjoeberg/master">
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"
@@ -195,7 +195,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
-                    fragmentVariationPath="/content/experience-fragments/toby/language-masters/en/contributors/justin-barr/master">
+                    fragmentVariationPath="/content/experience-fragments/wkndsk/language-masters/en/contributors/justin-barr/master">
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"
@@ -219,7 +219,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
-                    fragmentVariationPath="/content/experience-fragments/toby/language-masters/en/contributors/kumar-selveraj/master">
+                    fragmentVariationPath="/content/experience-fragments/wkndsk/language-masters/en/contributors/kumar-selveraj/master">
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"

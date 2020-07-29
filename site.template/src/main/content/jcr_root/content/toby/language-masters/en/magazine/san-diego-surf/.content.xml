@@ -5,7 +5,7 @@
         cq:lastModified="{Date}2020-07-07T18:30:14.684-07:00"
         cq:lastModifiedBy="admin"
         cq:tags="[]"
-        cq:template="/conf/toby/settings/wcm/templates/article-page-template"
+        cq:template="/conf/wkndsk/settings/wcm/templates/article-page-template"
         jcr:description="From the hippie beaches of Ocean Beach to the ritzy shores of La Jolla and everywhere in between. Discover the San Diego surf scene."
         jcr:primaryType="cq:PageContent"
         jcr:title="San Diego Surf Spots"
@@ -30,7 +30,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/image/v2/image"
-                    fileReference="/content/dam/toby/en/magazine/san-diego-surf-spots/beach-walking.jpg"
+                    fileReference="/content/dam/wkndsk/en/magazine/san-diego-surf-spots/beach-walking.jpg"
                     imageCrop="0,86,1152,798"/>
                 <container
                     jcr:created="{Date}2019-04-03T18:31:10.416-07:00"
@@ -65,7 +65,7 @@
                         sling:resourceType="core/wcm/components/contentfragment/v1/contentfragment"
                         displayMode="singleText"
                         elementNames="main"
-                        fragmentPath="/content/dam/toby/en/magazine/san-diego-surf-spots/san-diego-surfspots"
+                        fragmentPath="/content/dam/wkndsk/en/magazine/san-diego-surf-spots/san-diego-surfspots"
                         paragraphScope="all"
                         text=""
                         variationName="master">
@@ -79,7 +79,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/image/v2/image"
-                                fileReference="/content/dam/toby/en/magazine/san-diego-surf-spots/AdobeStock_166388792.jpeg"/>
+                                fileReference="/content/dam/wkndsk/en/magazine/san-diego-surf-spots/AdobeStock_166388792.jpeg"/>
                         </par2>
                         <par1
                             jcr:primaryType="nt:unstructured"
@@ -94,7 +94,7 @@
                                 sling:resourceType="core/wcm/components/image/v2/image"
                                 altValueFromDAM="true"
                                 displayPopupTitle="false"
-                                fileReference="/content/dam/toby/en/magazine/san-diego-surf-spots/AdobeStock_164735399.jpeg"
+                                fileReference="/content/dam/wkndsk/en/magazine/san-diego-surf-spots/AdobeStock_164735399.jpeg"
                                 isDecorative="false"
                                 titleValueFromDAM="false"/>
                         </par1>
@@ -108,7 +108,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/image/v2/image"
-                                fileReference="/content/dam/toby/en/magazine/san-diego-surf-spots/AdobeStock_266406767.jpeg"/>
+                                fileReference="/content/dam/wkndsk/en/magazine/san-diego-surf-spots/AdobeStock_266406767.jpeg"/>
                         </par4>
                         <par5
                             jcr:primaryType="nt:unstructured"
@@ -120,7 +120,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/image/v2/image"
-                                fileReference="/content/dam/toby/en/magazine/san-diego-surf-spots/AdobeStock_272184938.jpeg"/>
+                                fileReference="/content/dam/wkndsk/en/magazine/san-diego-surf-spots/AdobeStock_272184938.jpeg"/>
                         </par5>
                     </contentfragment>
                     <experiencefragment
@@ -130,7 +130,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
-                        fragmentVariationPath="/content/experience-fragments/toby/language-masters/en/contributors/justin-barr/byline"/>
+                        fragmentVariationPath="/content/experience-fragments/wkndsk/language-masters/en/contributors/justin-barr/byline"/>
                 </container>
                 <container_223059690
                     jcr:created="{Date}2019-04-03T18:32:31.547-07:00"
@@ -178,7 +178,7 @@
                         listFrom="children"
                         maxItems="5"
                         orderBy="modified"
-                        parentPage="/content/toby/language-masters/en/magazine"
+                        parentPage="/content/wkndsk/language-masters/en/magazine"
                         showDescription="false"
                         showModificationDate="true"
                         sortOrder="desc"

@@ -6,7 +6,7 @@
     jcr:uuid="145d7832-8adc-47b7-b58d-778dc067861c">
     <jcr:content
         cq:name="fly-fishing"
-        cq:parentPath="/content/dam/toby/en/magazine/fly-fishing-amazon"
+        cq:parentPath="/content/dam/wkndsk/en/magazine/fly-fishing-amazon"
         jcr:description=""
         jcr:lastModified="{Date}2019-10-01T15:50:05.016-07:00"
         jcr:lastModifiedBy="admin"
@@ -15,7 +15,7 @@
         contentFragment="{Boolean}true"
         lastFragmentSave="{Date}2019-10-01T15:50:05.017-07:00">
         <data
-            cq:model="/conf/toby/settings/dam/cfm/models/article"
+            cq:model="/conf/wkndsk/settings/dam/cfm/models/article"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:mixinTypes="[cq:Taggable]"

@@ -6,7 +6,7 @@
     jcr:uuid="7f90967f-fa49-4ba9-939b-5fd5e2b2f391">
     <jcr:content
         cq:name="san-diego-surfspots"
-        cq:parentPath="/content/dam/toby/en/magazine/san-diego-surf-spots"
+        cq:parentPath="/content/dam/wkndsk/en/magazine/san-diego-surf-spots"
         jcr:description=""
         jcr:lastModified="{Date}2019-10-25T17:11:46.439-07:00"
         jcr:lastModifiedBy="admin"
@@ -15,7 +15,7 @@
         contentFragment="{Boolean}true"
         lastFragmentSave="{Date}2019-10-25T17:11:46.440-07:00">
         <data
-            cq:model="/conf/toby/settings/dam/cfm/models/article"
+            cq:model="/conf/wkndsk/settings/dam/cfm/models/article"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:mixinTypes="[cq:Taggable]"

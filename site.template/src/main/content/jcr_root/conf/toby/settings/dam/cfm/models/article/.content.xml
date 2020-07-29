@@ -6,7 +6,7 @@
     <jcr:content
         cq:lastModified="{Date}2019-10-02T11:42:58.726-07:00"
         cq:lastModifiedBy="admin"
-        cq:scaffolding="/conf/toby/settings/dam/cfm/models/article/jcr:content/model"
+        cq:scaffolding="/conf/wkndsk/settings/dam/cfm/models/article/jcr:content/model"
         cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
         jcr:description="Travel Article"
         jcr:primaryType="cq:PageContent"

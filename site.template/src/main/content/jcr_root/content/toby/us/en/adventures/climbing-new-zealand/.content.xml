@@ -6,8 +6,8 @@
         cq:lastModifiedBy="admin"
         cq:lastRolledout="{Date}2020-07-09T08:54:54.208-07:00"
         cq:lastRolledoutBy="admin"
-        cq:tags="[toby:season/summer,toby:customer-journey/engage,toby:customer-journey/convert,toby:activity/climbing]"
-        cq:template="/conf/toby/settings/wcm/templates/adventure-page-template"
+        cq:tags="[wkndsk:season/summer,wkndsk:customer-journey/engage,wkndsk:customer-journey/convert,wkndsk:activity/climbing]"
+        cq:template="/conf/wkndsk/settings/wcm/templates/adventure-page-template"
         jcr:description="Let us help you make your New Zealand climbing vacation a memory you will cherish forever! Come join us for a guided rock climbing adventure in the mountains that trained Sir Edmund Hilary. "
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[cq:LiveRelationship,mix:versionable]"
@@ -71,7 +71,7 @@
                         alt="climber hanging sideways"
                         altValueFromDAM="false"
                         displayPopupTitle="false"
-                        fileReference="/content/dam/toby/en/activities/climbing/sport-climbing.jpg"
+                        fileReference="/content/dam/wkndsk/en/activities/climbing/sport-climbing.jpg"
                         imageCrop="0,0,1271,579"
                         isDecorative="false"
                         titleValueFromDAM="false"/>
@@ -85,7 +85,7 @@
                         sling:resourceType="core/wcm/components/image/v2/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
-                        fileReference="/content/dam/toby/en/activities/climbing/climber-gear-rope.jpg"
+                        fileReference="/content/dam/wkndsk/en/activities/climbing/climber-gear-rope.jpg"
                         isDecorative="false"
                         titleValueFromDAM="true"/>
                     <item_1572024817401
@@ -98,7 +98,7 @@
                         sling:resourceType="core/wcm/components/image/v2/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
-                        fileReference="/content/dam/toby/en/adventures/climbing-new-zealand/AdobeStock_277768563.jpeg"
+                        fileReference="/content/dam/wkndsk/en/adventures/climbing-new-zealand/AdobeStock_277768563.jpeg"
                         isDecorative="false"
                         titleValueFromDAM="true"/>
                 </carousel>
@@ -175,7 +175,7 @@
                             sling:resourceType="core/wcm/components/contentfragment/v1/contentfragment"
                             displayMode="multi"
                             elementNames="[adventureActivity,adventureType,adventureTripLength,adventureGroupSize,adventureDifficulty,adventurePrice]"
-                            fragmentPath="/content/dam/toby/en/adventures/climbing-new-zealand/climbing-new-zealand"
+                            fragmentPath="/content/dam/wkndsk/en/adventures/climbing-new-zealand/climbing-new-zealand"
                             text="Climbing New Zealand Activity Rock Climbing Adventure Type Overnight Trip Trip Length 2 Days Group Size 2-3 Difficulty Intermediate Price $900 USD"
                             variationName="master">
                             <cq:responsive
@@ -314,7 +314,7 @@
                             sling:resourceType="core/wcm/components/contentfragment/v1/contentfragment"
                             displayMode="singleText"
                             elementNames="adventureDescription"
-                            fragmentPath="/content/dam/toby/en/adventures/climbing-new-zealand/climbing-new-zealand"
+                            fragmentPath="/content/dam/wkndsk/en/adventures/climbing-new-zealand/climbing-new-zealand"
                             paragraphScope="all"
                             text="Climbing New Zealand Let us take you on a spectacular climbing experience unique to New Zealand Feel the raw adventure and excitement of our guided rock climbing experience. Reach new heights under our professional instruction and feel your body and mind work together in harmony. Come join us for a guided rock climbing adventure in the mountains that trained Sir Edmund Hilary. Whether it is your first time thinking of putting on climbing shoes or you are an old hand looking for some new challenges, our guides can make your climbing adventure a trip you won’t soon forget. New Zealand has countless climbing routes to choose from and is known as one of the premiere climbing destinations in the world. With so many different routes and areas to choose from our guides can tailor each trip to your exact specifications. Let us help you make your New Zealand climbing vacation a memory you will cherish forever!"
                             variationName="master">
@@ -336,7 +336,7 @@
                                     sling:resourceType="core/wcm/components/image/v2/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/toby/en/activities/climbing/climber-gear-outdoor.jpg"
+                                    fileReference="/content/dam/wkndsk/en/activities/climbing/climber-gear-outdoor.jpg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par2>
@@ -358,7 +358,7 @@
                                     sling:resourceType="core/wcm/components/image/v2/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/toby/en/adventures/climbing-new-zealand/AdobeStock_277948178.jpeg"
+                                    fileReference="/content/dam/wkndsk/en/adventures/climbing-new-zealand/AdobeStock_277948178.jpeg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par1>
@@ -374,7 +374,7 @@
                             sling:resourceType="core/wcm/components/contentfragment/v1/contentfragment"
                             displayMode="singleText"
                             elementNames="adventureItinerary"
-                            fragmentPath="/content/dam/toby/en/adventures/climbing-new-zealand/climbing-new-zealand"
+                            fragmentPath="/content/dam/wkndsk/en/adventures/climbing-new-zealand/climbing-new-zealand"
                             paragraphScope="range"
                             variationName="master">
                             <par9
@@ -401,7 +401,7 @@
                                     sling:resourceType="core/wcm/components/image/v2/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/toby/en/adventures/climbing-new-zealand/AdobeStock_140634652.jpeg"
+                                    fileReference="/content/dam/wkndsk/en/adventures/climbing-new-zealand/AdobeStock_140634652.jpeg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par1>
@@ -429,7 +429,7 @@
                                     sling:resourceType="core/wcm/components/image/v2/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/toby/en/adventures/climbing-new-zealand/AdobeStock_166394648.jpeg"
+                                    fileReference="/content/dam/wkndsk/en/adventures/climbing-new-zealand/AdobeStock_166394648.jpeg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par3>
@@ -445,7 +445,7 @@
                             sling:resourceType="core/wcm/components/contentfragment/v1/contentfragment"
                             displayMode="singleText"
                             elementNames="adventureGearList"
-                            fragmentPath="/content/dam/toby/en/adventures/climbing-new-zealand/climbing-new-zealand"
+                            fragmentPath="/content/dam/wkndsk/en/adventures/climbing-new-zealand/climbing-new-zealand"
                             paragraphScope="range"
                             variationName="master">
                             <par3
@@ -484,7 +484,7 @@
                                     sling:resourceType="core/wcm/components/image/v2/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/toby/en/activities/climbing/equipment_4.jpg"
+                                    fileReference="/content/dam/wkndsk/en/activities/climbing/equipment_4.jpg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par0>

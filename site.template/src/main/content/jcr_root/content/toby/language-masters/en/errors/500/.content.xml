@@ -4,7 +4,7 @@
     <jcr:content
         cq:lastModified="{Date}2020-07-07T18:05:01.646-07:00"
         cq:lastModifiedBy="admin"
-        cq:template="/conf/toby/settings/wcm/templates/content-page-template"
+        cq:template="/conf/wkndsk/settings/wcm/templates/content-page-template"
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
@@ -97,7 +97,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/image/v2/image"
-                    fileReference="/content/dam/toby/en/site/Notfound.jpg">
+                    fileReference="/content/dam/wkndsk/en/site/Notfound.jpg">
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"

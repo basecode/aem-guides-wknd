@@ -7,7 +7,7 @@
         cq:lastRolledout="{Date}2020-07-09T13:18:13.809-07:00"
         cq:lastRolledoutBy="admin"
         cq:tags="[]"
-        cq:template="/conf/toby/settings/wcm/templates/article-page-template"
+        cq:template="/conf/wkndsk/settings/wcm/templates/article-page-template"
         jcr:description="Breaking down the top skate destinations in all of Los Angeles. You don't want to miss this!"
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[cq:LiveRelationship,mix:versionable]"
@@ -43,7 +43,7 @@
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/image/v2/image"
-                    fileReference="/content/dam/toby/en/magazine/la-skateparks/article_01_hero.png"/>
+                    fileReference="/content/dam/wkndsk/en/magazine/la-skateparks/article_01_hero.png"/>
                 <container
                     cq:lastRolledout="{Date}2020-07-09T13:18:13.696-07:00"
                     cq:lastRolledoutBy="admin"
@@ -89,7 +89,7 @@
                         sling:resourceType="core/wcm/components/contentfragment/v1/contentfragment"
                         displayMode="singleText"
                         elementNames="main"
-                        fragmentPath="/content/dam/toby/en/magazine/la-skateparks/ultimate-guide-to-la-skateparks"
+                        fragmentPath="/content/dam/wkndsk/en/magazine/la-skateparks/ultimate-guide-to-la-skateparks"
                         paragraphScope="all"
                         text=""
                         variationName="master">
@@ -142,7 +142,7 @@
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/image/v2/image"
-                                fileReference="/content/dam/toby/en/magazine/la-skateparks/article_01_picture_01.png"/>
+                                fileReference="/content/dam/wkndsk/en/magazine/la-skateparks/article_01_picture_01.png"/>
                         </par2>
                         <par3
                             cq:lastRolledout="{Date}2020-07-09T13:18:13.745-07:00"
@@ -193,7 +193,7 @@
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/image/v2/image"
-                                fileReference="/content/dam/toby/en/magazine/la-skateparks/robson-hatsukami-morgan-280159.jpg"/>
+                                fileReference="/content/dam/wkndsk/en/magazine/la-skateparks/robson-hatsukami-morgan-280159.jpg"/>
                         </par5>
                     </contentfragment>
                     <experiencefragment
@@ -206,7 +206,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
-                        fragmentVariationPath="/content/experience-fragments/toby/language-masters/en/contributors/stacey-roswells/byline"/>
+                        fragmentVariationPath="/content/experience-fragments/wkndsk/language-masters/en/contributors/stacey-roswells/byline"/>
                 </container>
                 <container_223059690
                     cq:lastRolledout="{Date}2020-07-09T13:18:13.781-07:00"
@@ -267,7 +267,7 @@
                         sling:resourceType="core/wcm/components/download/v1/download"
                         actionText="Download PDF"
                         descriptionFromAsset="false"
-                        fileReference="/content/dam/toby/en/magazine/la-skateparks/UltimateGuidetoLASkateParks.pdf"
+                        fileReference="/content/dam/wkndsk/en/magazine/la-skateparks/UltimateGuidetoLASkateParks.pdf"
                         inline="false"
                         textIsRich="true"
                         titleFromAsset="false"/>
@@ -287,7 +287,7 @@
                         listFrom="children"
                         maxItems="4"
                         orderBy="modified"
-                        parentPage="/content/toby/us/en/magazine"
+                        parentPage="/content/wkndsk/us/en/magazine"
                         showDescription="false"
                         showModificationDate="true"
                         sortOrder="desc"

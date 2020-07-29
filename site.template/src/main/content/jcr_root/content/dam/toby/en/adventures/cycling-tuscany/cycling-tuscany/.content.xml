@@ -6,7 +6,7 @@
     jcr:uuid="593210d0-6ffe-42c9-818f-d7825e21d93d">
     <jcr:content
         cq:name="cycling-tuscany"
-        cq:parentPath="/content/dam/toby/en/adventures/cycling-tuscany"
+        cq:parentPath="/content/dam/wkndsk/en/adventures/cycling-tuscany"
         jcr:description=""
         jcr:lastModified="{Date}2019-10-17T07:08:34.575-07:00"
         jcr:lastModifiedBy="admin"
@@ -15,7 +15,7 @@
         contentFragment="{Boolean}true"
         lastFragmentSave="{Date}2019-10-17T07:08:34.575-07:00">
         <data
-            cq:model="/conf/toby/settings/dam/cfm/models/adventure"
+            cq:model="/conf/wkndsk/settings/dam/cfm/models/adventure"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:mixinTypes="[cq:Taggable]"

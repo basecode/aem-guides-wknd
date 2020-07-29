@@ -5,7 +5,7 @@
         cq:deviceGroups="[mobile/groups/responsive]"
         cq:lastModified="{Date}2019-10-02T12:16:41.831-07:00"
         cq:lastModifiedBy="admin"
-        cq:template="/conf/toby/settings/wcm/templates/experience-fragment-web-variation-template"
+        cq:template="/conf/wkndsk/settings/wcm/templates/experience-fragment-web-variation-template"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="core/wcm/components/page/v2/page">
         <root

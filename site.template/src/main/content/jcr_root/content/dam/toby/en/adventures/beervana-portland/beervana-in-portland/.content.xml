@@ -6,7 +6,7 @@
     jcr:uuid="9e1e9835-64c8-42dc-9d36-fbd59e28f753">
     <jcr:content
         cq:name="beervana-in-portland"
-        cq:parentPath="/content/dam/toby/en/adventures/beervana-portland"
+        cq:parentPath="/content/dam/wkndsk/en/adventures/beervana-portland"
         jcr:description=""
         jcr:lastModified="{Date}2019-10-25T16:29:52.827-07:00"
         jcr:lastModifiedBy="admin"
@@ -15,7 +15,7 @@
         contentFragment="{Boolean}true"
         lastFragmentSave="{Date}2019-10-25T16:29:52.827-07:00">
         <data
-            cq:model="/conf/toby/settings/dam/cfm/models/adventure"
+            cq:model="/conf/wkndsk/settings/dam/cfm/models/adventure"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:mixinTypes="[cq:Taggable]"

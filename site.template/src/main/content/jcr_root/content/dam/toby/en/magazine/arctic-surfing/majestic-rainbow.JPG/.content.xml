@@ -6,7 +6,7 @@
     jcr:uuid="45957792-f48f-4428-a964-f8c84bc5a7ae">
     <jcr:content
         cq:name="majestic-rainbow.JPG"
-        cq:parentPath="/content/dam/toby/en/magazine/arctic-surfing"
+        cq:parentPath="/content/dam/wkndsk/en/magazine/arctic-surfing"
         dam:assetState="processed"
         jcr:lastModified="{Date}2019-10-25T16:50:41.108-07:00"
         jcr:lastModifiedBy="admin"

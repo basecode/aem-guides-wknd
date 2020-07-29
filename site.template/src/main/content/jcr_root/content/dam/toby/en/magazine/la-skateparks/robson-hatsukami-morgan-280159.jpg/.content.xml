@@ -6,7 +6,7 @@
     jcr:uuid="da70970c-a5f5-4f13-8f0a-9936a3fd04e4">
     <jcr:content
         cq:name="robson-hatsukami-morgan-280159.jpg"
-        cq:parentPath="/content/dam/toby/en/magazine/la-skateparks"
+        cq:parentPath="/content/dam/wkndsk/en/magazine/la-skateparks"
         dam:assetState="processed"
         jcr:lastModified="{Date}2019-10-25T16:50:24.875-07:00"
         jcr:lastModifiedBy="admin"
