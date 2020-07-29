@@ -6,7 +6,7 @@
         cq:lastModifiedBy="admin"
         cq:tags="[toby:customer-journey/engage,toby:customer-journey/support]"
         cq:template="/conf/toby/settings/wcm/templates/content-page-template"
-        jcr:description="toby is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world. "
+        jcr:description="WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world. "
         jcr:primaryType="cq:PageContent"
         jcr:title="About Us"
         sling:resourceType="core/wcm/components/page/v2/page">
@@ -150,7 +150,7 @@
                     jcr:lastModified="{Date}2019-10-18T13:35:12.135-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    jcr:title="toby Guides"
+                    jcr:title="WKND Guides"
                     sling:resourceType="core/wcm/components/title/v2/title"
                     type="h2"/>
                 <text_359993709
@@ -161,7 +161,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/text/v2/text"
-                    text="&lt;p>&lt;i>Meet our extraordinary travel guides. When you travel with a certified toby guide you gain access to attractions and perspectives not found on the pages of a guide book.&lt;/i>&lt;/p>&#xa;"
+                    text="&lt;p>&lt;i>Meet our extraordinary travel guides. When you travel with a certified WKND guide you gain access to attractions and perspectives not found on the pages of a guide book.&lt;/i>&lt;/p>&#xa;"
                     textIsRich="true"/>
                 <experiencefragment_c_1459013251
                     cq:styleIds="[1571360196802]"

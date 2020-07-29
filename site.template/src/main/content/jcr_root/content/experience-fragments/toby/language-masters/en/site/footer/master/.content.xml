@@ -39,7 +39,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/image/v2/image"
-                        alt="toby Logo"
+                        alt="WKND Logo"
                         altValueFromDAM="false"
                         displayPopupTitle="false"
                         fileReference="/content/dam/toby/en/site/toby-logo-light.svg"
@@ -117,7 +117,7 @@
                         jcr:lastModified="{Date}2019-10-18T09:04:25.329-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="toby Global Social Media"
+                        jcr:title="WKND Global Social Media"
                         sling:resourceType="cq/experience-fragments/editor/components/buildingblock">
                         <button39381355678930
                             cq:styleIds="[1568839776757]"
@@ -126,7 +126,7 @@
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Facebook"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            accessibilityLabel="Facebook toby Button"
+                            accessibilityLabel="Facebook WKND Button"
                             icon="facebook"
                             link="#facebooktoby"/>
                         <item39381356464486
@@ -138,7 +138,7 @@
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Twitter"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            accessibilityLabel="Twitter toby Button"
+                            accessibilityLabel="Twitter WKND Button"
                             icon="twitter"
                             link="#twittertoby"/>
                         <item39381358237347
@@ -184,7 +184,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/text/v2/text"
-                        text="&lt;p>Ⓒ 2019,&amp;nbsp;&amp;nbsp;toby Site.&lt;/p>&#xa;&lt;p>toby is a fictitious adventure and travel website created by Adobe to demonstrate how anyone can use Adobe Experience Manager to build a beautiful, feature-rich website over a single weekend. This site is built entirely with Adobe Experience Manager&amp;nbsp;&lt;a href=&quot;https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html&quot;>Core Components&lt;/a>&amp;nbsp;and&amp;nbsp;&lt;a href=&quot;https://github.com/adobe/aem-project-archetype&quot;>Archetype&lt;/a>&amp;nbsp;that are available as open source code to the public. The entire&amp;nbsp;&lt;a href=&quot;https://github.com/basecode/aem-sites-starterkit-wknd/&quot;>site source code&lt;/a>&amp;nbsp;is available as open source as well and is accompanied with a&amp;nbsp;&lt;a href=&quot;https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-toby-tutorial-develop/overview.html&quot;>detailed tutorial&lt;/a>&amp;nbsp;on how to recreate the site.&lt;/p>&#xa;&lt;p>Many of the beautiful images in the toby site are available for purchase via&amp;nbsp;&lt;a href=&quot;https://stock.adobe.com/&quot;>Adobe Stock&lt;/a>.&lt;/p>&#xa;"
+                        text="&lt;p>Ⓒ 2019,&amp;nbsp;&amp;nbsp;WKND Site.&lt;/p>&#xa;&lt;p>WKND is a fictitious adventure and travel website created by Adobe to demonstrate how anyone can use Adobe Experience Manager to build a beautiful, feature-rich website over a single weekend. This site is built entirely with Adobe Experience Manager&amp;nbsp;&lt;a href=&quot;https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html&quot;>Core Components&lt;/a>&amp;nbsp;and&amp;nbsp;&lt;a href=&quot;https://github.com/adobe/aem-project-archetype&quot;>Archetype&lt;/a>&amp;nbsp;that are available as open source code to the public. The entire&amp;nbsp;&lt;a href=&quot;https://github.com/basecode/aem-sites-starterkit-wknd/&quot;>site source code&lt;/a>&amp;nbsp;is available as open source as well and is accompanied with a&amp;nbsp;&lt;a href=&quot;https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-toby-tutorial-develop/overview.html&quot;>detailed tutorial&lt;/a>&amp;nbsp;on how to recreate the site.&lt;/p>&#xa;&lt;p>Many of the beautiful images in the WKND site are available for purchase via&amp;nbsp;&lt;a href=&quot;https://stock.adobe.com/&quot;>Adobe Stock&lt;/a>.&lt;/p>&#xa;"
                         textIsRich="true"/>
                 </container>
             </container>

@@ -12,7 +12,7 @@
                             jcr:lastModified="{Date}2020-07-09T08:11:09.069-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="toby Building Block"
+                            jcr:title="WKND Building Block"
                             sling:resourceType="wcm/core/components/policy/policy">
                             <jcr:content jcr:primaryType="nt:unstructured"/>
                             <cq:styleGroups jcr:primaryType="nt:unstructured">
@@ -55,7 +55,7 @@
                                 jcr:lastModified="{Date}2020-07-09T08:10:30.135-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="toby Embed"
+                                jcr:title="WKND Embed"
                                 sling:resourceType="wcm/core/components/policy/policy"
                                 allowedEmbeddables="core/wcm/components/embed/v1/embed/embeddable/youtube"
                                 embeddablesDisabled="false"
@@ -73,7 +73,7 @@
                                 jcr:lastModified="{Date}2020-07-09T08:09:35.738-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="toby Title - Global Styles"
+                                jcr:title="WKND Title - Global Styles"
                                 sling:resourceType="wcm/core/components/policy/policy"
                                 allowedTypes="[h1,h2,h3,h4,h5,h6]"
                                 linkDisabled="false"
@@ -143,7 +143,7 @@
                                 jcr:lastModified="{Date}2020-07-09T08:09:39.748-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="toby Text - Kitchen Sink"
+                                jcr:title="WKND Text - Kitchen Sink"
                                 sling:resourceType="wcm/core/components/policy/policy">
                                 <jcr:content
                                     cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
@@ -314,7 +314,7 @@
                                 jcr:lastModified="{Date}2020-07-09T08:10:10.057-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="toby Separator"
+                                jcr:title="WKND Separator"
                                 sling:resourceType="wcm/core/components/policy/policy">
                                 <jcr:content
                                     cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
@@ -378,7 +378,7 @@
                                 jcr:lastModified="{Date}2020-07-09T08:11:09.069-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="toby Site Default"
+                                jcr:title="WKND Site Default"
                                 sling:resourceType="wcm/core/components/policy/policy"
                                 components="[/apps/core/wcm/components/container/v1/container,group:.core-wcm,/apps/core/wcm/components/form/container/v2/container]"
                                 policyResourceType="core/wcm/components/container/v1/container">
@@ -406,7 +406,7 @@
                                 jcr:lastModified="{Date}2020-07-09T08:11:09.069-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="toby Content"
+                                jcr:title="WKND Content"
                                 sling:resourceType="wcm/core/components/policy/policy"
                                 backgroundColorEnabled="true"
                                 backgroundImageEnabled="true"
@@ -463,7 +463,7 @@
                                 jcr:lastModified="{Date}2020-07-07T17:33:48.033-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="toby Article Sidebar"
+                                jcr:title="WKND Article Sidebar"
                                 sling:resourceType="wcm/core/components/policy/policy"
                                 components="[/apps/core/wcm/components/button/v1/button,/apps/core/wcm/components/download/v1/download,/apps/core/wcm/components/image/v2/image,/apps/core/wcm/components/list/v2/list,/apps/core/wcm/components/separator/v1/separator,/apps/core/wcm/components/sharing/v1/sharing,/apps/core/wcm/components/text/v2/text,/apps/core/wcm/components/title/v2/title]">
                                 <jcr:content
@@ -477,7 +477,7 @@
                                 jcr:lastModified="{Date}2020-07-07T17:17:29.408-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="toby Experience Fragment"
+                                jcr:title="WKND Experience Fragment"
                                 sling:resourceType="wcm/core/components/policy/policy"
                                 components="[/libs/cq/experience-fragments/editor/components/buildingblock,group:.core-wcm]">
                                 <jcr:content jcr:primaryType="nt:unstructured"/>
@@ -545,7 +545,7 @@
                             </policy_70911755464249>
                             <form-container
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="toby Site Form"
+                                jcr:title="WKND Site Form"
                                 sling:resourceType="wcm/core/components/policy/policy"
                                 components="[/apps/core/wcm/components/form/button/v2/button,/apps/core/wcm/components/form/hidden/v2/hidden,/apps/core/wcm/components/form/options/v2/options,/apps/core/wcm/components/form/text/v2/text]">
                                 <jcr:content jcr:primaryType="nt:unstructured"/>
@@ -561,7 +561,7 @@
                                 jcr:lastModified="{Date}2020-07-07T17:39:36.365-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="toby Experience Fragment - Site"
+                                jcr:title="WKND Experience Fragment - Site"
                                 sling:resourceType="wcm/core/components/policy/policy">
                                 <jcr:content
                                     cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
@@ -593,7 +593,7 @@
                                 jcr:lastModified="{Date}2020-07-09T08:10:26.028-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="toby Experience Fragment - Content"
+                                jcr:title="WKND Experience Fragment - Content"
                                 sling:resourceType="wcm/core/components/policy/policy">
                                 <jcr:content
                                     cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
@@ -624,7 +624,7 @@
                                 jcr:lastModified="{Date}2020-07-09T08:10:58.204-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="toby Carousel"
+                                jcr:title="WKND Carousel"
                                 sling:resourceType="wcm/core/components/policy/policy"
                                 autopauseDisabled="false"
                                 autoplay="false"
@@ -663,7 +663,7 @@
                                 jcr:lastModified="{Date}2020-07-09T15:37:47.229-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="toby Image"
+                                jcr:title="WKND Image"
                                 sling:resourceType="wcm/core/components/policy/policy"
                                 allowedRenditionWidths="[100,200,300,400,500,600,700,800,900,1000,1100,1200,1600]"
                                 allowUpload="true"
@@ -719,7 +719,7 @@
                                 jcr:lastModified="{Date}2020-07-09T08:31:28.908-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="toby Image - Experience Fragment"
+                                jcr:title="WKND Image - Experience Fragment"
                                 sling:resourceType="wcm/core/components/policy/policy"
                                 allowedRenditionWidths="[300,400,500,600,700,800,900,1000,1100,1200]"
                                 allowUpload="true"
@@ -792,7 +792,7 @@
                                 jcr:lastModified="{Date}2020-07-09T08:09:55.496-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="toby Teaser"
+                                jcr:title="WKND Teaser"
                                 sling:resourceType="wcm/core/components/policy/policy">
                                 <jcr:content
                                     cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
@@ -858,7 +858,7 @@
                                 jcr:lastModified="{Date}2020-07-09T08:10:13.337-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="toby List "
+                                jcr:title="WKND List "
                                 sling:resourceType="wcm/core/components/policy/policy"
                                 dateFormat="EEEE, d MMM y"
                                 disableChildren="false"
@@ -896,7 +896,7 @@
                                 jcr:lastModified="{Date}2020-07-09T08:11:27.233-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="toby Breadcrumb"
+                                jcr:title="WKND Breadcrumb"
                                 sling:resourceType="wcm/core/components/policy/policy"
                                 disableShadowing="false"
                                 hideCurrent="false"
@@ -935,7 +935,7 @@
                                 jcr:lastModified="{Date}2020-07-09T08:10:48.812-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="toby Content Fragment"
+                                jcr:title="WKND Content Fragment"
                                 sling:resourceType="wcm/core/components/policy/policy">
                                 <jcr:content jcr:primaryType="nt:unstructured"/>
                                 <cq:styleGroups jcr:primaryType="nt:unstructured">
@@ -965,7 +965,7 @@
                                 jcr:lastModified="{Date}2020-07-09T08:11:19.469-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="toby Button"
+                                jcr:title="WKND Button"
                                 sling:resourceType="wcm/core/components/policy/policy">
                                 <jcr:content
                                     cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
@@ -1017,7 +1017,7 @@
                                 jcr:lastModified="{Date}2020-07-09T08:11:32.079-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="toby Accordion"
+                                jcr:title="WKND Accordion"
                                 sling:resourceType="wcm/core/components/policy/policy"
                                 allowedHeadingElements="h3"
                                 components="[/apps/core/wcm/components/button/v1/button,/apps/core/wcm/components/image/v2/image,/apps/core/wcm/components/text/v2/text,/apps/core/wcm/components/title/v2/title]"
@@ -1040,7 +1040,7 @@
                                 jcr:lastModified="{Date}2019-09-15T16:57:57.019-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="toby Language Navigation"
+                                jcr:title="WKND Language Navigation"
                                 sling:resourceType="wcm/core/components/policy/policy"
                                 navigationRoot="/content/toby"
                                 structureDepth="1">
@@ -1072,7 +1072,7 @@
                                 jcr:lastModified="{Date}2020-07-09T08:11:09.069-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="toby Navigation - Header "
+                                jcr:title="WKND Navigation - Header "
                                 sling:resourceType="wcm/core/components/policy/policy"
                                 collectAllPages="false"
                                 navigationRoot="/content/toby/en"
@@ -1090,7 +1090,7 @@
                                 jcr:lastModified="{Date}2020-07-09T08:11:09.069-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="toby Navigation - Footer"
+                                jcr:title="WKND Navigation - Footer"
                                 sling:resourceType="wcm/core/components/policy/policy"
                                 collectAllPages="false"
                                 navigationRoot="/content/toby/en"
@@ -1107,7 +1107,7 @@
                                 jcr:lastModified="{Date}2020-07-09T08:11:09.069-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="toby Navigation"
+                                jcr:title="WKND Navigation"
                                 sling:resourceType="wcm/core/components/policy/policy"
                                 collectAllPages="true"
                                 navigationRoot="/content/toby"
@@ -1143,7 +1143,7 @@
                                 jcr:lastModified="{Date}2020-07-09T08:11:09.069-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="toby Search - Header"
+                                jcr:title="WKND Search - Header"
                                 sling:resourceType="wcm/core/components/policy/policy"
                                 resultsSize="5"
                                 searchRoot="/content/toby"
@@ -1180,7 +1180,7 @@
                                 jcr:lastModified="{Date}2020-07-09T08:11:09.069-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="toby Landing Page"
+                                jcr:title="WKND Landing Page"
                                 sling:resourceType="wcm/core/components/policy/policy"
                                 clientlibs=""
                                 clientlibsJsHead="">
@@ -1195,7 +1195,7 @@
                                 jcr:lastModified="{Date}2020-07-09T08:11:09.069-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="toby Article"
+                                jcr:title="WKND Article"
                                 sling:resourceType="wcm/core/components/policy/policy"
                                 clientlibs="">
                                 <jcr:content
@@ -1209,7 +1209,7 @@
                                 jcr:lastModified="{Date}2020-07-09T08:11:09.069-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="toby Experience Fragment"
+                                jcr:title="WKND Experience Fragment"
                                 sling:resourceType="wcm/core/components/policy/policy"
                                 clientlibs="">
                                 <jcr:content jcr:primaryType="nt:unstructured"/>
@@ -1218,7 +1218,7 @@
                                 jcr:lastModified="{Date}2020-07-09T08:11:09.069-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="toby Site Theme"
+                                jcr:title="WKND Site Theme"
                                 sling:resourceType="wcm/core/components/policy/policy"
                                 clientlibs=""
                                 clientlibsJsHead="">
@@ -1239,7 +1239,7 @@
                                 jcr:lastModified="{Date}2020-07-09T08:10:04.642-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="toby Tabs"
+                                jcr:title="WKND Tabs"
                                 sling:resourceType="wcm/core/components/policy/policy"
                                 components="group:.core-wcm">
                                 <jcr:content jcr:primaryType="nt:unstructured"/>

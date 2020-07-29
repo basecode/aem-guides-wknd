@@ -74,7 +74,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/image/v2/image"
-                        alt="toby Logo"
+                        alt="WKND Logo"
                         altValueFromDAM="false"
                         displayPopupTitle="false"
                         fileReference="/content/dam/toby/en/site/toby-logo-dk.svg"
