@@ -178,7 +178,7 @@
                         <item_1571070731882
                             cq:lastRolledout="{Date}2020-07-09T08:54:54.603-07:00"
                             cq:lastRolledoutBy="admin"
-                            cq:panelTitle="Who is toby's intended audience?"
+                            cq:panelTitle="Who is WKND's intended audience?"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/container/v1/container">
@@ -219,7 +219,7 @@
                         <item_2
                             cq:lastRolledout="{Date}2020-07-09T08:54:54.613-07:00"
                             cq:lastRolledoutBy="admin"
-                            cq:panelTitle="Can I contribute to toby?"
+                            cq:panelTitle="Can I contribute to WKND?"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Item 2"
@@ -418,7 +418,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/text/v2/text"
-                        text="&lt;p style=&quot;text-align: left;&quot;>Give us a call at &lt;a href=&quot;#&quot;>1-800-800-0000&lt;/a>.&lt;br>&#xd;&#xa;E-mail us at info&lt;a href=&quot;#&quot;>@toby.com&lt;/a>&lt;br>&#xd;&#xa;We love to talk adventures!&lt;/p>&#xd;&#xa;"
+                        text="&lt;p style=&quot;text-align: left;&quot;>Give us a call at &lt;a href=&quot;#&quot;>1-800-800-0000&lt;/a>.&lt;br>&#xd;&#xa;E-mail us at info&lt;a href=&quot;#&quot;>@wknd.com&lt;/a>&lt;br>&#xd;&#xa;We love to talk adventures!&lt;/p>&#xd;&#xa;"
                         textIsRich="true">
                         <cq:responsive
                             cq:lastRolledout="{Date}2020-07-09T08:54:54.676-07:00"
