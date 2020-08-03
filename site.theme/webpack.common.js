@@ -97,7 +97,7 @@ module.exports = {
             new CleanWebpackPlugin(),
             new webpack.NoEmitOnErrorsPlugin(),
             new MiniCssExtractPlugin({
-                filename: 'jcr_root/content//wkndsk/_theme/css/[name].bundle.css',
+                filename: 'jcr_root/content/wkndsk/_theme/css/[name].bundle.css',
             }),
             new TSLintPlugin({
                 files: [SOURCE_ROOT + '/**/*.ts', SOURCE_ROOT + '/**/*.tsx'],
