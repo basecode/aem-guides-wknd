@@ -21,7 +21,7 @@ module.exports = {
             site: SOURCE_ROOT + '/site/main.js'
         },
         output: {
-            filename: 'clientlib-site/js/[name].bundle.js',
+            filename: 'jcr_root/content/wkndsk/_theme/js/[name].bundle.js',
             path: path.resolve(__dirname, 'dist')
         },
         optimization: {
@@ -97,14 +97,14 @@ module.exports = {
             new CleanWebpackPlugin(),
             new webpack.NoEmitOnErrorsPlugin(),
             new MiniCssExtractPlugin({
-                filename: 'clientlib-site/css/[name].bundle.css',
+                filename: 'jcr_root/content//wkndsk/_theme/css/[name].bundle.css',
             }),
             new TSLintPlugin({
                 files: [SOURCE_ROOT + '/**/*.ts', SOURCE_ROOT + '/**/*.tsx'],
                 config: './tslint.json'
             }),
             new CopyWebpackPlugin([
-                { from: path.resolve(__dirname, SOURCE_ROOT + '/resources'), to: './clientlib-site/resources' }
+                { from: path.resolve(__dirname, SOURCE_ROOT + '/resources'), to: './jcr_root/content/wkndsk/_theme/resources' }
             ])
         ],
         stats: {
