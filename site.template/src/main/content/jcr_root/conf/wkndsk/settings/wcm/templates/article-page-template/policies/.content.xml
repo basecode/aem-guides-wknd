@@ -191,6 +191,7 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/core/components/policies/mapping"/>
             </container>
+            </container>
             <experiencefragment-header
                 cq:policy="core/wcm/components/experiencefragment/v1/experiencefragment/policy_1568592468447"
                 jcr:primaryType="nt:unstructured"
