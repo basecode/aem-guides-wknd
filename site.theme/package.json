@@ -14,7 +14,7 @@
     "prod": "webpack -p --config ./webpack.prod.js",
     "start": "webpack-dev-server --open --config ./webpack.dev.js",
     "storybook": "start-storybook -p 6006",
-    "deploy": "webpack -p --config ./webpack.prod.js && npx aemsync -d -p dist/jcr_root/content/wkndsk/_theme"
+    "deploy": "webpack -p --config ./webpack.prod.js && repo put -f dist/jcr_root/content/wkndsk/_theme"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
@@ -53,8 +53,7 @@
   },
   "dependencies": {
     "jquery": "^3.4.1",
-    "normalize-scss": "^7.0.1",
-    "aemsync": "^4.0.1"
+    "normalize-scss": "^7.0.1"
   },
   "browserslist": [
     "last 2 version",
