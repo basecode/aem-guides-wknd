@@ -14,7 +14,7 @@
     "prod": "webpack -p --config ./webpack.prod.js",
     "start": "webpack-dev-server --open --config ./webpack.dev.js",
     "storybook": "start-storybook -p 6006",
-    "deploy": "webpack -p --config ./webpack.prod.js && repo put -f dist/jcr_root/content/wkndsk/_theme"
+    "deploy": "webpack -p --config ./webpack.prod.js && repo put -f dist/jcr_root/content/*/_theme"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
