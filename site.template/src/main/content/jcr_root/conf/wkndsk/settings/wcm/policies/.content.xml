@@ -1182,7 +1182,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="WKND Landing Page"
                                 sling:resourceType="wcm/core/components/policy/policy"
-                                clientlibs="[core.wcm.components.accordion.v1,core.wcm.components.tabs.v1,core.wcm.components.carousel.v1,cmp-examples.fonts,core.wcm.components.pdfviewer.v1,core.wcm.components.image.v2,core.wcm.components.breadcrumb.v2,core.wcm.components.search.v1,core.wcm.components.form.text.v2]"
+                                clientlibs="[core.wcm.components.container.v1.site,core.wcm.components.accordion.v1,core.wcm.components.tabs.v1,core.wcm.components.carousel.v1,cmp-examples.fonts,core.wcm.components.pdfviewer.v1,core.wcm.components.image.v2,core.wcm.components.breadcrumb.v2,core.wcm.components.search.v1,core.wcm.components.form.text.v2]"
                                 clientlibsJsHead="">
                                 <jcr:content
                                     cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
@@ -1197,7 +1197,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="WKND Article"
                                 sling:resourceType="wcm/core/components/policy/policy"
-                                clientlibs="[core.wcm.components.accordion.v1,core.wcm.components.tabs.v1,core.wcm.components.carousel.v1,cmp-examples.fonts,core.wcm.components.pdfviewer.v1,core.wcm.components.image.v2,core.wcm.components.breadcrumb.v2,core.wcm.components.search.v1,core.wcm.components.form.text.v2]">
+                                clientlibs="[core.wcm.components.container.v1.site,core.wcm.components.accordion.v1,core.wcm.components.tabs.v1,core.wcm.components.carousel.v1,cmp-examples.fonts,core.wcm.components.pdfviewer.v1,core.wcm.components.image.v2,core.wcm.components.breadcrumb.v2,core.wcm.components.search.v1,core.wcm.components.form.text.v2]">
                                 <jcr:content
                                     cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
                                     cq:lastReplicatedBy="admin"
@@ -1220,7 +1220,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="WKND Site Theme"
                                 sling:resourceType="wcm/core/components/policy/policy"
-                                clientlibs="[core.wcm.components.accordion.v1,core.wcm.components.tabs.v1,core.wcm.components.carousel.v1,cmp-examples.fonts,core.wcm.components.pdfviewer.v1,core.wcm.components.image.v2,core.wcm.components.breadcrumb.v2,core.wcm.components.search.v1,core.wcm.components.form.text.v2]"
+                                clientlibs="[core.wcm.components.container.v1.site,core.wcm.components.accordion.v1,core.wcm.components.tabs.v1,core.wcm.components.carousel.v1,cmp-examples.fonts,core.wcm.components.pdfviewer.v1,core.wcm.components.image.v2,core.wcm.components.breadcrumb.v2,core.wcm.components.search.v1,core.wcm.components.form.text.v2]"
                                 clientlibsJsHead="">
                                 <jcr:content
                                     cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
