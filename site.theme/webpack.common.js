@@ -22,7 +22,7 @@ module.exports = {
             site: SOURCE_ROOT + '/site/main.js'
         },
         output: {
-            filename: 'jcr_root/content/' + SITE + '/_theme/js/[name].bundle.js',
+            filename: 'jcr_root/content/' + SITE + '/_theme/theme.js',
             path: path.resolve(__dirname, 'dist')
         },
         optimization: {
@@ -98,7 +98,7 @@ module.exports = {
             new CleanWebpackPlugin(),
             new webpack.NoEmitOnErrorsPlugin(),
             new MiniCssExtractPlugin({
-                filename: 'jcr_root/content/' + SITE + '/_theme/css/[name].bundle.css',
+                filename: 'jcr_root/content/' + SITE + '/_theme/theme.css',
             }),
             new TSLintPlugin({
                 files: [SOURCE_ROOT + '/**/*.ts', SOURCE_ROOT + '/**/*.tsx'],
@@ -106,7 +106,10 @@ module.exports = {
             }),
             new CopyWebpackPlugin([
                 { from: path.resolve(__dirname, SOURCE_ROOT + '/resources'), to: './jcr_root/content/' + SITE + '/_theme/resources' }
-            ])
+            ]),
+            new webpack.optimize.LimitChunkCountPlugin({
+                maxChunks: 1
+            })
         ],
         stats: {
             assetsSort: "chunks",
