@@ -80,3 +80,6 @@ buildNumber.properties
 
 ### Visual Studio ###
 .vscode
+
+node_modules
+starterkit.zip

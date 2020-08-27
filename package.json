@@ -1,0 +1,28 @@
+{
+  "name": "aem-sites-starterkit-wknd",
+  "version": "1.0.0",
+  "description": "Generates an AEM Starter Kit",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "scripts": {
+    "starterkit:create": "mkdir starterkit",
+    "starterkit:clear": "rm -rf starterkit",
+
+    "copy": "npm run copy:files && npm run copy:previews && npm run copy:properties",
+    "copy:files": "cp -r files starterkit",
+    "copy:previews": "cp -r previews starterkit",
+    "copy:properties": "cp -r properties.json starterkit",
+
+    "zip": "npm run zip:template && npm run zip:theme && npm run zip:bundle",
+    "zip:template": "bestzip starterkit/site.template.zip site.template/*",
+    "zip:theme": "bestzip starterkit/site.theme.zip site.theme/*",
+    "zip:bundle": "bestzip starterkit.zip starterkit/*",
+
+    "theme:build": "cd site.theme && npm install && npm run prod && cd ..",
+
+    "build": "npm run starterkit:create && npm run copy && npm run zip && npm run starterkit:clear"
+  },
+  "devDependencies": {
+    "bestzip": "^2.1.6"
+  },
+  "dependencies": {}
+}
