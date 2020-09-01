@@ -3,10 +3,10 @@
   "title": "AEM WKND StarterKit",
   "description": "Starterkit provides theme of WKND page and some sample content. You can use it to build pages similar to WKND.",
   "version": "1.0.0",
-  "createdBy": "",
+  "createdBy": "Adobe",
   "useCases": ["Business services", "Marketing website", "Magazine website"],
   "docsUrl": "https://github.com/basecode/aem-sites-starterkit-wknd",
-  "showcaseUrl": "",
+  "showcaseUrl": "https://wknd.site/us/en.html",
   "sourceRepositoryUrl": "https://github.com/basecode/aem-sites-starterkit-wknd",
   "license": "SEE LICENSE IN LICENSE.txt"
 }

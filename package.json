@@ -11,10 +11,11 @@
     "copy:files": "cp -r files starterkit",
     "copy:previews": "cp -r previews starterkit",
     "copy:properties": "cp -r properties.json starterkit",
+    "copy:template": "cp -r site.template/target/aem-sites-starterkit-wknd.site.template-0.0.1-SNAPSHOT.zip starterkit/site-template.zip",
 
-    "zip": "npm run zip:template && npm run zip:theme && npm run zip:bundle",
-    "zip:template": "bestzip starterkit/site.template.zip site.template/*",
-    "zip:theme": "bestzip starterkit/site.theme.zip site.theme/*",
+    "zip": "npm run zip:theme && npm run zip:bundle",
+    "zip:template": "bestzip starterkit/site-template.zip site.template/*",
+    "zip:theme": "bestzip starterkit/theme-sources.zip site.theme/*",
     "zip:bundle": "bestzip starterkit.zip starterkit/*",
 
     "theme:build": "cd site.theme && npm install && npm run prod && cd ..",
