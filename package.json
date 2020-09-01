@@ -6,25 +6,22 @@
   "scripts": {
     "starterkit:create": "mkdir starterkit",
     "starterkit:clear": "rm -rf starterkit",
-
     "copy": "npm run copy:files && npm run copy:previews && npm run copy:properties && npm run copy:template",
     "copy:files": "cp -r files starterkit",
     "copy:previews": "cp -r previews starterkit",
     "copy:properties": "cp -r properties.json starterkit",
     "copy:template": "cp -r site.template/target/aem-sites-starterkit-wknd.site.template-0.0.1-SNAPSHOT.zip starterkit/site-template.zip",
-
     "zip": "npm run zip:theme && npm run zip:bundle",
     "zip:template": "bestzip starterkit/site-template.zip site.template/*",
     "zip:theme": "bestzip starterkit/theme-sources.zip site.theme/*",
     "zip:bundle": "bestzip starterkit.zip starterkit/*",
-
     "theme:build": "cd site.theme && npm install && npm run prod && cd ..",
-
-    "build": "npm run starterkit:create && npm run copy && npm run zip && npm run starterkit:clear",
-
-    "deploy": "npm run build && curl -u admin:admin -F 'file=@starterkit.zip' http://localhost:4502/conf/global/starterkits.import.html"
+    "build": "npm run theme:build && npm run clientlib && npm run starterkit:create && npm run copy && npm run zip && npm run starterkit:clear",
+    "deploy": "curl -u admin:admin -F 'file=@starterkit.zip' http://localhost:4502/conf/global/starterkits.import.html",
+    "clientlib": "clientlib --verbose"
   },
   "devDependencies": {
+    "aem-clientlib-generator": "^1.4.3",
     "bestzip": "^2.1.6"
   },
   "dependencies": {}

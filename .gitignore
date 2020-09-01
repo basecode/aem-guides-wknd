@@ -82,4 +82,7 @@ buildNumber.properties
 .vscode
 
 node_modules
+npm-debug.log
+package-lock.json
+
 starterkit.zip
