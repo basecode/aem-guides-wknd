@@ -11,7 +11,7 @@
         sling:redirect="true"
         sling:redirectStatus="{Long}302"
         sling:resourceType="foundation/components/redirect"
-        redirectTarget="/content/wkndsk/en">
+        redirectTarget="/content/wkndsk/us">
         <image jcr:primaryType="nt:unstructured">
             <file/>
         </image>
