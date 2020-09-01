@@ -7,7 +7,7 @@
     "starterkit:create": "mkdir starterkit",
     "starterkit:clear": "rm -rf starterkit",
 
-    "copy": "npm run copy:files && npm run copy:previews && npm run copy:properties",
+    "copy": "npm run copy:files && npm run copy:previews && npm run copy:properties && npm run copy:template",
     "copy:files": "cp -r files starterkit",
     "copy:previews": "cp -r previews starterkit",
     "copy:properties": "cp -r properties.json starterkit",
