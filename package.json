@@ -22,7 +22,7 @@
 
     "build": "npm run starterkit:create && npm run copy && npm run zip && npm run starterkit:clear",
 
-    "deploy": "npm run build && curl -u admin:admin -F 'file=@/path/to/starterkit1.zip' http://localhost:4502/conf/global/starterkits.import.html"
+    "deploy": "npm run build && curl -u admin:admin -F 'file=@starterkit.zip' http://localhost:4502/conf/global/starterkits.import.html"
   },
   "devDependencies": {
     "bestzip": "^2.1.6"
