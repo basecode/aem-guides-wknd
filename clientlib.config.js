@@ -3,21 +3,21 @@ module.exports = {
      clientLibRoot: "./site.template/src/main/content/jcr_root/conf/wkndsk/settings/wcm/clientlibs",
      libs: [
          {
-             name: "clientlib-wkndsk",
+             name: "theme",
              allowProxy: true,
-             categories: ["wkndsk.theme"],
+             categories: ["{site-name}.theme"],
              serializationFormat: "xml",
              cssProcessor : ["default:none", "min:none"],
              jsProcessor: ["default:none", "min:none"],
              assets: {
                  js: [
-                     "site.theme/dist/theme/theme.js"
+                     "site.theme/dist/js/theme.js"
                  ],
                  css: [
-                     "site.theme/dist/theme/theme.css"
+                     "site.theme/dist/css/theme.css"
                  ],
                  resources: {
-                     cwd: "site.theme/dist/theme/resources",
+                     cwd: "site.theme/dist/resources",
                      flatten: false,
                      files: ["**/*.*"]
                  }

@@ -21,7 +21,7 @@ module.exports = {
             site: SOURCE_ROOT + '/site/main.js'
         },
         output: {
-            filename: 'theme/theme.js',
+            filename: 'js/theme.js',
             path: path.resolve(__dirname, 'dist')
         },
         optimization: {
@@ -97,14 +97,14 @@ module.exports = {
             new CleanWebpackPlugin(),
             new webpack.NoEmitOnErrorsPlugin(),
             new MiniCssExtractPlugin({
-                filename: 'theme/theme.css',
+                filename: 'css/theme.css',
             }),
             new TSLintPlugin({
                 files: [SOURCE_ROOT + '/**/*.ts', SOURCE_ROOT + '/**/*.tsx'],
                 config: './tslint.json'
             }),
             new CopyWebpackPlugin([
-                { from: path.resolve(__dirname, SOURCE_ROOT + '/resources'), to: './theme/resources' }
+                { from: path.resolve(__dirname, SOURCE_ROOT + '/resources'), to: './resources' }
             ]),
             new webpack.optimize.LimitChunkCountPlugin({
                 maxChunks: 1

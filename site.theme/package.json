@@ -17,7 +17,7 @@
     "prod": "webpack -p --config ./webpack.prod.js",
     "start": "webpack-dev-server --open --config ./webpack.dev.js",
     "storybook": "start-storybook -p 6006",
-    "zip": "cd dist/theme && bestzip ../../compiled-theme.zip * && cd ../..",
+    "zip": "cd dist && bestzip ../compiled-theme.zip * && cd ..",
     "deploy": "npm run zip && curl -u admin:admin -F 'file=@compiled-theme.zip' http://localhost:4502/conf/{site-name}.importtheme.html"
   },
   "devDependencies": {

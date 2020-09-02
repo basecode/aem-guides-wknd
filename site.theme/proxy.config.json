@@ -1,6 +1,6 @@
 {
   "url": "http://localhost:4502",
-  "css": "./dist/theme/theme.css",
-  "js": "./dist/theme/theme.js",
+  "css": "./dist/css/theme.css",
+  "js": "./dist/js/theme.js",
   "port": 7000
 }

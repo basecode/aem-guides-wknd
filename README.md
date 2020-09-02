@@ -56,24 +56,43 @@ To package and deploy starter kit to AEM instance you need to:
 
 ### Prerequisite
 
-Build Site template:
+To use the packaging script you need to have Maven installed.
 
-```
-cd site.template
-mvn clean install
-```
+### Build
 
-### Package
-
-Starter kit zip will be created.
+To build the whole starterkit.zip you just need to run:
 
 ```
 npm run build
 ```
 
-### Package and deploy
+#### Build step by step
 
-Starter kit zip will be created and deployed to local AEM instance.
+If you want to build startetkit.zip step by step here is full instruction. This is what the full build does behind the scenes.
+
+1. Compile the Starter Kit theme:
+```
+npm run build:theme
+```
+
+2. Create a theme clientlib and put it into template:
+```
+npm run build:clientlib
+```
+
+3. Create a content package from site.template:
+```
+npm run build:template
+```
+
+4. Package everything into starterkit.zip:
+```
+npm run build:package
+```
+
+### Deploy
+
+Deploy startekit.zip to a local AEM instance.
 
 ```
 npm run deploy

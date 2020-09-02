@@ -51,8 +51,8 @@ var proxy = httpProxy.createProxyServer({
 });
 
 const routeMap = new Map([
-  ['/etc.clientlibs/wknd/clientlibs/clientlib-wknd/theme.css', './dist/theme/theme.css'],
-  ['/etc.clientlibs/wknd/clientlibs/clientlib-wknd/theme.js', './dist/theme/theme.js'],
+  ['/etc.clientlibs/wknd/clientlibs/clientlib-wknd/css/theme.css', './dist/css/theme.css'],
+  ['/etc.clientlibs/wknd/clientlibs/clientlib-wknd/js/theme.js', './dist/js/theme.js'],
 ])
 
 app.use(
