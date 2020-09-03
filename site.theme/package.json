@@ -18,7 +18,7 @@
     "start": "webpack-dev-server --open --config ./webpack.dev.js",
     "storybook": "start-storybook -p 6006",
     "zip": "cd dist && bestzip ../compiled-theme.zip * && cd ..",
-    "deploy": "npm run zip && curl -u admin:admin -F 'file=@compiled-theme.zip' http://localhost:4502/conf/{site-name}.importtheme.html"
+    "deploy": "npm run zip && dotenv -- cross-var curl -u admin:admin -F 'file=@compiled-theme.zip' http://%HOST%:%PORT%/conf/%SITE%.importtheme.html"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
@@ -60,7 +60,9 @@
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.9.0",
     "webpack-import-glob-loader": "^1.6.3",
-    "webpack-merge": "^4.2.1"
+    "webpack-merge": "^4.2.1",
+    "cross-var": "^1.1.0",
+    "dotenv-cli": "^3.2.0"
   },
   "dependencies": {
     "jquery": "^3.4.1",
