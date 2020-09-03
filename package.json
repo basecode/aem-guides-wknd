@@ -21,14 +21,12 @@
     "copy:properties": "cp -r properties.json starterkit",
     "copy:template": "cp -r site.template/target/aem-sites-starterkit-wknd.site.template-0.0.1-SNAPSHOT.zip starterkit/site-template.zip",
 
-    "zip": "run-s zip:theme zip:bundle",
-    "zip:template": "bestzip starterkit/site-template.zip site.template/*",
-    "zip:theme": "bestzip starterkit/theme-sources.zip site.theme/* site.theme/.env",
-    "zip:bundle": "bestzip starterkit.zip starterkit/*"
+    "zip": "run-s zip:theme zip:starterkit",
+    "zip:theme": "cd site.theme && zip ../starterkit/theme-sources.zip $(git ls-files) && cd ..",
+    "zip:starterkit": "zip starterkit.zip starterkit/*"
   },
   "devDependencies": {
     "aem-clientlib-generator": "^1.4.3",
-    "bestzip": "^2.1.6",
     "npm-run-all": "^4.1.5"
   },
   "dependencies": {}
