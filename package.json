@@ -12,7 +12,7 @@
     "build:template": "cd site.template && mvn clean install && cd ..",
     "build:package": "run-s starterkit:create copy zip starterkit:clear",
 
-    "starterkit:create": "mkdir starterkit",
+    "starterkit:create": "mkdir -p starterkit",
     "starterkit:clear": "rm -rf starterkit",
 
     "copy": "run-s copy:files copy:previews copy:properties copy:template",
@@ -21,9 +21,10 @@
     "copy:properties": "cp -r properties.json starterkit",
     "copy:template": "cp -r site.template/target/aem-sites-starterkit-wknd.site.template-0.0.1-SNAPSHOT.zip starterkit/site-template.zip",
 
-    "zip": "run-s zip:theme zip:starterkit",
+    "zip": "run-s zip:clear zip:theme zip:starterkit",
+    "zip:clear": "rm -rf starterkit.zip",
     "zip:theme": "cd site.theme && zip ../starterkit/theme-sources.zip $(git ls-files) && cd ..",
-    "zip:starterkit": "zip starterkit.zip starterkit/*"
+    "zip:starterkit": "cd starterkit && bestzip ../starterkit.zip * && cd .."
   },
   "devDependencies": {
     "aem-clientlib-generator": "^1.4.3",
