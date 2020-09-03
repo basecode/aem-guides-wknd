@@ -23,7 +23,7 @@
 
     "zip": "npm run zip:theme && npm run zip:bundle",
     "zip:template": "bestzip starterkit/site-template.zip site.template/*",
-    "zip:theme": "bestzip starterkit/theme-sources.zip site.theme/*",
+    "zip:theme": "bestzip starterkit/theme-sources.zip site.theme/* site.theme/.env",
     "zip:bundle": "bestzip starterkit.zip starterkit/*"
   },
   "devDependencies": {
