@@ -4,7 +4,7 @@ const httpProxy = require('http-proxy');
 const chokidar = require('chokidar');
 const fileSystem = require('fs');
 
-const CONFIG = require('./proxy.config.json');
+const CONFIG = require('./proxy.config.js');
 
 // Watch Theme changes and update
 
@@ -65,3 +65,5 @@ app.use(
 );
 
 http.createServer(app).listen(CONFIG.port);
+
+console.log('Go to http://localhost:7000 to see your live preview.');
