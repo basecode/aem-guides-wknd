@@ -2,7 +2,7 @@ const dotenv = require('dotenv');
 const env = dotenv.config().parsed;
 
 module.exports = {
-  url: "http://localhost:4502",
+  url: `http://${env.HOST}:${env.PORT}`,
   css: {
     "dist": "./dist/css/theme.css",
     "url": `/conf/${env.SITE}/settings/wcm/clientlibs/theme/css/theme.css`
