@@ -15,13 +15,13 @@ To generate the site template:
 cd site.template
 mvn clean install
 ```
-It creates an AEM content package (e.g. /aem-sites-starterkit-wknd.site.template-0.0.1-SNAPSHOT.zip) below the `target` folder that contains the templates, the policies and the client library for the site theme.
+This command creates an AEM content package (e.g. `aem-sites-starterkit-wknd.site.template-0.0.1-SNAPSHOT.zip`) below the `target` folder: it contains the templates, the policies and the client library for the site theme.
 
 ## Site Theme
 
 ### Prerequisite
 
-Before using Site Theme you need to go into the `site.theme` folder and install npm modules.
+Before using Site Theme go into the `site.theme` folder and install npm modules:
 
 ```
 cd site.theme
@@ -30,7 +30,7 @@ npm install
 
 ### Build
 
-Build all JS / SCSS sources into compiled files.
+Build all JS / SCSS sources into compiled files:
 
 ```
 npm run dev
@@ -69,7 +69,7 @@ Install Maven (to be able to use the packaging script).
 
 ### Build
 
-To build the starter kit run following command at the project root:
+To build the starter kit, run following command at the project root:
 
 ```
 npm run build
