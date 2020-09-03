@@ -1,6 +1,12 @@
 {
   "url": "http://localhost:4502",
-  "css": "./dist/css/theme.css",
-  "js": "./dist/js/theme.js",
+  "css": {
+    "dist": "./dist/css/theme.css",
+    "url": "/conf/{site-name}/settings/wcm/clientlibs/theme/css/theme.css"
+  },
+  "js": {
+    "dist": "./dist/js/theme.js",
+    "url": "/conf/{site-name}/settings/wcm/clientlibs/theme/js/theme.js"
+  },
   "port": 7000
 }

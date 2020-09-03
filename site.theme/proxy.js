@@ -8,8 +8,8 @@ const CONFIG = require('./proxy.config.json');
 
 // Watch Theme changes and update
 
-const watcherCSS = chokidar.watch(CONFIG.css, /^\./, { persistent: true });
-const watcherJS = chokidar.watch(CONFIG.js, /^\./, { persistent: true });
+const watcherCSS = chokidar.watch(CONFIG.css.dist, /^\./, { persistent: true });
+const watcherJS = chokidar.watch(CONFIG.js.dist, /^\./, { persistent: true });
 
 const fileChanged = function(target, path) {
   setTimeout(() => {
@@ -51,9 +51,9 @@ var proxy = httpProxy.createProxyServer({
 });
 
 const routeMap = new Map([
-  ['/etc.clientlibs/wknd/clientlibs/clientlib-wknd/css/theme.css', './dist/css/theme.css'],
-  ['/etc.clientlibs/wknd/clientlibs/clientlib-wknd/js/theme.js', './dist/js/theme.js'],
-])
+  [CONFIG.css.url, CONFIG.css.dist],
+  [CONFIG.js.url, CONFIG.js.dist]
+]);
 
 app.use(
   function (req, res) {
