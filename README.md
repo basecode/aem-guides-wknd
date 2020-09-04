@@ -6,58 +6,26 @@ This is the Sites Starter Kit for the WKND Reference site: [https://www.wknd.sit
 
 <img src="https://user-images.githubusercontent.com/143527/89645292-c1313b80-d8b9-11ea-9ec4-3af8e8b1c92b.png" />
 
-## Site Template
+#### Site Template
 
-### Build
+Content sources for the WKND Stater Kit. It contains:
+- sample pages,
+- templates,
+- CA configurations,
+- DAM assets,
+- experience fragments.
 
-To generate the site template:
-```
-cd site.template
-mvn clean install
-```
-This command creates an AEM content package (e.g. `aem-sites-starterkit-wknd.site.template-0.0.1-SNAPSHOT.zip`) below the `target` folder: it contains the templates, the policies and the client library for the site theme.
+#### Site Theme
 
-## Site Theme
+Theme sources for the WKND Stater Kit. It contains styling (CSS) and behavior (JS) for the Core Components and the build system (webpack).
 
-### Prerequisite
+#### Files
 
-Before using Site Theme go into the `site.theme` folder and install npm modules:
+Folder containing UI Kit related to the WKND Starter Kit.
 
-```
-cd site.theme
-npm install
-```
+#### Previews
 
-### Build
-
-Build all JS / SCSS sources into compiled files:
-
-```
-npm run dev
-```
-This command generates the theme js and css files and the resources folder below the `dist` folder:
-```
-css/theme.css
-js/theme.js
-resources/
-```
-
-### Live preview
-
-Run live preview proxy server for AEM instance to see changes from your code immediately in the browser.
-
-```
-npm run live
-```
-This command runs a proxy server at port 7000.
-
-### Deploy
-
-Deploy the changes to the AEM instance:
-```
-npm run dev
-npm run deploy
-```
+Folder including images previewing WKND Starter Kit which are visible in the AEM Site Wizard.
 
 ## Starter kit
 
