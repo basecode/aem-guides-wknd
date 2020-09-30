@@ -5,7 +5,7 @@ module.exports = {
          {
              name: "theme",
              allowProxy: true,
-             categories: ["{site-name}.theme"],
+             categories: ["wkndsk.theme"],
              serializationFormat: "xml",
              cssProcessor : ["default:none", "min:none"],
              jsProcessor: ["default:none", "min:none"],
