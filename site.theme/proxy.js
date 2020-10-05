@@ -65,18 +65,14 @@ const routeMap = new Map([
 ]);
 
 app.use(
-  function (req, res) {
-    console.log(req.url);
-    for (let key in routeMap)
-    {
-      console.log(key);
-      if (req.url.match(key)) {
-        console.log("match");
-        fileSystem.createReadStream(routeMap.get(key)).pipe(res);
+    function (req, res) {
+      for (let [key, value] of routeMap) {
+        if (req.url.match(key)) {
+          fileSystem.createReadStream(value).pipe(res);
+        }
       }
+      proxy.web(req, res);
     }
-    proxy.web(req, res);
-  }
 );
 
 http.createServer(app).listen(CONFIG.port);
